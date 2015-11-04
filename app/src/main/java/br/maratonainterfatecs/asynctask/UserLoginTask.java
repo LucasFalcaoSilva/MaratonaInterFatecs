@@ -3,6 +3,9 @@ package br.maratonainterfatecs.asynctask;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.View.LoginView;
 
@@ -24,6 +27,12 @@ public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
 
     @Override
     protected Boolean doInBackground(Void... params) {
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         for (String credential : DUMMY_CREDENTIALS) {
             String[] pieces = credential.split(":");

@@ -6,6 +6,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
@@ -19,6 +20,7 @@ import br.maratonainterfatecs.Presenter.LoginPresenterImpl;
 import br.maratonainterfatecs.View.LoginView;
 import br.maratonainterfatecs.animacao.AnimationEntradaTela;
 import br.maratonainterfatecs.asynctask.UserLoginTask;
+import br.maratonainterfatecs.typeface.RobotoTypeFace;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -34,27 +36,23 @@ public class LoginActivity extends AppCompatActivity  implements LoginView,View.
     @Bind(R.id.login_progress)       View mProgressView;
     @Bind(R.id.login_form)           View mLoginFormView;
     @Bind(R.id.lin_principal)        LinearLayout mLinearPrincipal;
+    @Bind(R.id.text_input_password)  TextInputLayout mTextInputLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        hideStatusBar();
 
         setContentView(R.layout.activity_login);
 
         ButterKnife.bind(this);
 
         mPresenter    = new LoginPresenterImpl(this);
-
         mEditListener = new EditListener(this);
 
         mPasswordView.setOnEditorActionListener(mEditListener);
-
         mEmailSignInButton.setOnClickListener(this);
 
-        mLinearPrincipal.startAnimation(new AnimationEntradaTela().getAnimation(2));
-
+        mLinearPrincipal.startAnimation(new AnimationEntradaTela().getAnimation());
     }
 
     @Override
@@ -130,7 +128,7 @@ public class LoginActivity extends AppCompatActivity  implements LoginView,View.
     @Override
     public void hideStatusBar() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrincipal));
+            getWindow().setStatusBarColor(getResources().getColor(R.color.primary_dark));
         }else {
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         }

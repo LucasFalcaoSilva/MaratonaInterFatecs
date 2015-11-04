@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">InterFatecs Programação</string>
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Senha (opcional)</string>
+    <string name="prompt_password">Senha</string>
     <string name="action_sign_in">Logar ou Registrar</string>
     <string name="action_sign_in_short">Logar</string>
     <string name="error_invalid_email">Esse email é inválido.</string>
