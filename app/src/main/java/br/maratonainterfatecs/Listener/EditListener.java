@@ -6,21 +6,21 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.View.LoginComponentsView;
 import br.maratonainterfatecs.View.LoginView;
-
 
 public class EditListener implements EditText.OnEditorActionListener {
 
-    private final LoginView mLoginView;
+    private final LoginComponentsView mLoginComponentsView;
 
-    public EditListener(LoginView loginView){
-        this.mLoginView = loginView;
+    public EditListener(LoginComponentsView loginComponentsView){
+        this.mLoginComponentsView = loginComponentsView;
     }
 
     @Override
     public boolean onEditorAction(TextView v, int id, KeyEvent event) {
         if (id == R.id.login || id == EditorInfo.IME_NULL) {
-            mLoginView.getPresenter().validationLogin(mLoginView.getEmail(),mLoginView.getPassword());
+            mLoginComponentsView.getPresenter().validationLogin(mLoginComponentsView.getEmail(),mLoginComponentsView.getPassword());
             return true;
         }
         return false;

@@ -1,12 +1,10 @@
 package br.maratonainterfatecs.asynctask;
 
-import android.content.Context;
 import android.os.AsyncTask;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
+import br.maratonainterfatecs.LoginActivity;
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.View.LoginComponentsView;
 import br.maratonainterfatecs.View.LoginView;
 
 public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
@@ -15,14 +13,24 @@ public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
             "lucas@gmail.com:12345", "example@example.com:example"
     };
 
-    private final String    mEmail;
-    private final String    mPassword;
-    private final LoginView mLoginView;
+    private final String              mEmail;
+    private final String              mPassword;
+    private final LoginView           mLoginView;
+    private final LoginComponentsView mLoginComponentsView;
 
-    public UserLoginTask(LoginView presenter,String email, String password) {
-        mLoginView = presenter;
-        mEmail     = email;
-        mPassword  = password;
+
+    public UserLoginTask(LoginActivity loginActivity,String email, String password) {
+        mLoginView           = loginActivity;
+        mLoginComponentsView = loginActivity;
+        mEmail               = email;
+        mPassword            = password;
+    }
+
+    public UserLoginTask(LoginView presenter,LoginComponentsView loginComponentsView,String email, String password) {
+        mLoginView           = presenter;
+        mLoginComponentsView = loginComponentsView;
+        mEmail               = email;
+        mPassword            = password;
     }
 
     @Override
@@ -50,9 +58,9 @@ public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
         mLoginView.showProgress(false);
 
         if (success) {
-            mLoginView.outApplication();
+            mLoginView.actionApplication();
         } else {
-            mLoginView.problemsValidation(mLoginView.PASSWORD,mLoginView.getContext().getResources().getString(R.string.error_incorrect_password));
+            mLoginView.problemsValidation(mLoginView.PASSWORD,mLoginComponentsView.getContext().getResources().getString(R.string.error_incorrect_password));
         }
     }
 

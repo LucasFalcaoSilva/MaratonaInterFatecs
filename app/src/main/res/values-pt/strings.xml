@@ -9,4 +9,11 @@
     <string name="error_invalid_password">Esse senha é muito curta.</string>
     <string name="error_incorrect_password">Senha incorreta.</string>
     <string name="error_field_required">Esse campo é obrigátorio</string>
+    <string name="title_activity_menu">Menu InterFatecs</string>
+    <string name="welcomeUser">Bem-Vindo Usuario</string>
+
+    <string name="navigation_drawer_open">Menu Lateral Aberto</string>
+    <string name="navigation_drawer_close">Menu Lateral Fechado</string>
+
+    <string name="action_settings">Configurações</string>
 </resources>

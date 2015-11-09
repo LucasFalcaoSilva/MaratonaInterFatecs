@@ -2,14 +2,25 @@ package br.maratonainterfatecs.Presenter;
 
 import android.text.TextUtils;
 
+import br.maratonainterfatecs.LoginActivity;
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.View.LoginComponentsView;
 import br.maratonainterfatecs.View.LoginView;
 
 public class LoginPresenterImpl implements LoginPresenter {
 
-    private LoginView mLoginView;
+    private LoginView           mLoginView;
+    private LoginComponentsView mLoginComponentsView;
 
-    public LoginPresenterImpl(LoginView loginView){ this.mLoginView = loginView; }
+    public LoginPresenterImpl(LoginActivity loginActivity){
+        this.mLoginView            = loginActivity;
+        this.mLoginComponentsView  = loginActivity;
+    }
+
+    public LoginPresenterImpl(LoginView loginView,LoginComponentsView loginComponentsView){
+        this.mLoginView            = loginView;
+        this.mLoginComponentsView  = loginComponentsView;
+    }
 
     @Override
     public boolean isEmailValid(String email) { return email.contains("@"); }
@@ -24,23 +35,32 @@ public class LoginPresenterImpl implements LoginPresenter {
 
         if (this.mLoginView.cleanView()) return;
 
+        String  menssage = "";
+        Integer tipo    = 0;
+
         if (TextUtils.isEmpty(email)) {
 
-            this.mLoginView.problemsValidation(this.mLoginView.USER, this.mLoginView.getContext().getString(R.string.error_field_required));
+            tipo = this.mLoginView.USER;
+            menssage = this.mLoginComponentsView.getContext().getString(R.string.error_field_required);
 
-        } else if (!this.mLoginView.getPresenter().isEmailValid(email)) {
+        } else if (!this.mLoginComponentsView.getPresenter().isEmailValid(email)) {
 
-            this.mLoginView.problemsValidation(this.mLoginView.PASSWORD,this.mLoginView.getContext().getString(R.string.error_invalid_email));
+            tipo = this.mLoginView.PASSWORD;
+            menssage = this.mLoginComponentsView.getContext().getString(R.string.error_invalid_email);
 
-        }else if (!this.mLoginView.getPresenter().isPasswordValid(password)) {
+        }else if (!this.mLoginComponentsView.getPresenter().isPasswordValid(password)) {
 
-            this.mLoginView.problemsValidation(this.mLoginView.PASSWORD,this.mLoginView.getContext().getString(R.string.error_invalid_password));
+            tipo = this.mLoginView.PASSWORD;
+            menssage = this.mLoginComponentsView.getContext().getString(R.string.error_invalid_password);
+
+        }
+
+        if(!menssage.equals("")) {
+            this.mLoginView.problemsValidation(tipo,menssage);
         }else{
             this.mLoginView.showProgress(true);
-
             this.mLoginView.initLogin();
         }
     }
-
 
 }
