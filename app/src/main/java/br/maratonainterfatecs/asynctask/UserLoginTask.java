@@ -26,13 +26,6 @@ public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
         mPassword            = password;
     }
 
-    public UserLoginTask(LoginView presenter,LoginComponentsView loginComponentsView,String email, String password) {
-        mLoginView           = presenter;
-        mLoginComponentsView = loginComponentsView;
-        mEmail               = email;
-        mPassword            = password;
-    }
-
     @Override
     protected Boolean doInBackground(Void... params) {
 
