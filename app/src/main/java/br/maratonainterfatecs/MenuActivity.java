@@ -19,7 +19,6 @@ import butterknife.ButterKnife;
 
 public class MenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    @Bind(R.id.coordinatorPrincipal) CoordinatorLayout    mCoordinatorPrincipal;
     @Bind(R.id.toolbar)              Toolbar              mToolbar;
     @Bind(R.id.fab)                  FloatingActionButton mFloatingButton;
     @Bind(R.id.drawer_layout)        DrawerLayout         mDrawerMenu;
@@ -46,8 +45,6 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
 
         mNavigationView.setNavigationItemSelectedListener(this);
 
-        Snackbar.make(mCoordinatorPrincipal,getResources().getString(R.string.welcomeUser),Snackbar.LENGTH_LONG).show();
-
     }
 
     @Override
@@ -56,7 +53,8 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            finish();
+            overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
         }
     }
 
