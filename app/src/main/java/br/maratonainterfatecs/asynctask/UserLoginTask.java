@@ -49,7 +49,6 @@ public class UserLoginTask  extends AsyncTask<Void, Void, Boolean> {
     protected void onPostExecute(final Boolean success) {
 
         mLoginView.showProgress(false);
-
         if (success) {
             mLoginView.actionApplication();
         } else {

@@ -85,9 +85,6 @@ public class LoginActivity extends AppCompatActivity  implements LoginComponents
 
         mUserLoginTask = null;
 
-        mLoginFormView.setVisibility(resposta ? View.GONE : View.VISIBLE);
-        mProgressView.setVisibility(resposta ? View.VISIBLE : View.GONE);
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
             int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
 
@@ -95,14 +92,17 @@ public class LoginActivity extends AppCompatActivity  implements LoginComponents
             animatorListenerLogin.setInverse(true);
             animatorListenerLogin.setVisibility(resposta);
 
-            AnimatorListenerLogin animatorListenerLoginProgress = new AnimatorListenerLogin(mLoginFormView);
-            animatorListenerLogin.setInverse(false);
-            animatorListenerLogin.setVisibility(resposta);
+            AnimatorListenerLogin animatorListenerLoginProgress = new AnimatorListenerLogin(mProgressView);
+            animatorListenerLoginProgress.setInverse(false);
+            animatorListenerLoginProgress.setVisibility(resposta);
 
             mLoginFormView.animate().setDuration(shortAnimTime).alpha(resposta ? 0 : 1).setListener(animatorListenerLogin);
             mProgressView.animate().setDuration(shortAnimTime).alpha(resposta ? 1 : 0).setListener(animatorListenerLoginProgress);
 
-        }
+        }else{
+            mLoginFormView.setVisibility(resposta ? View.GONE : View.VISIBLE);
+            mProgressView.setVisibility(resposta ? View.VISIBLE : View.GONE);
+       }
     }
 
     @Override
