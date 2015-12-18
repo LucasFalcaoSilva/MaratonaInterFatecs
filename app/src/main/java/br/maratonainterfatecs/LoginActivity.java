@@ -1,38 +1,24 @@
 package br.maratonainterfatecs;
 
-import android.annotation.TargetApi;
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.AutoCompleteTextView;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import br.maratonainterfatecs.Listener.AnimatorListenerLogin;
-import br.maratonainterfatecs.Listener.EditListener;
-import br.maratonainterfatecs.Presenter.LoginPresenterImpl;
-import br.maratonainterfatecs.View.LoginComponentsView;
 import br.maratonainterfatecs.View.LoginView;
 import br.maratonainterfatecs.animacao.AnimationEntradaTela;
 import br.maratonainterfatecs.asynctask.UserLoginTask;
+import br.maratonainterfatecs.progressComponent.WaveLoadingView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
-public class LoginActivity extends AppCompatActivity  implements LoginComponentsView,LoginView {
+public class LoginActivity extends AppCompatActivity  implements LoginView {
 
-    private LoginPresenterImpl mPresenter     = null;
-    private UserLoginTask      mUserLoginTask = null;
-    private EditListener       mEditListener  = null;
+    private UserLoginTask mUserLoginTask;
+    private boolean       mInicia;
 
-    @Bind(R.id.email)                AutoCompleteTextView mEmailView;
-    @Bind(R.id.password)             EditText mPasswordView;
-    @Bind(R.id.login_progress)       View mProgressView;
-    @Bind(R.id.login_form)           View mLoginFormView;
-    @Bind(R.id.lin_principal)        LinearLayout mLinearPrincipal;
+    @Bind(R.id.login_progress)  WaveLoadingView mProgressView;
+    @Bind(R.id.lin_principal)   LinearLayout mLinearPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,77 +28,33 @@ public class LoginActivity extends AppCompatActivity  implements LoginComponents
 
         ButterKnife.bind(this);
 
-        mPresenter    = new LoginPresenterImpl(this);
-        mEditListener = new EditListener(this);
-
-        mPasswordView.setOnEditorActionListener(mEditListener);
-
         mLinearPrincipal.startAnimation(new AnimationEntradaTela().getAnimation());
+
+        mProgressView.setTextoExibicao("INTERFATECS");
+
+        mInicia = true;
 
     }
 
     @Override
-    public void initLogin(){
-        mUserLoginTask = new UserLoginTask(this,getEmail(),getPassword());
+    public void initLogin() {
+        mUserLoginTask = new UserLoginTask(this);
         mUserLoginTask.execute();
     }
 
     @Override
-        public boolean cleanView() {
-        mEmailView.setError(null);
-        mPasswordView.setError(null);
-        return mUserLoginTask != null;
-    }
-
-    @Override
     public void outApplication() {
+        mInicia = false;
         finish();
         overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
+        //android.os.Process.killProcess(android.os.Process.myPid());
     }
 
     @Override
     public void actionApplication() {
-
-        mEmailView.setText("");
-        mPasswordView.setText("");
-
-        startActivity(new Intent(this, MenuActivity.class));
-    }
-
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
-    @Override
-    public void showProgress(final Boolean resposta) {
-
-        mUserLoginTask = null;
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
-            int shortAnimTime = getResources().getInteger(android.R.integer.config_shortAnimTime);
-
-            AnimatorListenerLogin animatorListenerLogin = new AnimatorListenerLogin(mLoginFormView);
-            animatorListenerLogin.setInverse(true);
-            animatorListenerLogin.setVisibility(resposta);
-
-            AnimatorListenerLogin animatorListenerLoginProgress = new AnimatorListenerLogin(mProgressView);
-            animatorListenerLoginProgress.setInverse(false);
-            animatorListenerLoginProgress.setVisibility(resposta);
-
-            mLoginFormView.animate().setDuration(shortAnimTime).alpha(resposta ? 0 : 1).setListener(animatorListenerLogin);
-            mProgressView.animate().setDuration(shortAnimTime).alpha(resposta ? 1 : 0).setListener(animatorListenerLoginProgress);
-
-        }else{
-            mLoginFormView.setVisibility(resposta ? View.GONE : View.VISIBLE);
-            mProgressView.setVisibility(resposta ? View.VISIBLE : View.GONE);
-       }
-    }
-
-    @Override
-    public void problemsValidation(Integer field,String text) {
-        if (field == USER) {
-            mEmailView.setError(text);
-            mEmailView.requestFocus();
-        }else if (field == PASSWORD) {
-            mPasswordView.setError(text);
-            mPasswordView.requestFocus();
+        if (mInicia) {
+            startActivity(new Intent(this, MenuActivity.class));
+            overridePendingTransition(R.anim.abc_slide_out_top, R.anim.abc_slide_in_top);
         }
     }
 
@@ -122,29 +64,11 @@ public class LoginActivity extends AppCompatActivity  implements LoginComponents
         outApplication();
     }
 
-    @OnClick(R.id.email_sign_in_button)
-    public void submit(View v) {
-        mPresenter.validationLogin(getEmail(), getPassword());
+    @Override
+    protected void onResume() {
+        super.onResume();
+        initLogin();
     }
 
-    @Override
-    public Context getContext() {
-        return getApplicationContext();
-    }
-
-    @Override
-    public LoginPresenterImpl getPresenter(){
-        return mPresenter;
-    }
-
-    @Override
-    public String getEmail() {
-        return mEmailView.getText().toString();
-    }
-
-    @Override
-    public String getPassword() {
-        return mPasswordView.getText().toString();
-    }
 }
 

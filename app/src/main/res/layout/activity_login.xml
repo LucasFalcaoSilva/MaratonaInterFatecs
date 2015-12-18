@@ -12,15 +12,27 @@
     tools:context=".LoginActivity"
     android:id="@+id/lin_principal">
 
-    <br.maratonainterfatecs.progressComponent.SpinnerLoader
+<!--    <br.maratonainterfatecs.progressComponent.SpinnerLoader
         android:id="@+id/login_progress"
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
         android:layout_width="90dp"
         android:layout_height="90dp"
         app:point_color="#ff3366"
-        android:visibility="gone" />
+        android:visibility="gone" />-->
 
-    <ScrollView
+    <br.maratonainterfatecs.progressComponent.WaveLoadingView
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        app:mlv_borderColor="#ff3366"
+        app:mlv_borderWidth="3dp"
+        app:mlv_progressValue="48"
+        app:mlv_shapeType="text"
+        app:mlv_waveAmplitude="78"
+        app:mlv_waveColor="#ff3366"/>
+
+   <!-- <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -79,5 +91,5 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
         </LinearLayout>
-    </ScrollView>
+    </ScrollView>-->
 </LinearLayout>
