@@ -20,7 +20,6 @@ import butterknife.ButterKnife;
 public class MenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     @Bind(R.id.toolbar)              Toolbar              mToolbar;
-    @Bind(R.id.fab)                  FloatingActionButton mFloatingButton;
     @Bind(R.id.drawer_layout)        DrawerLayout         mDrawerMenu;
     @Bind(R.id.nav_view)             NavigationView       mNavigationView;
 
@@ -31,13 +30,6 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
         setSupportActionBar(mToolbar);
-
-        mFloatingButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
-            }
-        });
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerMenu, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         mDrawerMenu.setDrawerListener(toggle);
@@ -58,31 +50,13 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
         int id = item.getItemId();
 
-        if (id == R.id.nav_camara) {
+        /*if (id == R.id.nav_camara) {
 
         } else if (id == R.id.nav_gallery) {
 
@@ -94,7 +68,7 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_send) {
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
