@@ -19,9 +19,9 @@ import butterknife.ButterKnife;
 
 public class MenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    @Bind(R.id.toolbar)              Toolbar              mToolbar;
-    @Bind(R.id.drawer_layout)        DrawerLayout         mDrawerMenu;
-    @Bind(R.id.nav_view)             NavigationView       mNavigationView;
+    @Bind(R.id.toolbar)       Toolbar        mToolbar;
+    @Bind(R.id.drawer_layout) DrawerLayout   mDrawerMenu;
+    @Bind(R.id.nav_view)      NavigationView mNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,9 +41,8 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
+        if (mDrawerMenu.isDrawerOpen(GravityCompat.START)) {
+            mDrawerMenu.closeDrawer(GravityCompat.START);
         } else {
             finish();
             overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
@@ -54,24 +53,38 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
-        int id = item.getItemId();
+        item.setChecked(true);
 
-        /*if (id == R.id.nav_camara) {
+        switch (item.getItemId()){
+            case R.id.nav_home:
+                mToolbar.setTitle("Interfatecs");
 
-        } else if (id == R.id.nav_gallery) {
+               /* ContentFragment fragment = new ContentFragment();
+                android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frame,fragment);
+                fragmentTransaction.commit();*/
 
-        } else if (id == R.id.nav_slideshow) {
+                break;
+            case R.id.nav_mapa:
+                break;
+            case R.id.nav_equipes:
+                break;
+            case R.id.nav_evento:
+                mToolbar.setTitle("Sobre o Evento");
+                break;
+            case R.id.nav_patrocinador:
+                mToolbar.setTitle("Patrocinadores");
+                break;
+            case R.id.nav_organizacao:
+                mToolbar.setTitle("Organização");
+                break;
+            case R.id.nav_contato:
+                mToolbar.setTitle("Contato");
+                break;
+            default:
+        }
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }*/
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+        mDrawerMenu.closeDrawer(GravityCompat.START);
         return true;
     }
 }

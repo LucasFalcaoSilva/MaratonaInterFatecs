@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_home" android:icon="@android:drawable/ic_menu_camera"
-            android:title="Home" />
-        <item android:id="@+id/nav_mapa" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Mapa do Evento" />
-        <item android:id="@+id/nav_equipes" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Ver Equipes" />
-        <item android:id="@+id/nav_evento" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Sobre o Evento" />
-        <item android:id="@+id/nav_patrocinador" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Patrocinadores" />
-        <item android:id="@+id/nav_contato" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Contato" />
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/nav_home" android:checked="true"
+            android:title="@string/menu_home" />
+        <item android:id="@+id/nav_mapa"
+            android:title="@string/menu_map_event" />
+        <item android:id="@+id/nav_equipes"
+            android:title="@string/menu_team" />
+        <item android:id="@+id/nav_evento"
+            android:title="@string/menu_sobre" />
+        <item android:id="@+id/nav_patrocinador"
+            android:title="@string/menu_patroci" />
+        <item android:id="@+id/nav_organizacao"
+            android:title="@string/menu_organizacao" />
+        <item android:id="@+id/nav_contato"
+            android:title="@string/menu_contato" />
     </group>
 </menu>

@@ -3,4 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:paddingTop="@dimen/nav_header_vertical_spacing"
+    android:background="@color/primary"
+    android:paddingBottom="@dimen/nav_header_vertical_spacing"
     android:src="@drawable/marca" />
