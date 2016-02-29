@@ -1,9 +1,11 @@
 package br.maratonainterfatecs;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,77 +16,70 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import br.maratonainterfatecs.fragments.HomeFragment;
+import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class MenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MenuActivity extends AppCompatActivity implements MenuView{
 
     @Bind(R.id.toolbar)       Toolbar        mToolbar;
     @Bind(R.id.drawer_layout) DrawerLayout   mDrawerMenu;
     @Bind(R.id.nav_view)      NavigationView mNavigationView;
 
+    private ListenerMenu mListenerMenu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
         setSupportActionBar(mToolbar);
-
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerMenu, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        mDrawerMenu.setDrawerListener(toggle);
-        toggle.syncState();
-
-        mNavigationView.setNavigationItemSelectedListener(this);
-
+        mListenerMenu = new ListenerMenu(this);
+        loadComponents();
     }
 
     @Override
     public void onBackPressed() {
         if (mDrawerMenu.isDrawerOpen(GravityCompat.START)) {
-            mDrawerMenu.closeDrawer(GravityCompat.START);
+            closeMenu();
         } else {
             finish();
             overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
         }
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public void loadComponents() {
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerMenu, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        mDrawerMenu.setDrawerListener(toggle);
+        toggle.syncState();
+        mNavigationView.setNavigationItemSelectedListener(mListenerMenu);
+        setTituloAba(getResources().getString(R.string.menu_home));
+        transactionMenu(HomeFragment.newInstance());
+    }
 
-        item.setChecked(true);
+    @Override
+    public void setTituloAba(String titulo) {
+        mToolbar.setTitle(titulo);
+    }
 
-        switch (item.getItemId()){
-            case R.id.nav_home:
-                mToolbar.setTitle("Interfatecs");
-
-               /* ContentFragment fragment = new ContentFragment();
-                android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frame,fragment);
-                fragmentTransaction.commit();*/
-
-                break;
-            case R.id.nav_mapa:
-                break;
-            case R.id.nav_equipes:
-                break;
-            case R.id.nav_evento:
-                mToolbar.setTitle("Sobre o Evento");
-                break;
-            case R.id.nav_patrocinador:
-                mToolbar.setTitle("Patrocinadores");
-                break;
-            case R.id.nav_organizacao:
-                mToolbar.setTitle("Organização");
-                break;
-            case R.id.nav_contato:
-                mToolbar.setTitle("Contato");
-                break;
-            default:
-        }
-
+    @Override
+    public void closeMenu(){
         mDrawerMenu.closeDrawer(GravityCompat.START);
-        return true;
+    }
+
+    @Override
+    public Context getContext() {
+        return getApplicationContext();
+    }
+
+    @Override
+    public void transactionMenu(Fragment fragment) {
+        android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.setCustomAnimations(R.anim.abc_fade_in, R.anim.abc_fade_out);
+        fragmentTransaction.replace(R.id.frame, fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
     }
 }
