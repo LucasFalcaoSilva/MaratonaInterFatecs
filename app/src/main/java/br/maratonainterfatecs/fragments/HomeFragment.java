@@ -1,14 +1,22 @@
 package br.maratonainterfatecs.fragments;
 
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import br.maratonainterfatecs.R;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class HomeFragment extends Fragment {
+
+    @Bind(R.id.text_home)  TextView  mText_home;
+    //@Bind(R.id.image_home) ImageView mImage_home;
 
     public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
@@ -25,7 +33,9 @@ public class HomeFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view= inflater.inflate(R.layout.fragment_home, container, false);
+        ButterKnife.bind(this, view);
+        return view;
     }
 
   }
