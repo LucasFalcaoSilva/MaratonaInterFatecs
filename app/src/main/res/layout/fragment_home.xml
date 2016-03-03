@@ -3,21 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.maratonainterfatecs.fragments.HomeFragment">
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/nav_header_height"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:background="@drawable/marca" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/nav_header_height"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:background="@drawable/marca" />
 
             <TextView
                 android:id="@+id/text_home"
@@ -27,8 +26,6 @@
                 android:gravity="center"
                 android:text="@string/textHome"
                 android:textSize="15sp" />
-        </ScrollView>
-
-
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

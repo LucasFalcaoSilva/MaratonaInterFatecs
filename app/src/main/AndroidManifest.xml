@@ -10,7 +10,7 @@
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MenuActivity"
+            android:name=".activity.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>

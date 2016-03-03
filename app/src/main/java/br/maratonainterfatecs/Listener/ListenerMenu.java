@@ -1,8 +1,10 @@
-package br.maratonainterfatecs;
+package br.maratonainterfatecs.Listener;
 
 import android.support.design.widget.NavigationView;
 import android.view.MenuItem;
 
+import br.maratonainterfatecs.View.MenuView;
+import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 

@@ -1,4 +1,4 @@
-package br.maratonainterfatecs;
+package br.maratonainterfatecs.View;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -11,6 +11,5 @@ public interface MenuView {
    void setTituloAba(String titulo);
    void transactionMenu(Fragment fragment);
    void closeMenu();
-
-    Context getContext();
+   Context getContext();
 }

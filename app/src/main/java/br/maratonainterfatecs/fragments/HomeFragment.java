@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.typeface.RobotoTypeFace;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -35,6 +36,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.fragment_home, container, false);
         ButterKnife.bind(this, view);
+        mText_home.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoMedium());
         return view;
     }
 
