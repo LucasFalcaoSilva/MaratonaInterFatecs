@@ -9,7 +9,7 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu">Interfatecs</string>
     <string name="welcomeUser">Welcome User</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -25,5 +25,5 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="textHome"></string>
+    <string name="textHome">txthome</string>
 </resources>
