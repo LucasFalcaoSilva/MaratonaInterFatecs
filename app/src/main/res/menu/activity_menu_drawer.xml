@@ -3,18 +3,25 @@
 
     <group android:checkableBehavior="single" >
         <item android:id="@+id/nav_home" android:checked="true"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_home"/>
         <item android:id="@+id/nav_mapa"
-            android:title="@string/menu_map_event" />
+            android:title="@string/menu_map_event"
+            android:icon="@drawable/ic_event_map"/>
         <item android:id="@+id/nav_equipes"
-            android:title="@string/menu_team" />
+            android:title="@string/menu_team"
+            android:icon="@drawable/ic_search_teams"/>
         <item android:id="@+id/nav_evento"
-            android:title="@string/menu_sobre" />
+            android:title="@string/menu_sobre"
+            android:icon="@drawable/ic_about_event"/>
         <item android:id="@+id/nav_patrocinador"
-            android:title="@string/menu_patroci" />
+            android:title="@string/menu_patroci"
+            android:icon="@drawable/ic_sponsors"/>
         <item android:id="@+id/nav_organizacao"
-            android:title="@string/menu_organizacao" />
+            android:title="@string/menu_organizacao"
+            android:icon="@drawable/ic_organization"/>
         <item android:id="@+id/nav_contato"
-            android:title="@string/menu_contato" />
+            android:title="@string/menu_contato"
+            android:icon="@drawable/ic_contact"/>
     </group>
 </menu>
