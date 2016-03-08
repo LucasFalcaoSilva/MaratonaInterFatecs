@@ -26,4 +26,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="textHome">txthome</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email">Email</string>
 </resources>

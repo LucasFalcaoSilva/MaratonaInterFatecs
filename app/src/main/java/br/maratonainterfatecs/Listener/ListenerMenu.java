@@ -5,6 +5,7 @@ import android.view.MenuItem;
 
 import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.fragments.ContactFragment;
 import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 
@@ -62,6 +63,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_contato:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_contato));
+                mMenuView.transactionMenu(ContactFragment.newInstance());
 
                 break;
             default:
