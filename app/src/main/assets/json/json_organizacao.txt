@@ -1,0 +1,77 @@
+[
+  {
+    titulo: "Coordenacão Geral / Captação",
+    itens: [
+      {
+        cargo: "Prof°",
+        nome: "Grace Borges",
+        fatec: "Fatec São Paulo"
+      }
+    ]
+  },
+  {
+    titulo: "Coordenação Tecnica",
+    itens: [
+      {
+        cargo: "Profº",
+        nome: "Grace Borges",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "TIO",
+        nome: "Ainda ",
+        fatec: "Fatec Caipira"
+      }
+    ]
+  },
+  {
+    titulo: "Preparadores de Problemas",
+    itens: [
+      {
+        cargo: "Auxiliar Docente",
+        nome: "Lucio Nunes",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Prof",
+        nome: "Alguem",
+        fatec: "Fatec São Jose dos Campos"
+      }
+    ]
+  },
+  {
+    titulo: "Coordenação de Credenciamento / Staff",
+    itens: [
+      {
+        cargo: "Prof",
+        nome: "Alguem",
+        fatec: "Fatec São Jose dos Campos"
+      },
+      {
+        cargo: "Profº",
+        nome: "Alguem",
+        fatec: "Fatec São Jose dos Campos"
+      }
+    ]
+  },
+  {
+    titulo: " Identidade, Site,App e Sistema",
+    itens: [
+      {
+        cargo: "Aluno",
+        nome: "Luan Victor",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Aluno",
+        nome: "Lucas Silva",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Aluno",
+        nome: "Stefano Bellassai",
+        fatec: "Fatec São Paulo"
+      }
+    ]
+  }
+]
