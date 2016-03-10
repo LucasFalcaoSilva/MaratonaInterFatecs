@@ -60,11 +60,14 @@ public class OrganizacaoFragment extends Fragment {
         return view;
     }
 
-    public LinearLayout.LayoutParams createParametrosLinear() {
+    public LinearLayout.LayoutParams createParametrosLinear(int margin) {
 
         LinearLayout.LayoutParams lp;
 
-        lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 0, 1);
+        lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 0, 1);
+
+        if (margin != -1)
+            lp.setMargins(margin,margin,margin,margin);
 
         return lp;
     }
@@ -99,22 +102,22 @@ public class OrganizacaoFragment extends Fragment {
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT));
                 txtNome.setText(item.getString("nome"));
-                txtNome.setTypeface(mRobotoTypeFace.getRobotoBlack());
+                txtNome.setTypeface(mRobotoTypeFace.getRobotoMedium());
 
                 TextView txtFatec = new TextView(getActivity());
                 txtNome.setLayoutParams(new ViewGroup.LayoutParams(
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT));
                 txtFatec.setText(item.getString("fatec"));
-                txtFatec.setTypeface(mRobotoTypeFace.getRobotoBlack());
+                txtFatec.setTypeface(mRobotoTypeFace.getRobotoMedium());
 
                 linearNomes.addView(txtNome);
                 linearNomes.addView(txtFatec);
 
-               linearLayout.addView(linearNomes, createParametrosLinear());
+               linearLayout.addView(linearNomes, createParametrosLinear(5));
             }
 
-            mLinearOrganizacao.addView(linearLayout, createParametrosLinear());
+            mLinearOrganizacao.addView(linearLayout, createParametrosLinear(-1));
         }
     }
 
