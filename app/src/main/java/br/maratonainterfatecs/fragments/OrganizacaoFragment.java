@@ -55,7 +55,7 @@ public class OrganizacaoFragment extends Fragment {
         try {
             builderTabs();
         }catch(Exception e) {
-
+            Log.d(TAG, e.toString());
         }
         return view;
     }
@@ -90,22 +90,28 @@ public class OrganizacaoFragment extends Fragment {
             for (int j = 0; j < itensArray.length(); j++){
 
                 LinearLayout linearNomes = new LinearLayout(getActivity());
-                linearLayout.setOrientation(LinearLayout.VERTICAL);
+                linearNomes.setOrientation(LinearLayout.VERTICAL);
 
                 JSONObject item = itensArray.getJSONObject(j);
 
                 TextView txtNome = new TextView(getActivity());
-                txtTiulo.setText(item.getString("nome"));
-                txtTiulo.setTypeface(mRobotoTypeFace.getRobotoBlack());
+                txtNome.setLayoutParams(new ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT));
+                txtNome.setText(item.getString("nome"));
+                txtNome.setTypeface(mRobotoTypeFace.getRobotoBlack());
 
                 TextView txtFatec = new TextView(getActivity());
-                txtTiulo.setText(item.getString("fatec"));
-                txtTiulo.setTypeface(mRobotoTypeFace.getRobotoBlack());
+                txtNome.setLayoutParams(new ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT));
+                txtFatec.setText(item.getString("fatec"));
+                txtFatec.setTypeface(mRobotoTypeFace.getRobotoBlack());
 
                 linearNomes.addView(txtNome);
                 linearNomes.addView(txtFatec);
 
-                linearLayout.addView(linearNomes, createParametrosLinear());
+               linearLayout.addView(linearNomes, createParametrosLinear());
             }
 
             mLinearOrganizacao.addView(linearLayout, createParametrosLinear());

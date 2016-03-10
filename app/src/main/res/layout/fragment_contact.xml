@@ -8,6 +8,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_gravity="center_horizontal|top"
         android:id="@+id/linear_contact">
 
@@ -26,8 +27,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/horizontal_margin"
             android:id="@+id/text_contato_tel_h"
-            android:text="Tel"/>
+            android:text="@string/phone"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,6 +39,7 @@
 
         <LinearLayout
             android:id="@+id/map_container"
+            android:layout_marginTop="@dimen/horizontal_margin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
