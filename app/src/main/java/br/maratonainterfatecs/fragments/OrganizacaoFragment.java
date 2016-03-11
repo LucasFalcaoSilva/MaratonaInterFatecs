@@ -1,6 +1,7 @@
 package br.maratonainterfatecs.fragments;
 
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -26,7 +27,7 @@ public class OrganizacaoFragment extends Fragment {
     LinearLayout mLinearOrganizacao;
 
     private static final String TAG = "Organizacao";
-
+    private View view;
     private RobotoTypeFace mRobotoTypeFace;
 
     public static OrganizacaoFragment newInstance() {
@@ -34,29 +35,27 @@ public class OrganizacaoFragment extends Fragment {
         return fragment;
     }
 
-    public OrganizacaoFragment() {}
+    public OrganizacaoFragment() {
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         if (getArguments() != null) {
-        }
 
+        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_organizacao, container, false);
+        view = inflater.inflate(R.layout.fragment_organizacao, container, false);
 
         ButterKnife.bind(this, view);
 
         mRobotoTypeFace = new RobotoTypeFace(view.getContext());
-        try {
-            builderTabs();
-        }catch(Exception e) {
-            Log.d(TAG, e.toString());
-        }
+
+        new viewTask().execute();
+
         return view;
     }
 
@@ -67,16 +66,18 @@ public class OrganizacaoFragment extends Fragment {
         lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 0, 1);
 
         if (margin != -1)
-            lp.setMargins(margin,margin,margin,margin);
+            lp.setMargins(margin, margin, margin, margin);
 
         return lp;
     }
 
-    private void builderTabs()throws Exception{
+    private LinearLayout builderTabs() throws Exception {
 
         JSONArray jsonConfig = new JSONArray(rawResourceToString(getActivity()));
+        LinearLayout linearPrincipal = new LinearLayout(getActivity());
+        linearPrincipal.setOrientation(LinearLayout.VERTICAL);
 
-        for (int i = 0, size = jsonConfig.length(); i < size; i++){
+        for (int i = 0, size = jsonConfig.length(); i < size; i++) {
             JSONObject myObject = jsonConfig.getJSONObject(i);
 
             LinearLayout linearLayout = new LinearLayout(getActivity());
@@ -90,7 +91,7 @@ public class OrganizacaoFragment extends Fragment {
 
             JSONArray itensArray = myObject.getJSONArray("itens");
 
-            for (int j = 0; j < itensArray.length(); j++){
+            for (int j = 0; j < itensArray.length(); j++) {
 
                 LinearLayout linearNomes = new LinearLayout(getActivity());
                 linearNomes.setOrientation(LinearLayout.VERTICAL);
@@ -114,11 +115,13 @@ public class OrganizacaoFragment extends Fragment {
                 linearNomes.addView(txtNome);
                 linearNomes.addView(txtFatec);
 
-               linearLayout.addView(linearNomes, createParametrosLinear(5));
+                linearLayout.addView(linearNomes, createParametrosLinear(5));
             }
 
-            mLinearOrganizacao.addView(linearLayout, createParametrosLinear(-1));
+            linearPrincipal.addView(linearLayout, createParametrosLinear(-1));
+
         }
+        return linearPrincipal;
     }
 
     public String rawResourceToString(Context context) {
@@ -137,11 +140,29 @@ public class OrganizacaoFragment extends Fragment {
                     is.close();
                 }
             } catch (Exception e) {
-                Log.d(TAG,"Erro ao Fechar Sream: " + e.toString());
+                Log.d(TAG, "Erro ao Fechar Sream: " + e.toString());
             }
         }
 
         return new String(buffer);
 
+    }
+
+    private class viewTask extends AsyncTask<Void, Void, LinearLayout> {
+
+        @Override
+        protected LinearLayout doInBackground(Void... params) {
+            try {
+                return builderTabs();
+            } catch (Exception e) {
+                Log.d(TAG, e.toString());
+                return null;
+            }
+        }
+
+        @Override
+        protected void onPostExecute(LinearLayout result) {
+            mLinearOrganizacao.addView(result, createParametrosLinear(-1));
+        }
     }
 }
