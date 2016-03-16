@@ -11,9 +11,18 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    signingConfigs {
+        release {
+            storeFile file("src//main//assets//certificate//maratona_certificate.jks")
+            keyAlias "InterFatecs"
+            storePassword "maratona"
+            keyPassword "maratona"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {

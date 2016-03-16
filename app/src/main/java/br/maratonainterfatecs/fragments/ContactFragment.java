@@ -52,7 +52,6 @@ public class ContactFragment extends Fragment {
 
         //Cria um Fragmento para o MAPA e seta no container criado no xml
         FragmentManager fm = getChildFragmentManager();
-        fragment = (SupportMapFragment) fm.findFragmentById(R.id.map_container);
         if (fragment == null) {
             fragment = SupportMapFragment.newInstance();
             fm.beginTransaction().replace(R.id.map_container, fragment).commit();
@@ -62,11 +61,11 @@ public class ContactFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-
-        //Ajusta o mapa para a posição da FATEC SP
-        LatLng fatec = new LatLng(-23.5296773, -46.6345405);
-
         if (map == null) {
+
+            //Ajusta o mapa para a posição da FATEC SP
+            LatLng fatec = new LatLng(-23.5296773, -46.6345405);
+
             map = fragment.getMap();
             map.addMarker(new MarkerOptions().position(fatec).title("Marker in Fatec"));
             map.moveCamera(CameraUpdateFactory.newLatLng(fatec));
