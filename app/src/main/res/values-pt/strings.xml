@@ -15,7 +15,6 @@
     <string name="navigation_drawer_open">Menu Lateral Aberto</string>
     <string name="navigation_drawer_close">Menu Lateral Fechado</string>
 
-    <string name="menu_home">Home</string>
     <string name="menu_map_event">Mapa do Evento</string>
     <string name="menu_team">Ver Equipes</string>
     <string name="menu_patroci">Patrocinadores</string>

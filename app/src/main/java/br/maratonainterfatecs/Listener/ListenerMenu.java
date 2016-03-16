@@ -8,6 +8,7 @@ import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.fragments.ContactFragment;
 import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
+import br.maratonainterfatecs.fragments.SponsorsFragment;
 
 /**
  * Created by 40312939841 on 29/02/2016.
@@ -52,6 +53,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_patrocinador:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_patroci));
+                mMenuView.transactionMenu(SponsorsFragment.newInstance());
 
                 break;
             case R.id.nav_organizacao:
