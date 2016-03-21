@@ -6,11 +6,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.List;
 
 import br.maratonainterfatecs.Adapters.SponsorAdapter;
 import br.maratonainterfatecs.Domain.Sponsor;
+import br.maratonainterfatecs.Interfaces.RecyclerViewOnClickListenerHack;
 import br.maratonainterfatecs.Presenter.SponsorsPresenter;
 import br.maratonainterfatecs.Presenter.SponsorsPresenterImp;
 import br.maratonainterfatecs.R;
@@ -22,10 +24,10 @@ import butterknife.ButterKnife;
 /**
  * Created by Luan on 15/03/2016.
  */
- public class SponsorsFragment extends Fragment implements SponsorsView {
+ public class SponsorsFragment extends Fragment implements SponsorsView,RecyclerViewOnClickListenerHack {
 
     @Bind(R.id.rv_list) RecyclerView mRecyclerView;
-
+    List<Sponsor>     mList;
     SponsorsPresenter presenter;
 
     public static SponsorsFragment newInstance() {
@@ -66,11 +68,18 @@ import butterknife.ButterKnife;
 
     @Override
     public void buildRecycler(List<Sponsor>  mList ) {
-        mRecyclerView.setAdapter(new SponsorAdapter(getActivity(), mList) );
+        this.mList = mList;
+        SponsorAdapter adapter = new SponsorAdapter(getActivity(), mList);
+        mRecyclerView.setAdapter(adapter);
     }
 
     @Override
     public RecyclerView getRecycler() {
         return mRecyclerView;
+    }
+
+    @Override
+    public void onClickListener(View view, int position) {
+        Toast.makeText(getContext(),mList.get(position).getNome() ,Toast.LENGTH_LONG).show();
     }
 }
