@@ -16,7 +16,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.View.ContactView;
-import br.maratonainterfatecs.constantes.ConstantsMenus;
+import br.maratonainterfatecs.Constants.ConstantsMenus;
 import br.maratonainterfatecs.typeface.RobotoTypeFace;
 import butterknife.Bind;
 import butterknife.ButterKnife;
