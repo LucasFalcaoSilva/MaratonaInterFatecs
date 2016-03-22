@@ -1,13 +1,21 @@
 package br.maratonainterfatecs.Task;
 
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
+import android.util.Log;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import br.maratonainterfatecs.Domain.Sponsor;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.View.SponsorsView;
+import br.maratonainterfatecs.util.JsonIO;
 
 /**
  * Created by 40312939841 on 18/03/2016.
@@ -27,13 +35,29 @@ public class SponsorsTask extends AsyncTask<Void, Void, List<Sponsor>> {
 
     private List<Sponsor> getSetCarList(int qtd) {
 
-        String[] nomes = new String[]{"Cengage Learning", "Ciee", "IBM"};
-        int[] logos = new int[]{R.drawable.logo_cengage_learning, R.drawable.logo_ciee, R.drawable.ibm_logo};
         List<Sponsor> listAux = new ArrayList<>();
+        JSONArray json        = new JSONArray();
+        String strJSON;
 
-        for (int i = 0; i < qtd; i++) {
-            Sponsor c = new Sponsor(nomes[i % nomes.length], logos[i % nomes.length]);
-            listAux.add(c);
+        try {
+            strJSON = new JsonIO().readArquivo(sponsorsView.getContext(),"json/json_patrocinador.txt");
+            json    = new JSONArray(strJSON);
+
+            for (int i = 0; i < json.length(); i++) {
+
+                JSONObject linha = json.getJSONObject(i);
+                String nome      = linha.getString("nome");
+                String imagem    = linha.getString("imagem");
+
+                Resources resources = sponsorsView.getContext().getResources();
+                int resourceId = resources.getIdentifier(imagem, "drawable",sponsorsView.getContext().getPackageName());
+
+                Sponsor c = new Sponsor(nome, resourceId);
+                listAux.add(c);
+            }
+
+        }catch(Exception e){
+            Log.d("","Erro ao buscar JSON: " + e.toString());
         }
         return (listAux);
     }

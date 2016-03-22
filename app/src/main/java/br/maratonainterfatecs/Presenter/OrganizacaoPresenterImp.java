@@ -13,6 +13,7 @@ import java.io.InputStream;
 
 import br.maratonainterfatecs.typeface.RobotoTypeFace;
 import br.maratonainterfatecs.View.OrganizacaoView;
+import br.maratonainterfatecs.util.JsonIO;
 
 /**
  * Created by 40312939841 on 16/03/2016.
@@ -95,25 +96,6 @@ public class OrganizacaoPresenterImp implements  OrganizacaoPresenter {
 
     @Override
     public String rawResourceToString(Context context) {
-        byte[] buffer = null;
-        InputStream is = null;
-        try {
-            is = context.getAssets().open("json/json_organizacao.txt");
-
-            buffer = new byte[is.available()];
-            while (is.read(buffer) != -1) ;
-        } catch (Exception e) {
-            buffer = new byte[2];
-        } finally {
-            try {
-                if (is == null) {
-                    is.close();
-                }
-            } catch (Exception e) {
-                Log.d(organizacaoView.TAG, "Erro ao Fechar Sream: " + e.toString());
-            }
-        }
-
-        return new String(buffer);
+       return new JsonIO().readArquivo(context,"json/json_organizacao.txt");
     }
 }

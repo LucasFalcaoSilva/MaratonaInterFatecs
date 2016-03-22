@@ -1,0 +1,17 @@
+[
+  {
+    nome: "Cengage Learning",
+    imagem: "logo_cengage_learning"
+    
+  },
+  {
+    nome: "Ciee",
+    imagem: "logo_ciee"
+    
+  },
+  {
+    nome: "IBM",
+    imagem: "ibm_logo"
+    
+  }
+]

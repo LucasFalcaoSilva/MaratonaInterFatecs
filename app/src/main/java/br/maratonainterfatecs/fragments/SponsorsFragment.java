@@ -6,13 +6,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.List;
 
 import br.maratonainterfatecs.Adapters.SponsorAdapter;
 import br.maratonainterfatecs.Domain.Sponsor;
-import br.maratonainterfatecs.Interfaces.RecyclerViewOnClickListenerHack;
 import br.maratonainterfatecs.Presenter.SponsorsPresenter;
 import br.maratonainterfatecs.Presenter.SponsorsPresenterImp;
 import br.maratonainterfatecs.R;
@@ -24,7 +22,7 @@ import butterknife.ButterKnife;
 /**
  * Created by Luan on 15/03/2016.
  */
- public class SponsorsFragment extends Fragment implements SponsorsView,RecyclerViewOnClickListenerHack {
+ public class SponsorsFragment extends Fragment implements SponsorsView {
 
     @Bind(R.id.rv_list) RecyclerView mRecyclerView;
     List<Sponsor>     mList;
@@ -69,7 +67,7 @@ import butterknife.ButterKnife;
     @Override
     public void buildRecycler(List<Sponsor>  mList ) {
         this.mList = mList;
-        SponsorAdapter adapter = new SponsorAdapter(getActivity(), mList);
+        SponsorAdapter adapter = new SponsorAdapter(this, mList);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -78,8 +76,4 @@ import butterknife.ButterKnife;
         return mRecyclerView;
     }
 
-    @Override
-    public void onClickListener(View view, int position) {
-        Toast.makeText(getContext(),mList.get(position).getNome() ,Toast.LENGTH_LONG).show();
-    }
 }
