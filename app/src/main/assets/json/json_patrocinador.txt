@@ -1,17 +1,27 @@
 [
   {
-    nome: "Cengage Learning",
-    imagem: "logo_cengage_learning"
+    nome: "SBC",
+    imagem: "logo_sbc"
     
   },
   {
-    nome: "Ciee",
-    imagem: "logo_ciee"
+    nome: "Fundacao FAT",
+    imagem: "logo_fat"
     
   },
   {
-    nome: "IBM",
-    imagem: "ibm_logo"
+    nome: "CPS",
+    imagem: "logo_cps"
     
+  },
+  {
+    nome: "Fatec",
+    imagem:"logo_fatec"
+
+  },
+  {
+    nome: "Governo de São Paulo,
+    imagem: "logo_governo"
+
   }
 ]
