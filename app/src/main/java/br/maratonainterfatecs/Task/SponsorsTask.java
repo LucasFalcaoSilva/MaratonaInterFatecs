@@ -48,6 +48,7 @@ public class SponsorsTask extends AsyncTask<Void, Void, List<Sponsor>> {
                 JSONObject linha = json.getJSONObject(i);
                 String nome      = linha.getString("nome");
                 String imagem    = linha.getString("imagem");
+                String description = linha.getString("description");
 
                 Resources resources = sponsorsView.getContext().getResources();
                 int resourceId = resources.getIdentifier(imagem, "drawable",sponsorsView.getContext().getPackageName());

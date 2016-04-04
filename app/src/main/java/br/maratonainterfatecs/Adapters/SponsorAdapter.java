@@ -44,4 +44,9 @@ public class SponsorAdapter extends RecyclerView.Adapter<PatrocinadorHolder> {
     public int getItemCount() {
         return mList.size();
     }
+
+    public void test( String teste ){
+
+    }
+
 }

@@ -1,13 +1,16 @@
 package br.maratonainterfatecs.holder;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import br.maratonainterfatecs.Domain.Sponsor;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.View.SponsorsView;
+import br.maratonainterfatecs.activity.SponsorActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -32,6 +35,12 @@ public class PatrocinadorHolder extends RecyclerView.ViewHolder implements View.
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(sponsorsView.getContext(), "CLick no item: " + tvNome.getText(), Toast.LENGTH_LONG).show();
+
+        Intent intent = new Intent(sponsorsView.getContext(), SponsorActivity.class);
+        intent.putExtra("sponsor", getAdapterPosition());
+        sponsorsView.getContext().startActivity(intent);
+
+        /*Toast.makeText(sponsorsView.getContext(), "CLick no item: " + tvNome.getText(), Toast.LENGTH_LONG).show();*/
     }
+
 }
