@@ -1,6 +1,7 @@
 package br.maratonainterfatecs.holder;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -37,7 +38,10 @@ public class PatrocinadorHolder extends RecyclerView.ViewHolder implements View.
     public void onClick(View v) {
 
         Intent intent = new Intent(sponsorsView.getContext(), SponsorActivity.class);
-        intent.putExtra("sponsor", getAdapterPosition());
+
+        Bundle bundle = new Bundle();
+        bundle.putString("nome", (String) tvNome.getText());
+        intent.putExtras(bundle);
         sponsorsView.getContext().startActivity(intent);
 
         /*Toast.makeText(sponsorsView.getContext(), "CLick no item: " + tvNome.getText(), Toast.LENGTH_LONG).show();*/

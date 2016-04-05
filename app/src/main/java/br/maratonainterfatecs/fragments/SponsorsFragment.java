@@ -16,6 +16,7 @@ import br.maratonainterfatecs.Presenter.SponsorsPresenterImp;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.Task.SponsorsTask;
 import br.maratonainterfatecs.View.SponsorsView;
+import br.maratonainterfatecs.activity.MenuActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -25,8 +26,8 @@ import butterknife.ButterKnife;
  public class SponsorsFragment extends Fragment implements SponsorsView {
 
     @Bind(R.id.rv_list) RecyclerView mRecyclerView;
-    List<Sponsor>     mList;
     SponsorsPresenter presenter;
+    List<Sponsor> mList;
 
     public static SponsorsFragment newInstance() {
         SponsorsFragment fragment = new SponsorsFragment();
@@ -42,7 +43,6 @@ import butterknife.ButterKnife;
 
         if (getArguments() != null) {
         }
-
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

@@ -10,6 +10,9 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import java.util.List;
+
+import br.maratonainterfatecs.Domain.Sponsor;
 import br.maratonainterfatecs.Listener.ListenerMenu;
 import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.R;
@@ -24,6 +27,7 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
     @Bind(R.id.nav_view)      NavigationView mNavigationView;
 
     private ListenerMenu mListenerMenu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

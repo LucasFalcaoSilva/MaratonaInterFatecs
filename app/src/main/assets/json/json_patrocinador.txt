@@ -24,5 +24,15 @@
     nome: "Governo de São Paulo",
     imagem: "logo_governo",
     description: "teste de descricao"
+  },
+  {
+    nome: "Benefício SP",
+    imagem: "logo_beneficio",
+    description: "teste de descricao"
+  },
+  {
+    nome: "Visite São Paulo",
+    imagem: "logo_saopaulo",
+    description: "teste de descricao"
   }
 ]

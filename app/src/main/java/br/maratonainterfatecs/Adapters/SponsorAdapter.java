@@ -38,15 +38,12 @@ public class SponsorAdapter extends RecyclerView.Adapter<PatrocinadorHolder> {
     public void onBindViewHolder(PatrocinadorHolder holder, int position) {
         holder.tvNome.setText(mList.get(position).getNome());
         holder.ivLogo.setImageResource(mList.get(position).getLogo());
+        //holder.tvDescription.setText(mList.get(position).getDescription());
     }
 
     @Override
     public int getItemCount() {
         return mList.size();
-    }
-
-    public void test( String teste ){
-
     }
 
 }

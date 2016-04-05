@@ -6,7 +6,7 @@ import android.os.Parcelable;
 /**
  * Created by Luan on 15/03/2016.
  */
-public class Sponsor implements Parcelable {
+public class Sponsor{ //implements Parcelable {
 
     private String nome;
     private int logo;
@@ -37,10 +37,10 @@ public class Sponsor implements Parcelable {
     public void setDescription(String description) { this.description = description; }
 
     //PARCELABLE
-    public Sponsor(Parcel parcel){
+   /* public Sponsor(Parcel parcel){
         setLogo(parcel.readInt());
         setNome(parcel.readString());
-        setDescription(parcel.readString());
+        //setDescription(parcel.readString());
     }
 
     @Override
@@ -52,7 +52,7 @@ public class Sponsor implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeInt( getLogo() );
         parcel.writeString( getNome() );
-        parcel.writeString( getDescription() );
+        //parcel.writeString( getDescription() );
     }
 
     public static final Parcelable.Creator<Sponsor> CREATOR = new Parcelable.Creator<Sponsor>(){
@@ -66,5 +66,5 @@ public class Sponsor implements Parcelable {
         public Sponsor[] newArray(int size) {
             return new Sponsor[size];
         }
-    };
+    };*/
 }
