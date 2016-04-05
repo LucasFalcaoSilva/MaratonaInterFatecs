@@ -1,0 +1,47 @@
+[
+  {
+    titulo: "FORMATO & REGRAS",
+    texto: "O evento é inspirado na Maratona de Programação promovida anualmente pela Sociedade Brasileira de Computação (SBC) como etapa seletiva do ACM-ICPC, competição mundial de projeto e implementação de algoritmos computacionais.
+
+                        Considerando a grande quantidade de cursos de graduação na área de Informática mantidos pelo Centro Paula Souza, o elevado número de estudantes neles matriculado e a dispersão geográfica das Fatecs pelo território paulista, a Maratona InterFatecs é organizada em duas etapas, buscando viabilizar a participação do maior número de competidores em suas provas. Em ambas etapas será utilizado o ambiente de gerenciamento de competição denominado BOCA, que é tradicionalmente empregado em competições do tipo no Brasil.
+
+                        A primeira etapa é realizada de forma distribuída, com as equipes espalhadas por diversas sedes, todas realizando a mesma prova, ao mesmo tempo. Para facilitar a organização, um único servidor é configurado em uma sede central à qual todas as sedes acessam via internet e onde os juízes da competição julgam as submissões e atendem às dúvidas dos participantes.
+
+                        A segunda etapa é realizada em uma sede única, com a presença das equipes melhores classificadas na etapa anterior. Nessa sede, é disponibilizado o servidor com o ambiente interativo de submissão de programas e o corpo de juízes, reproduzindo inteiramente o ambiente de uma sede regional da Maratona de Programação da SBC."
+  },
+  {
+    titulo: "Composição das Equipes e Critérios de Elegibilidades",
+    texto: "A competição é disputada por equipes de três alunos titulares mais um reserva. O papel do competidor reserva é o de substituir um titular que eventualmente se veja impedido de participar de alguma etapa do evento. A equipe deve manter sua formação, quanto aos seus membros titulares e reserva, nas duas etapas da competição, sob pena de desqualificação sumária.
+
+                       Os membros de uma equipe precisam ser alunos regularmente matriculados nos cursos de graduação tecnológica mantidos pelo Centro Paula Souza no semestre letivo em que ocorrer a primeira fase da competição. É obrigatório que todos os membros de um time sejam da mesma Fatec, mas não é necessário que pertençam ao mesmo curso, período letivo ou turno de aulas. A qualquer momento pode ser solicitado ao competidor a comprovação da situação de sua matrícula no curso de graduação ao qual pertence."
+  },
+  {
+    titulo: "Prova e Duração",
+    texto: "A prova correspondente a cada etapa possui uma duração de 5 horas e é composta por um número variável de problemas redigidos em português - e ao menos um problema em inglês - que devem ser resolvidos mediante implementação de programas de computador. Durante a prova, é permitida às equipes a consulta a material próprio, que pode ser impresso em papel ou disponível em meio magnético na primeira fase e exclusivamente impresso em papel na segunda fase. NÃO é permitido a acesso a conteúdos da Internet em nenhuma das duas fases.
+
+                       É vedada a comunicação entre as equipes durante a prova de ambas as fases, bem como a troca de material de consulta entre elas. Também não é permitida a comunicação entre os membros das equipes e seus respectivos técnicos durante a realização da prova. Cada equipe terá acesso a um único computador dotado do ambiente de submissão de programas BOCA, dos compiladores, link-editores e IDEs requeridos pelas linguagens de programação permitidas bem como editores de programa.
+
+                       Na primeira fase, a equipe terá acesso ao enunciado dos problemas em versão eletrônica no próprio ambiente BOCA, ficando a critério da organização da sede local a decisão pelo oferecimento também da versão impressa em papel desses enunciados. Na segunda etapa cada membro da equipe recebe uma cópia impressa em papel com os enunciados dos problemas."
+  },
+  {
+   titulo: "Linguagens Permitidas",
+   texto: "São permitidas soluções para os problemas implementadas nas linguagens C, C++ e Java.
+           As versões dos compiladores utilizados pelos juízes para corrigir as soluções submetidas pelas equipes são divulgadas por meio de nota técnica publicada no site do evento a no mínimo 10 dias da realização de cada etapa."
+  },
+  {
+   titulo: "Critérios de Avaliação e Classificação",
+   texto: "A avaliação de uma solução submetida pela equipe de competidores leva em conta diversas possibilidades de erro: de compilação, em tempo de execução, demora excessiva do programa em processar os casos de teste, resposta incorreta e erro de formatação de saída, sendo estas duas últimas detectada por meio da comparação byte a byte da solução da equipe com o gabarito dos juízes. Uma submissão que não apresente erros de qualquer natureza é julgada como correta.
+
+           O primeiro critério de classificação é a quantidade de problemas resolvidos, em ordem decrescente, ou seja, é vencedor a equipe que resolver o maior número de problemas durante as cinco horas de prova. O desempate das equipes que resolverem a mesma quantidade de problemas é feito pelo tempo total que cada uma precisou para resolver os problemas, em ordem crescente desse valor. Esse total é computado em minutos e corresponde à soma do tempo decorrido a partir do início da prova em que a primeira submissão correta de cada problema foi feita pela equipe.
+
+           Submissões incorretas de problemas que acabaram sendo resolvidos pela equipe acrescentam 20 minutos cada uma ao seu tempo total.
+
+           Os 50 times melhores classificados na primeira etapa da competição estão selecionados para participar da segunda etapa, com as seguintes restrições:
+
+           1- Toda Fatec participante terá garantida uma vaga na etapa final. Essa vaga será atribuída automaticamente à equipe melhor classificada na primeira etapa. Caso haja empate entre equipes de uma mesma Fatec na disputa por uma vaga, caberá ao técnico daquela unidade designar o vencedor.
+
+           2- As demais vagas remanescentes serão preenchidas segundo o desempenho geral dos times.
+
+           Caso a quantidade de equipes habilitadas à segunda fase pelos critérios 1) e 2) seja inferior a 50, estará caracterizada a sobra de vagas e a decisão sobre a forma de preenchimento das mesmas é de responsabilidade da comissão organizadora do evento, segundo os critérios que julgar conveniente."
+  }
+]

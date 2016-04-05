@@ -30,4 +30,5 @@
     <string name="email">Email</string>
     <string name="phone">Telephone</string>
     <string name="title_activity_sponsor">SponsorActivity</string>
+
 </resources>
