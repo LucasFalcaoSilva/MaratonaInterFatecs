@@ -1,65 +1,60 @@
 [
   {
-    titulo: "Coordenacão Geral / Captação",
+    titulo: "Coordenação Geral do Evento",
     itens: [
       {
-        cargo: "Prof°",
-        nome: "Grace Borges",
+        cargo: "Prof.ª Me",
+        nome: "Grace Anne Pontes Borges",
         fatec: "Fatec São Paulo"
       }
     ]
   },
   {
-    titulo: "Coordenação Tecnica",
+    titulo: "Coordenação Técnica",
     itens: [
       {
-        cargo: "Profº",
-        nome: "Grace Borges",
+        cargo: "Prof. Dr.",
+        nome: "Marcelo Duduchi Feitosa",
         fatec: "Fatec São Paulo"
       },
       {
-        cargo: "TIO",
-        nome: "Ainda ",
-        fatec: "Fatec Caipira"
+        cargo: "Prof.ª Me.",
+        nome: "Neide Aquemi Itocazu",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Prof. Me.",
+        nome: "Andrea Zotovici",
+        fatec: "Fatec São Paulo"
       }
     ]
   },
   {
-    titulo: "Preparadores de Problemas",
+    titulo: "Suporte de Tecnologia da Informação",
     itens: [
       {
         cargo: "Auxiliar Docente",
-        nome: "Lucio Nunes",
+        nome: "Sidnei Linero",
         fatec: "Fatec São Paulo"
       },
       {
-        cargo: "Prof",
-        nome: "Alguem",
-        fatec: "Fatec São Jose dos Campos"
-      }
-    ]
-  },
-  {
-    titulo: "Coordenação de Credenciamento / Staff",
-    itens: [
-      {
-        cargo: "Prof",
-        nome: "Alguem",
-        fatec: "Fatec São Jose dos Campos"
+        cargo: "Agente téc. e adm.",
+        nome: "Luciano Luis da Silva",
+        fatec: "Fatec São Paulo"
       },
       {
-        cargo: "Profº",
-        nome: "Alguem",
-        fatec: "Fatec São Jose dos Campos"
+        cargo: "Prof. Me.",
+        nome: "Eduardo Sakaue",
+        fatec: "Fatec São Paulo"
       }
     ]
   },
   {
-    titulo: " Identidade, Site,App e Sistema",
+    titulo: "Desenvolvimento do Site/App",
     itens: [
       {
-        cargo: "Aluno",
-        nome: "Luan Victor",
+        cargo: "Prof.ª Me.",
+        nome: "Grace Anne Pontes Borges",
         fatec: "Fatec São Paulo"
       },
       {
@@ -68,8 +63,63 @@
         fatec: "Fatec São Paulo"
       },
       {
+        cargo: "Agente téc. e adm.",
+        nome: "Luciano Luis da Silva",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Aluno",
+        nome: "Luan Victor",
+        fatec: "Fatec São Paulo"
+      },
+      {
         cargo: "Aluno",
         nome: "Stefano Bellassai",
+        fatec: "Fatec São Paulo"
+      }
+    ]
+  },
+  {
+    titulo: "Equipe de Elaboração das Provas",
+    itens: [
+      {
+        cargo: "Aux. de docente",
+        nome: " Lucio Nunes",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Prof. Me.",
+        nome: "Antonio Cesar Munari",
+        fatec: "Fatec São Paulo"
+      }
+    ]
+  },
+  {
+    titulo: "Equipe de Captação de Recursos e Divulgação",
+    itens: [
+      {
+        cargo: "Prof.",
+        nome: "Marcelo Aoki",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Prof. Me.",
+        nome: "José Walmir G. Duque",
+        fatec: "Fatec São Paulo"
+      }
+    ]
+  },
+  {
+    titulo: "Secretaria e Artes Gráficas",
+    itens: [
+      {
+        cargo: "Agente téc. e adm. ",
+        nome: " Mariana de Oliveira Rodrigues",
+        fatec: "Fatec São Paulo"
+      },
+      {
+        cargo: "Aux. de docente ",
+        nome: "Thaís Aparecida Fernandes Kabuchi",
         fatec: "Fatec São Paulo"
       }
     ]

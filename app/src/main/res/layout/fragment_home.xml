@@ -16,7 +16,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/nav_header_height"
                 android:layout_margin="@dimen/activity_horizontal_margin"
-                android:background="@drawable/marca" />
+                android:background="@drawable/logo_interfatecs_black" />
+
+            <TextView
+                android:id="@+id/text_edicao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:text="5º Edição - Maratona Interfatecs"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_sede"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="FACULDADE DE TECNOLOGIA DE SÃO PAULO"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/text_home"

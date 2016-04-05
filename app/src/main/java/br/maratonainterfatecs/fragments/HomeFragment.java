@@ -14,8 +14,9 @@ import butterknife.ButterKnife;
 
 public class HomeFragment extends Fragment {
 
-    @Bind(R.id.text_home)  TextView  mText_home;
-    //@Bind(R.id.image_home) ImageView mImage_home;
+    @Bind(R.id.text_home)   TextView  mText_home;
+    @Bind(R.id.text_edicao) TextView mText_edicao;
+    @Bind(R.id.text_sede)   TextView mText_sede;
 
     public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
@@ -35,6 +36,8 @@ public class HomeFragment extends Fragment {
         View view= inflater.inflate(R.layout.fragment_home, container, false);
         ButterKnife.bind(this, view);
         mText_home.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoMedium());
+        mText_edicao.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoBlack());
+        mText_sede.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoThin());
         return view;
     }
 

@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
     tools:context="br.maratonainterfatecs.fragments.OrganizacaoFragment">
 
     <ScrollView
@@ -12,95 +13,6 @@
             android:id="@+id/linear_organizacao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:orientation="vertical">
-
-           <!-- <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <TextView
-                    android:id="@+id/text_coordenacao"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Coordenação Geral / Captação" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/horizontal_margin"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_nome"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Profº Jose Walmir Gonçalves Duque" />
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_fatec"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="FATEC Cruzeiro e FATEC São Jose dos Campos" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:orientation="vertical"
-                android:layout_weight="1">
-
-                <TextView
-                    android:id="@+id/text_coordenacao_tecnica"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Coordenação Tecnica" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/horizontal_margin"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_tecnica_nome"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Profº Jose Walmir Gonçalves Duque" />
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_tecnica_fatec"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="FATEC Cruzeiro e FATEC São Jose dos Campos" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/horizontal_margin"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_tecnica_nome_aux"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Profº Jose Walmir Gonçalves Duque" />
-
-                    <TextView
-                        android:id="@+id/text_coordenacao_tecnica_fatec_aux"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="FATEC Cruzeiro e FATEC São Jose dos Campos" />
-
-                </LinearLayout>
-
-            </LinearLayout>-->
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 </FrameLayout>

@@ -72,7 +72,7 @@ public class OrganizacaoPresenterImp implements  OrganizacaoPresenter {
                 txtNome.setLayoutParams(new ViewGroup.LayoutParams(
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT));
-                txtNome.setText(item.getString("nome"));
+                txtNome.setText(item.getString("cargo") + " " + item.getString("nome"));
                 txtNome.setTypeface(mRobotoTypeFace.getRobotoMedium());
 
                 TextView txtFatec = new TextView(organizacaoView.getContext());
@@ -85,7 +85,7 @@ public class OrganizacaoPresenterImp implements  OrganizacaoPresenter {
                 linearNomes.addView(txtNome);
                 linearNomes.addView(txtFatec);
 
-                linearLayout.addView(linearNomes, createParametrosLinear(5));
+                linearLayout.addView(linearNomes, createParametrosLinear(15));
             }
 
             linearPrincipal.addView(linearLayout, createParametrosLinear(-1));
