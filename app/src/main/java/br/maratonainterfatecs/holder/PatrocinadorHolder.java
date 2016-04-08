@@ -23,6 +23,7 @@ public class PatrocinadorHolder extends RecyclerView.ViewHolder implements View.
     @Bind(R.id.iv_logo) public ImageView ivLogo;
     @Bind(R.id.tv_nome) public TextView tvNome;
 
+    public Sponsor      patrocinador;
     SponsorsView sponsorsView;
 
     public PatrocinadorHolder(SponsorsView sponsorsView,View itemView) {
@@ -37,14 +38,14 @@ public class PatrocinadorHolder extends RecyclerView.ViewHolder implements View.
     @Override
     public void onClick(View v) {
 
-        Intent intent = new Intent(sponsorsView.getContext(), SponsorActivity.class);
-
         Bundle bundle = new Bundle();
-        bundle.putString("nome", (String) tvNome.getText());
+        bundle.putParcelable("patrocinador", patrocinador);
+
+        Intent intent = new Intent(sponsorsView.getContext(), SponsorActivity.class);
         intent.putExtras(bundle);
+
         sponsorsView.getContext().startActivity(intent);
 
-        /*Toast.makeText(sponsorsView.getContext(), "CLick no item: " + tvNome.getText(), Toast.LENGTH_LONG).show();*/
     }
 
 }

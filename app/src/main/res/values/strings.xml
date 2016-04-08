@@ -15,7 +15,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="menu_home" translatable="false">InterFatecs</string>
+    <string name="menu_home" translatable="false">Home</string>
     <string name="menu_map_event">Event Map</string>
     <string name="menu_team">See Teams</string>
     <string name="menu_patroci">Sponsors</string>

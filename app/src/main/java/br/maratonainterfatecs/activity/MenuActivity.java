@@ -34,8 +34,9 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         ButterKnife.bind(this);
-        setSupportActionBar(mToolbar);
         mListenerMenu = new ListenerMenu(this);
+        setTituloAba(getResources().getString(R.string.menu_home));
+        setSupportActionBar(mToolbar);
         loadComponents();
     }
 
@@ -55,7 +56,6 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
         mDrawerMenu.setDrawerListener(toggle);
         toggle.syncState();
         mNavigationView.setNavigationItemSelectedListener(mListenerMenu);
-        setTituloAba(getResources().getString(R.string.menu_home));
         transactionMenu(HomeFragment.newInstance());
     }
 

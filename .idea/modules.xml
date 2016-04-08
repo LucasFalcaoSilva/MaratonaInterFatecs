@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MaratonaInterFatecs.iml" filepath="$PROJECT_DIR$/MaratonaInterFatecs.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaratonaInterFatecs_o.iml" filepath="$PROJECT_DIR$/MaratonaInterFatecs_o.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
