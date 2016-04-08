@@ -25,7 +25,9 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="textHome">txthome</string>
+    <string name="textHome">This competition has the main objectives of improving student\'s skill on algorithm implementation, development of teamwork and creativity as well as problem solving under pressure. Interfatecs Programming Contest has also the objectives to promote greater integration of faculty and students from diverse graduation courses in TI maintained by Centro Paula Souza, it also has the objective to create more space for discussion on academics activities that can reflect on the courses improvement.</string>
+    <string name="textEdicao">5º Edition - Interfatecs Progamming Contest</string>
+    <string name="textSede">FACULDADE DE TECNOLOGIA DE SÃO PAULO</string>
     <string name="title_activity_maps">Map</string>
     <string name="email">Email</string>
     <string name="phone">Telephone</string>

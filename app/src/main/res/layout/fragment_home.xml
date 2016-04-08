@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/activity_horizontal_margin"
                 android:gravity="center"
-                android:text="5º Edição - Maratona Interfatecs"
+                android:text="@string/textEdicao"
                 android:textSize="20sp" />
 
             <TextView
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="center"
-                android:text="FACULDADE DE TECNOLOGIA DE SÃO PAULO"
+                android:text="@string/textSede"
                 android:textSize="15sp" />
 
             <TextView

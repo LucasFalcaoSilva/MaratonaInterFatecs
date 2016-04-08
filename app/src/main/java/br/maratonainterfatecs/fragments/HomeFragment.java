@@ -35,9 +35,11 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view= inflater.inflate(R.layout.fragment_home, container, false);
         ButterKnife.bind(this, view);
+
         mText_home.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoMedium());
         mText_edicao.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoBlack());
         mText_sede.setTypeface(new RobotoTypeFace(view.getContext()).getRobotoThin());
+
         return view;
     }
 

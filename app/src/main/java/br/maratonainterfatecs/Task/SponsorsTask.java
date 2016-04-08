@@ -48,12 +48,13 @@ public class SponsorsTask extends AsyncTask<Void, Void, List<Sponsor>> {
                 JSONObject linha = json.getJSONObject(i);
                 String nome      = linha.getString("nome");
                 String imagem    = linha.getString("imagem");
+                String url       = linha.getString("url");
                 String description = linha.getString("description");
 
                 Resources resources = sponsorsView.getContext().getResources();
                 int resourceId = resources.getIdentifier(imagem, "drawable",sponsorsView.getContext().getPackageName());
 
-                Sponsor c = new Sponsor(nome, resourceId);
+                Sponsor c = new Sponsor(nome, resourceId,url,description);
                 listAux.add(c);
             }
 

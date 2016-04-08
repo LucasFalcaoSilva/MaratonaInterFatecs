@@ -11,11 +11,15 @@ public class Sponsor{ //implements Parcelable {
     private String nome;
     private int logo;
     private String description;
+    private String url;
 
     public Sponsor(){}
-    public Sponsor(String n, int l){
-        nome = n;
-        logo = l;
+
+    public Sponsor(String nome, int logo,String url,String description){
+        this.nome = nome ;
+        this.logo = logo;
+        this.url = url;
+        this.description = description;
     }
 
     public String getNome() { return nome; }
@@ -36,6 +40,14 @@ public class Sponsor{ //implements Parcelable {
 
     public void setDescription(String description) { this.description = description; }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     //PARCELABLE
    /* public Sponsor(Parcel parcel){
         setLogo(parcel.readInt());
@@ -47,6 +59,7 @@ public class Sponsor{ //implements Parcelable {
     public int describeContents() {
         return 0;
     }
+
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {

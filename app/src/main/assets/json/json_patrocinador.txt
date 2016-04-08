@@ -2,27 +2,32 @@
   {
     nome: "SBC",
     imagem: "logo_sbc",
+    url : "",
     description: "teste de descricao"
   },
   {
     nome: "Fundacao FAT",
     imagem: "logo_fat",
+    url : "",
     description: "teste de descricao"
   },
   {
     nome: "CPS",
     imagem: "logo_cps",
+    url : "",
     description: "teste de descricao"
   },
   {
     nome: "Fatec",
     imagem:"logo_fatec",
+    url : "",
     description: "teste de descricao"
 
   },
   {
     nome: "Governo de São Paulo",
     imagem: "logo_governo",
+    url : "",
     description: "teste de descricao"
   },
   {
