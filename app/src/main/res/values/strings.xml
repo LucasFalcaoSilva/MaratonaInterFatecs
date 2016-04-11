@@ -33,4 +33,8 @@
     <string name="phone">Telephone</string>
     <string name="title_activity_sponsor">SponsorActivity</string>
 
+    <string name="sobre_formato_regras">FORMAT &amp; RULES</string>
+    <string name="sobre_edicoes_anteriores">PREVIOUS EDITIONS</string>
+    <string name="sobre_como_se_preparar">HOW TO PREPARE</string>
+
 </resources>

@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.maratonainterfatecs.fragments.SobreMenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <br.maratonainterfatecs.Extras.SlidingTabLayout
+            android:id="@+id/stl_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </br.maratonainterfatecs.Extras.SlidingTabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
