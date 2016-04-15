@@ -2,42 +2,56 @@
   {
     nome: "SBC",
     imagem: "logo_sbc",
-    url : "",
-    description: "teste de descricao"
+    url : "http://www.sbc.org.br/",
+    description: "Desde 1978, a Sociedade Brasileira de Computação fomenta e desenvolve pesquisas científicas na área de Computação. A SBC, com sede em Porto Alegre (RS), tem sido fundamental na criação de conhecimento e tecnologia genuinamente brasileiros. A SBC está estruturada em Secretarias Regionais e Delegacias Institucionais, localizadas em unidades de ensino e pesquisa de vários estados do Brasil. Estas instituições atuam como um elo na comunicação com os associados, além de promoverem diversas atividades e eventos. Os associados estão divididos nas categorias fundadores, estudantes, efetivos, institucionais e honorários. A SBC está organizada em Comissões Especiais, que estão relacionadas a sub-áreas de conhecimento específico. Entre outras atividades, as comissões são responsáveis pela organização de simpósios periódicos. A Comissão de Educação, presidida pelo Diretor de Educação, é responsável pela atualização permanente do Currículo de Referência e pela discussão de assuntos de interesse da área por meio de Grupos de Trabalhos. A Sociedade também organiza o Catálogo de Cursos de Graduação, Pós-Graduação e Especialização Lato Sensu distribuídos por todo o pais."
   },
   {
     nome: "Fundacao FAT",
     imagem: "logo_fat",
-    url : "",
-    description: "teste de descricao"
+    url : "http://www.fundacaofat.org.br/home/",
+    description: "Incentivar a pesquisa aplicada, a inovação, o desenvolvimento tecnológico e profissional e a educação estendendo esses serviços a organizações e comunidade em geral são os focos principais que norteiam a Fundação FAT desde sua criação, em 1987.
+
+                  Para tanto a Fundação FAT:
+                  Desenvolve, ministra e apoia a gestão de programas, cursos, treinamentos e outras atividades voltadas à geração e à difusão de conhecimentos nas áreas de educação e tecnologia;
+                  Organiza e realiza vestibulares e processos seletivos;
+                  Cria e implanta projetos de novos produtos, processos e serviços visando a eficiência e a eficácia das organizações.
+                  Os profissionais que compõem a Fundação FAT são altamente qualificados com atuação em instituições como FATECs e ETECs, além de outras organizações de ensino, pesquisa e consultoria com as quais a entidade mantém parcerias.
+
+                  Com mais de 28 anos de existência, a Fundação FAT já atuou em mais de 250 projetos nas áreas de gestão, logística, tecnologia da informação, construção civil, meio ambiente, transporte e educação corporativa. Todos os projetos são desenvolvidos com base nas reais necessidades das organizações com as quais mantém relacionamento."
   },
   {
     nome: "CPS",
     imagem: "logo_cps",
-    url : "",
-    description: "teste de descricao"
+    url : "http://www.cps.sp.gov.br/",
+    description: "O Centro Paula Souza é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI). A instituição administra 219 Escolas Técnicas Estaduais (Etecs) e 66 Faculdades de Tecnologia (Fatecs), reunindo mais de 283 mil alunos em cursos técnicos de nível médio e superiores tecnológicos, em mais de 300 municípios.
+
+                  As Etecs atendem 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 137 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações na modalidade semipresencial, Educação de Jovens e Adultos (EJA) e especialização técnica.
+
+                  Já nas Fatecs, mais de 75 mil alunos estão matriculados em 72 cursos de graduação tecnológica, em diversas áreas, como Construção Civil, Mecânica, Informática, Tecnologia da Informação, Turismo, entre outras. Além da graduação, são oferecidos cursos de pós-graduação, atualização tecnológica e extensão."
   },
   {
     nome: "Fatec",
     imagem:"logo_fatec",
-    url : "",
-    description: "teste de descricao"
+    url : "http://www.fatecsp.br/",
+    description: "Além dos cursos de graduação, a FATEC-SP oferece programas de pós-graduação lato sensu e de atualização tecnológica; realiza ainda diversos eventos para difusão de tecnologia. Para dar suporte a suas atividades, a FATEC-SP ocupa uma área construída de 34000 metros quadrados, com instalações modernas de salas de aula equipadas com recursos multimídia, 46 laboratórios e oficinas, um centro de pesquisa conectado à internet e uma biblioteca com 40000 exemplares de livros e revistas especializadas. Além disso, conta com um amplo anfiteatro, quatro auditórios, um ginásio de esportes e uma grande área para feiras e exposições."
 
   },
   {
     nome: "Governo de São Paulo",
     imagem: "logo_governo",
-    url : "",
-    description: "teste de descricao"
+    url : "http://www.saopaulo.sp.gov.br/",
+    description: ""
   },
   {
     nome: "Benefício SP",
     imagem: "logo_beneficio",
-    description: "teste de descricao"
+    url : "http://www.beneficiosp.com.br/",
+    description: "O São Paulo Convention & Visitors Bureau tem por objetivo aumentar o fluxo de visitantes e seu tempo de estadia na cidade e nos destinos parceiros. Para isso atua na captação, geração e incremento de eventos, além de realizar projetos e capacitações que visam melhorar a qualidade do atendimento prestado aos visitantes de negócios e lazer."
   },
   {
     nome: "Visite São Paulo",
     imagem: "logo_saopaulo",
-    description: "teste de descricao"
+    url : "http://www.visitesaopaulo.com/",
+    description: "O São Paulo Convention & Visitors Bureau tem por objetivo aumentar o fluxo de visitantes e seu tempo de estadia na capital e cidades associadas. Para isso atua na captação, geração e incremento de eventos, além de realizar projetos e capacitações que visam melhorar a qualidade do atendimento prestado aos visitantes de negócios e lazer."
   }
 ]
