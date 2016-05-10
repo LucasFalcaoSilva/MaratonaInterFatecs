@@ -10,14 +10,14 @@
     tools:showIn="@layout/activity_sponsor">
 
     <ScrollView
-        android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
         android:fillViewport="true"
-        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:paddingBottom="10dp">
+        android:paddingTop="5dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -26,19 +26,29 @@
 
             <ImageView
                 android:id="@+id/iv_logo"
-                android:layout_alignParentTop="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
                 android:layout_marginBottom="10dp"/>
 
             <TextView
-                android:layout_below="@+id/iv_logo"
                 android:id="@+id/tv_description"
-                android:layout_marginTop="10dp"
-                android:textSize="16sp"
-                android:textColor="@color/primary_text"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_logo"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:onClick=""
+                android:text="@string/text_btn_site" />
 
         </RelativeLayout>
     </ScrollView>
