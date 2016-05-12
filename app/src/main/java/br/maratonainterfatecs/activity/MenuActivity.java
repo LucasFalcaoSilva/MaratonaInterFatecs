@@ -28,7 +28,6 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
 
     private ListenerMenu mListenerMenu;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

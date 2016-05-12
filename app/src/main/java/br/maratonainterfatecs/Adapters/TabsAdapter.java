@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.fragments.ContactFragment;
+import br.maratonainterfatecs.fragments.EdicaoFragment;
 import br.maratonainterfatecs.fragments.SobreFragment;
 import br.maratonainterfatecs.fragments.SponsorsFragment;
 
@@ -30,10 +31,10 @@ public class TabsAdapter extends FragmentPagerAdapter {
         Fragment frag = null;
 
         if(position == 0){
-            frag = new SobreFragment();
+            frag = SobreFragment.newInstance();
         }
         else if(position == 1){
-            frag = new SponsorsFragment();
+            frag = EdicaoFragment.newInstance();
         }
         else if(position == 2){
             frag = new ContactFragment();
