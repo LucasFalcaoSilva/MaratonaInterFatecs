@@ -7,7 +7,9 @@ import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.fragments.ContactFragment;
 import br.maratonainterfatecs.fragments.EdicaoFragment;
+import br.maratonainterfatecs.fragments.EquipesFragment;
 import br.maratonainterfatecs.fragments.HomeFragment;
+import br.maratonainterfatecs.fragments.IndisponivelFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 import br.maratonainterfatecs.fragments.SobreFragment;
 import br.maratonainterfatecs.fragments.SponsorsFragment;
@@ -40,12 +42,13 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_mapa:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_map_event));
+                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
 
                 break;
             case R.id.nav_equipes:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_team));
-
+                mMenuView.transactionMenu(EquipesFragment.newInstance());
                 break;
             case R.id.nav_sobre:
 
@@ -64,7 +67,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_preparar:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_como_se_preparar));
-                //mMenuView.transactionMenu(SobreFragment.newInstance());
+                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
 
                 break;
             case R.id.nav_patrocinador:
@@ -86,6 +89,8 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
 
                 break;
             default:
+                mMenuView.setTituloAba("Indisponivel");
+                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
         }
 
         return true;

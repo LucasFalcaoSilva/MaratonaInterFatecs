@@ -1,7 +1,9 @@
 package br.maratonainterfatecs.Presenter;
 
+import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
 
+import br.maratonainterfatecs.View.EquipesView;
 import br.maratonainterfatecs.View.SponsorsView;
 
 /**
@@ -10,14 +12,22 @@ import br.maratonainterfatecs.View.SponsorsView;
 public class SponsorsPresenterImp implements SponsorsPresenter {
 
     SponsorsView sponsorsView;
+    EquipesView  equipesView;
 
     public SponsorsPresenterImp(SponsorsView view){
         this.sponsorsView = view;
+        this.equipesView  = null;
+    }
+
+    public SponsorsPresenterImp(EquipesView view){
+        this.equipesView  = view;
+        this.sponsorsView = null;
     }
 
     @Override
     public LinearLayoutManager createLinear() {
-        LinearLayoutManager llm = new LinearLayoutManager(sponsorsView.getContext());
+        Context context = sponsorsView == null ? equipesView.getContext() : sponsorsView.getContext();
+        LinearLayoutManager llm = new LinearLayoutManager(context);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         return llm;
     }

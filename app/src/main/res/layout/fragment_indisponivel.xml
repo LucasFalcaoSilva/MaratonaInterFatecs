@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/versus"
+    tools:context="br.maratonainterfatecs.fragments.IndisponivelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="#ffcc0000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FUNCIONALIDADE AINDA NÃO DISPONIVEL.\n AGUARDE NOVAS ATUALIZAÇÕES" />
+
+</FrameLayout>
