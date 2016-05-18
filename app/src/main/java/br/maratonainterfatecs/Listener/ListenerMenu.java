@@ -6,10 +6,10 @@ import android.view.MenuItem;
 import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.fragments.ContactFragment;
+import br.maratonainterfatecs.fragments.EdicaoFragment;
 import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 import br.maratonainterfatecs.fragments.SobreFragment;
-import br.maratonainterfatecs.fragments.SobreMenuFragment;
 import br.maratonainterfatecs.fragments.SponsorsFragment;
 
 /**
@@ -47,10 +47,24 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_team));
 
                 break;
-            case R.id.nav_evento:
+            case R.id.nav_sobre:
 
-                mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_sobre));
-                mMenuView.transactionMenu(SobreMenuFragment.newInstance());
+                mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_formato_regras));
+                mMenuView.transactionMenu(SobreFragment.newInstance());
+
+                break;
+
+            case R.id.nav_edicao:
+
+                mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_edicoes_anteriores));
+                mMenuView.transactionMenu(EdicaoFragment.newInstance());
+
+                break;
+
+            case R.id.nav_preparar:
+
+                mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_como_se_preparar));
+                //mMenuView.transactionMenu(SobreFragment.newInstance());
 
                 break;
             case R.id.nav_patrocinador:
