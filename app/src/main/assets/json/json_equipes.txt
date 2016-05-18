@@ -1,0 +1,3020 @@
+{
+  "usuarios": [
+    {
+      "nome": "americana.fatecamericana",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "aracatuba.fatecaracatuba",
+      "equipes": [
+        {
+          "coach": "Saulo Felício Fernandes Zambotti",
+          "nome_equipe": "TOP 1",
+          "integrantes": [
+            "MARIANA BLINI APOLINÁRIO",
+            "RICARDO FRANCÉ DOS SANTOS",
+            "RICHARD PASSOS DOS SANTOS",
+            "DANIEL HENRIQUE SILVA DE ALMEIDA"
+          ]
+        },
+        {
+          "coach": "Saulo Felício Fernandes Zambotti",
+          "nome_equipe": "NOVATOS ADS",
+          "integrantes": [
+            "RENAN FELIPE FREITAS SILVA",
+            "LUCAS GABRIEL PEREIRA CAVALHEIRO",
+            "ROMULO AUGUSTO GIOMO DELALATA",
+            "GABRIEL GOMES BATISTA"
+          ]
+        },
+        {
+          "coach": "Saulo Felício Fernandes Zambotti",
+          "nome_equipe": "THE AVENGERS",
+          "integrantes": [
+            "LEONARDO SOUZA ALVES",
+            "NANCY HARUMI HATAKEYAMA",
+            "MATHEUS BISPO DOMINGUES",
+            "GUILHERME ALVES INACIO DA SILVA"
+          ]
+        },
+        {
+          "coach": "Saulo Felício Fernandes Zambotti",
+          "nome_equipe": "NATUS VINCERE",
+          "integrantes": [
+            "JOÃO CARLOS DE BRITO",
+            "MIILLER APARECIDO DOMINGUES",
+            "LIDIANE PEREIRA VAZ",
+            "JONATAS BATISTA MOREIRA"
+          ]
+        },
+        {
+          "coach": "Saulo Felício Fernandes Zambotti",
+          "nome_equipe": "TEAM HABAY",
+          "integrantes": [
+            "AMAURI MOREIRA DIAS JUNIOR",
+            "MATHEUS DE OLIVEIRA NEVES",
+            "MATHEUS MARQUES PEREIRA",
+            "ANDRE LUIS DE SOUSA FLOR"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "assis.fatecassis",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "barueri.fatecbarueri",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "bauru.fatecbauru",
+      "equipes": [
+        {
+          "coach": "Patricia Bellin Ribeiro",
+          "nome_equipe": "stratocode",
+          "integrantes": [
+            "Alberto Mitsuo Hirata",
+            "Caio César Varalta Barreto de Almeida",
+            "Jose Mateus dos Santos",
+            "Rodrigo Azevedo Rodrigues"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "bebedouro.fatecbebedouro",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "botucatu.fatecbotucatu",
+      "equipes": [
+        {
+          "coach": "Marcos Paulo Vigliassi",
+          "nome_equipe": "Cicada3301",
+          "integrantes": [
+            "João Braga Neto",
+            "Eduardo Henrique Aparecido Ramos ",
+            "Kleber José da Silva",
+            "FELLIPE GOULART GOMES"
+          ]
+        },
+        {
+          "coach": "Marcos Paulo Vigliassi",
+          "nome_equipe": "Code Wheel",
+          "integrantes": [
+            "Michelle Almeida da Paz",
+            "Romulo Galvão Machado",
+            "Matheus Zapparoli",
+            "Edvaldo Batista da Silva"
+          ]
+        },
+        {
+          "coach": "Marcos Paulo Vigliassi",
+          "nome_equipe": "CHAR's",
+          "integrantes": [
+            "Paulo Roberto Barbosa de Oliveira",
+            "Leonardo da Silva Araujo",
+            "Rafael de Moraes",
+            "Emerson Elder Moreira"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "bragancapaulista.fatecbragancapaulista",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "campinas.fateccampinas",
+      "equipes": [
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "Jedi da Fatec",
+          "integrantes": [
+            "MARCELO EIJI IMAMURA",
+            "EWERTON ALMEIDA CORALLI",
+            "LUCAS ALVES MAGALHAES",
+            "TIAGO HENRIQUE CÂNDIDO"
+          ]
+        },
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "Super Pig",
+          "integrantes": [
+            "LUIS AUGUSTO LACERDA PINHEIRO",
+            "SILVANO ANTUNES DE CAMPOS FILHO",
+            "BRUNA ELISA ALKMIM VIEIRA",
+            "MAXLEI SILVEIRA MARINI"
+          ]
+        },
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "Banzo",
+          "integrantes": [
+            "FILIPE CALDAS LOPES",
+            "ALOISIO LUZO DOS SANTOS",
+            "PAULO GONZAGA PIOVESANA",
+            "PAULO CESAR DE ALMEIDA PINHEIRO"
+          ]
+        },
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "Synapse",
+          "integrantes": [
+            "Wesley de Souza Medeiros ",
+            "Matheus Christian de Oliveira ",
+            "Otávio Augusto Trombeta Julian ",
+            "Aline de Souza Pimentel "
+          ]
+        },
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "CARRETA FURACONES",
+          "integrantes": [
+            "Emerson Ricardo Scarton",
+            "Jonathan Nunes Barreto",
+            "Thiago Luiz de Moraes Barbosa",
+            "Vitor Gonçalves "
+          ]
+        },
+        {
+          "coach": "Plínio Roberto Souza Vilela",
+          "nome_equipe": "GTI GO",
+          "integrantes": [
+            "Daniel Gomes Chagas  ",
+            "Douglas Ato ",
+            "Pedro de Oliveira Simões ",
+            "Ademar Fudimori "
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "capaobonito.fateccapaobonito",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "carapicuiba.fateccarapicuiba",
+      "equipes": [
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "As Irmãs",
+          "integrantes": [
+            "Andressa Dias Panzarini",
+            "Deise Mariana Lima Amorim",
+            "Giane Mariano Pedro"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "V3.1",
+          "integrantes": [
+            "Victor Alves dos Santos",
+            "Victor de Oliveira Marinho",
+            "Vinicius Gonçalves",
+            "André Henrique Nascimento da Graça"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "4Linhas.dat",
+          "integrantes": [
+            "Wesley do Nascimento Lombardi",
+            "Jesiele do Santos Gomes",
+            "Rodrigo Camara Barboza"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "Cyberchase",
+          "integrantes": [
+            "Alícia Stefany da Silva",
+            "Thiago Siqueira Cintra",
+            "Tiago Paz Lino",
+            "Gabriel Prado"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "VLN",
+          "integrantes": [
+            "Nelson Carvalho De Morais Junior",
+            "Victor Henrique De Jesus Silva",
+            "Leonardo Ferreira dos Santos",
+            "Gabriela Bueno Bezerra"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "Shaolin Development",
+          "integrantes": [
+            "André Hideki Watanabe",
+            "Lucas Costa e Silva Almeida ",
+            "Mateus Corrêa Jerônimo",
+            "Karlos Helton Braga "
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "Audax.Java",
+          "integrantes": [
+            "Miguel Lucas Pires Magalhães",
+            "Thiago da Silva Nobre",
+            "Jonathan Freire da Silva",
+            "Lucas Luiz de Souza"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "ctenta",
+          "integrantes": [
+            "Vinícius Martins dos Santos",
+            "Adinel de Deus",
+            "Pedro Sérgio Vaz"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "Number One",
+          "integrantes": [
+            "Diego João Sanches",
+            "Luciano Leite Gustavo",
+            "Uilian Dias Santos"
+          ]
+        },
+        {
+          "coach": "Rodrigo Bossini Tavares Moreira",
+          "nome_equipe": "O Time",
+          "integrantes": [
+            "Alexandre Girão Bezerra de Menezes",
+            "Alfredo Magnani Sakatauskas",
+            "Patrick de Almeida Paulin"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "catanduva.fateccatanduva",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "cotia.fateccotia",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "cruzeiro.fateccruzeiro",
+      "equipes": [
+        {
+          "coach": "Carlos Alberto do Nascimento",
+          "nome_equipe": "WELCOME TO THE JUNGLE",
+          "integrantes": [
+            "Rafael Favalli",
+            "Tabata Gianelli de Carvalho Farias",
+            "Amanda Soares Dorotéa"
+          ]
+        },
+        {
+          "coach": "Carlos Alberto do Nascimento",
+          "nome_equipe": "FEIC#AS DE LUZ",
+          "integrantes": [
+            "Izabella Sampaio Santos",
+            "Matheus Augusto Alves Pereira",
+            "Viktor de Elias Muller"
+          ]
+        },
+        {
+          "coach": "Carlos Alberto do Nascimento",
+          "nome_equipe": "SILENT",
+          "integrantes": [
+            "Marcio de Souza",
+            "José Mota Junior",
+            "Ilson José dos Santos Barbosa"
+          ]
+        },
+        {
+          "coach": "Carlos Alberto do Nascimento",
+          "nome_equipe": "MAFIA 12",
+          "integrantes": [
+            "Carlos José Ribeiro Junior",
+            "Wesley Silva de Andrade",
+            "Talisson Pablo Barbosa"
+          ]
+        },
+        {
+          "coach": "Carlos Alberto do Nascimento",
+          "nome_equipe": "THE BUG ON THE TABLE",
+          "integrantes": [
+            "Haron Cavalcanti de Lima Junior",
+            "Angelo de Souza Neto",
+            "Gabriel Rodrigues Modesto"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "diadema.fatecdiadema",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "franca.fatecfranca",
+      "equipes": [
+        {
+          "coach": "Ely Fernando do Prado",
+          "nome_equipe": "Os Fatecanos",
+          "integrantes": [
+            "FABRICIO JÚNIO DA CUNHA",
+            "MAURO NASCIMENTO GARCIA JUNIOR",
+            "LUCAS GONCALVES RODRIGUES",
+            "EDUARDO MORAES"
+          ]
+        },
+        {
+          "coach": "Ely Fernando do Prado",
+          "nome_equipe": "CRIATIVE",
+          "integrantes": [
+            "ANDRÉ MORAIS MARTINS",
+            "JÚNIOR BEVILAQUA MENDONÇA",
+            "THIAGO GRESPI GOULART",
+            "EDILSON CHAGAS PORTA"
+          ]
+        },
+        {
+          "coach": "Ely Fernando do Prado",
+          "nome_equipe": "SBREBOL",
+          "integrantes": [
+            "ANDERSON ROBERTO DE SOUSA MESQUITA",
+            "MARCO ANTONIO CARVALHO",
+            "SÓCRATES EDUARDO CHIEREGATO",
+            "DANIEL GARCIA RIGONI SILVA"
+          ]
+        },
+        {
+          "coach": "Ely Fernando do Prado",
+          "nome_equipe": "BAZINGA",
+          "integrantes": [
+            "THIAGO GONTIJO MOREIRA",
+            "THIAGO SILVA DE OLIVEIRA",
+            "TIAGO DOMINGOS CIPRIANO",
+            "EDUARDO PHILIPPE GIMENES"
+          ]
+        },
+        {
+          "coach": "Ely Fernando do Prado",
+          "nome_equipe": "TeamMaia",
+          "integrantes": [
+            "DANILO DE LIMA MATIAS",
+            "DIMERSON VICENTE FERREIRA",
+            "VINICIUS VITORELI FIGUEIREDO TAVEIRA"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "garca.fatecgarca",
+      "equipes": [
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "SDD",
+          "integrantes": [
+            "Silvério de Oliveira de Paula",
+            "Deivid Inácio da Silva",
+            "Daniel Rodrigues Sartori"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Team Beta",
+          "integrantes": [
+            "Marcos Shoiti Ohara",
+            "Rodrigo Garcia Cardoso",
+            "Gabriel Silva Perez"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "GFD++",
+          "integrantes": [
+            "Gabriel Lino Garcia",
+            "Fernando Aparecido dos Santos",
+            "David Vinícius de Lima Belentane"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Sarraking",
+          "integrantes": [
+            "Laércio Matheus Olsen",
+            "Alan de Carvalho Alves",
+            "Rafael Sales Pereira"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Programadores do Futuro",
+          "integrantes": [
+            "Carla Gonçalves Tároca",
+            "Rafael de Castro Gamatielli",
+            "Frederico Augusto Santos Mello"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Estrova",
+          "integrantes": [
+            "Maurício Ribeiro dos Santos",
+            "Clodoaldo José de Souza",
+            "Luiz R. Zaparoli Jr"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Hokages",
+          "integrantes": [
+            "Lais dos Santos Kagawa",
+            "Keite M. M. Passos",
+            "Bianca Menegildo Cardoso"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "DevCJava",
+          "integrantes": [
+            "Luana S. Marega",
+            "Edson Florencio Ribeiro Junior",
+            "Thiago Moisés Gomes de Oliveira"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Mornig Show",
+          "integrantes": [
+            "Pedro Henrique Garcia Sandrini",
+            "Jaqueline Aparecida Manzano dos Santos",
+            "Flávio de Almeida Tonon"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "Minions",
+          "integrantes": [
+            "Cristian Leonel Moma Olande",
+            "Caio Beraldo",
+            "Daniele Floresti"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "GWJava",
+          "integrantes": [
+            "Guilherme Antonio Maranho Alves",
+            "Wellington Pina Nadamoto",
+            "Jaciro Castro"
+          ]
+        },
+        {
+          "coach": "Renata A. de C. Paschoal",
+          "nome_equipe": "War Machine",
+          "integrantes": [
+            "Wilson José Gomes de Brito Junior",
+            "Paulo Henrique Colombani da Silva",
+            "Gabriel Batista Vieira"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "guaratingueta.fatecguaratingueta",
+      "equipes": [
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Rocket",
+          "integrantes": [
+            "Flávio Augusto Carvalho Rocha",
+            "Breno Vitor Costa da Conceição",
+            "Matheus Corazza Serafim"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Guiluart",
+          "integrantes": [
+            "Luiz Fellipe de Campos Moura",
+            "Guilherme Horrman Pereira",
+            "Arthur Rodrigues dda Cunha"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Taurus",
+          "integrantes": [
+            "José Tomaz Ribeiro Junior",
+            "Lucas de Aguiar Paixão",
+            "Gabriel da Silva Sampaio"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "MafagafinhosOtorrinolaringologistas",
+          "integrantes": [
+            "Sofia Lunkes da Silva",
+            "Andreas Tamaoki",
+            "Haluane de Cassia"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Springfield",
+          "integrantes": [
+            "Maicon Mauricio Gonçalves da Silva",
+            "Caio Augusto Maciel Paes",
+            "José Guilherme de souza e silva"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Schroedinger",
+          "integrantes": [
+            "Leticia Godoy Athayde",
+            "Caroline Nicole Marcondes Miguel Palma ",
+            "Luis Roberto Spinelli Zangrandi"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Base64",
+          "integrantes": [
+            "Jonatas Leon Dias Ribeiro Simões",
+            "Michael Ferreira Martins",
+            "Diego Augusto Pereira"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "S.H.I.E.L.D.",
+          "integrantes": [
+            "Juan Felipe Sabino Pereira",
+            "Graziane da Costa Tavares",
+            "Carlos Guilherme Machado de Jesus"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Together To Win",
+          "integrantes": [
+            "Gabriel Wesley Vieira de Oliveira",
+            "Gabriel de Paula Santos",
+            "Moacir de Carvalho Junior"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "Hakuna Matata",
+          "integrantes": [
+            "Emanuel Hiroshi Miyagawa",
+            "Aline  Fernanda da Silva de Jesus",
+            "Bruno Ribeiro dos Santos"
+          ]
+        },
+        {
+          "coach": "JOSE GERALDO DE MORAES",
+          "nome_equipe": "CodeTeam;",
+          "integrantes": [
+            "João Paulo de Castro Lima",
+            "Anderson Felipe Pereira Vieira",
+            "Giovanna Mara de Carvalho Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "guarulhos.fatecguarulhos",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "indaiatuba.fatecindaiatuba",
+      "equipes": [
+        {
+          "coach": "Giovana Fadini de Oliveira",
+          "nome_equipe": "Code Warriors",
+          "integrantes": [
+            "Yan Pereira David",
+            "Vinicius Hashimoto",
+            "Bruno Araujo",
+            "Alvaro Martinho"
+          ]
+        },
+        {
+          "coach": "Giovana Fadini de Oliveira",
+          "nome_equipe": "Club Penguin",
+          "integrantes": [
+            "Felipe Duarte Domingues",
+            "Felipe Barbosa Dominguesche",
+            "Murilo Henrique Pucci",
+            "Diego Mantovani Silva Dias"
+          ]
+        },
+        {
+          "coach": "Giovana Fadini de Oliveira",
+          "nome_equipe": "Is Not Null",
+          "integrantes": [
+            "Edinei Gonçalvez",
+            "Guilherme Miranda ",
+            "Gabriel Augusto Trevisan Santos",
+            "Douglas Apareceido de Almeida"
+          ]
+        },
+        {
+          "coach": "Giovana Fadini de Oliveira",
+          "nome_equipe": "No Name",
+          "integrantes": [
+            "Leandro Seneme",
+            "Julio Molina",
+            "Wilnir Ressutti"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "itapetininga.fatecitapetininga",
+      "equipes": [
+        {
+          "coach": "D",
+          "nome_equipe": "Requiisiiiiiitos",
+          "integrantes": [
+            "Danilo Yukio Kodawara",
+            "Edimar Rogério de Proença",
+            "Renato Nogueira Pereira Pinto",
+            "JOSÉ EUGÊNIO GIMENEZ"
+          ]
+        },
+        {
+          "coach": "Danilo Ruy Gomes",
+          "nome_equipe": "JLP",
+          "integrantes": [
+            "Plinio da Silva Pereira",
+            "Jéssica Kelly Reis Ferreira",
+            "Leonardo Fernando dos Santos Sales",
+            "Débora Korgisky de Oliveira"
+          ]
+        },
+        {
+          "coach": "Danilo Ruy Gomes",
+          "nome_equipe": "Compiladores",
+          "integrantes": [
+            "Michael Nunes da Rosa",
+            "Gabriel de Melo Dantas Ceglio",
+            "Pedro Henrique Ferreira Collaço",
+            "Raphaela Barbosa de Campos"
+          ]
+        },
+        {
+          "coach": "Danilo Ruy Gomes",
+          "nome_equipe": "Vetores da Sabedoria [] [] []",
+          "integrantes": [
+            "Maylon Pires Macedo",
+            "Guilherme Rosa de Moraes",
+            "Vitor Emanuel Queiroz Ferreira"
+          ]
+        },
+        {
+          "coach": "Danilo Ruy Gomes",
+          "nome_equipe": "Comic Sans",
+          "integrantes": [
+            "Leticia Máximo",
+            "Mateus Vinicius Emanuel Santos Oliveira",
+            "Pedro Henrique Carneiro do Nascimento Antunes"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "itapira.fatecitapira",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "itaquaquecetuba.fatecitaquaquecetuba",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "itatiba.fatecitatiba",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "itu.fatecitu",
+      "equipes": [
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "POG Itu",
+          "integrantes": [
+            "Lucas de Oliveira",
+            "Danilo Giordano Plasicov",
+            "Andre Almeida de Oliveira"
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "Danger",
+          "integrantes": [
+            "Gabriel Calixto de Paula",
+            "Vinicius Hener Jardim dos Santos",
+            "Felipe Augusto Silva Moura Santos"
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "I9T",
+          "integrantes": [
+            "Bruno Alexander de Paula Santos",
+            "Hebert Ribeiro Oliveira ",
+            "Pedro Felipe Silveira Marcon "
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "Quem?",
+          "integrantes": [
+            "Sandy Gabrielli Taborda Lopes",
+            "Tiago Epitácio de Jesus",
+            "Stephany Carolinne Brasil De Freitas"
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "Os Mamonas",
+          "integrantes": [
+            "Ed Wilson Luciano Junior                ",
+            "Francisco de Assis Freitas               ",
+            "Matheus Roque de Oliveira da Silva",
+            "Rodrigo Otávio Belo (Reserva)          "
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "Classe Bolo",
+          "integrantes": [
+            "Ivan Sales Santos",
+            "Jorge Schneider Feijó",
+            "Vitor Pereira Flores"
+          ]
+        },
+        {
+          "coach": "Glauco Todesco",
+          "nome_equipe": "Código descendente",
+          "integrantes": [
+            "Vitor Ferrari Andreazza",
+            "Milton Carlos Martins Souza ",
+            "Bruno Felipe Alves"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "jaboticabal.fatecjaboticabal",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "jacarei.fatecjacarei",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "jales.fatecjales",
+      "equipes": [
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Pô Amauri!",
+          "integrantes": [
+
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Engenhação da Computaria",
+          "integrantes": [
+            "Abel Gustavo Jorge",
+            "Carlos Kendi Tanaka",
+            "Gleison Tiago Alves de Brito"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Xuxu Forever",
+          "integrantes": [
+            "Vanessa Finoto",
+            "João Gabriel Carvalho Neves",
+            "Luan Souza Montanari"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Inimigos do PHP",
+          "integrantes": [
+            "Gustavo Marques da Silva",
+            "Gustavo Marques da Silva",
+            "Arildo Mendes Junior",
+            "Alisson Mendes"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Em busca do Algoritmo Descendente",
+          "integrantes": [
+            "Daniel Andre da Silva Cerverizzo",
+            "Edward Euclides Atanazio",
+            "João Lucas Farias"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Amigos da Márcia",
+          "integrantes": [
+            "Rafael Vieira de Almeida",
+            "Gustavo Yukio Assaoka",
+            "Caroline Dalbon Reis"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Os Estagiários",
+          "integrantes": [
+            "Lucas Henrique Silva",
+            "Leandro Matanovich Araújo",
+            "Lucas Darini Rocha"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Discípulos do Xuxu",
+          "integrantes": [
+            "Sofia Trindade",
+            "Thaís Berjos Favore",
+            "Ivan Blanco Justo"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Os Mulekes Zica",
+          "integrantes": [
+            "Douglas Pereira de Brito",
+            "Felipe Darrini Finotello",
+            "Ronei Silvano Baldeis da Silva"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "Thisisabot",
+          "integrantes": [
+            "Carolina Castilho F. Soares",
+            "Alexandre de França Pontel",
+            "Fernando Pereira"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "include coffee.h",
+          "integrantes": [
+            "Vinicius Eduardo da Silva Arré",
+            "Kaian Guimarães da Luz",
+            "Guilherme Araújo Silva"
+          ]
+        },
+        {
+          "coach": "Tiago Ribeiro Carneiro",
+          "nome_equipe": "void Ingrato",
+          "integrantes": [
+            "Emelli Rodrigues Mariano",
+            "Dyrlie Silva Barbosa Lima",
+            "Valdeci Maximo Pereira Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "jau.fatecjahu",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "jundiai.fatecjundiai",
+      "equipes": [
+        {
+          "coach": "Cláudio Luís Vieira Oliveira",
+          "nome_equipe": "Jundiai01",
+          "integrantes": [
+            "Letícia Silva Teixeira",
+            "Micael Zonta Pinheiro",
+            "Djalma Raimundo da Silva Junior",
+            "Valdemir Praxedes Trindade "
+          ]
+        },
+        {
+          "coach": "Cláudio Luís Vieira Oliveira",
+          "nome_equipe": "RMV",
+          "integrantes": [
+            "Adeilton da Silva Meneses",
+            "Murilo Viviani",
+            "Gabriel Giro Resende",
+            "Wemerson Michael dos Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "lins.fateclins",
+      "equipes": [
+        {
+          "coach": "Julio Fernando Lieira",
+          "nome_equipe": "AutoWorks",
+          "integrantes": [
+            "Hugo Salustiano Zabini",
+            "João Pedro dos Santos Paulo",
+            "Lucas Messias Radler"
+          ]
+        },
+        {
+          "coach": "Julio Fernando Lieira",
+          "nome_equipe": "Team FullPlace",
+          "integrantes": [
+            "Christian Gomes da Silva",
+            "Ericson Tadeu Messias",
+            "Mateus Henrique de Farias Mello"
+          ]
+        },
+        {
+          "coach": "Julio Fernando Lieira",
+          "nome_equipe": "Banzai",
+          "integrantes": [
+            "Gabriel Okida Salgado",
+            "Nelson Mendes Pereira",
+            "Danilo Araújo de Oliveira"
+          ]
+        },
+        {
+          "coach": "Julio Fernando Lieira",
+          "nome_equipe": "Tenyks",
+          "integrantes": [
+            "Antônio Aparecido da Mota",
+            "Ana Carolina Dantas Amaral",
+            "João Heytor Jorqueira"
+          ]
+        },
+        {
+          "coach": "Julio Fernando Lieira",
+          "nome_equipe": "House of ballons",
+          "integrantes": [
+            "Danilo Camargo Bolzan Ferreira",
+            "Brendon Gouveia Cambuí",
+            "Gabriel Morikawa"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "marilia.fatecmarilia",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "maua.fatecmaua",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "mococa.fatecmococa",
+      "equipes": [
+        {
+          "coach": "Fabrício Gustavo Henrique",
+          "nome_equipe": "pir@tas.net",
+          "integrantes": [
+            "Adriano Trovó Zerbinati",
+            "Luis Fernando Guisso Filho",
+            "Marcos Bruno da Silva Guido"
+          ]
+        },
+        {
+          "coach": "Fabrício Gustavo Henrique",
+          "nome_equipe": "Pode C",
+          "integrantes": [
+            "Gabriel Granjeiro do Prado",
+            "Hiago da Silva Affini",
+            "Yan Marcelo da Silva",
+            "Flavio Junior de Melo"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "mogidascruzes.fatecmogidascruzes",
+      "equipes": [
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "RGM  Programmers",
+          "integrantes": [
+            "Gabriel Bastos Sandim",
+            "Rafael Sano Katurabara",
+            "Marcel Kataira"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Three for all",
+          "integrantes": [
+            "Bruno Feliciano Brito Ias",
+            "Carlos Augusto Cerqueira Cunha",
+            "Luan Assao Yamashita Soares"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Vitamina C++",
+          "integrantes": [
+            "Melissa Fernandes Novais",
+            "Samuel Déric Domingos Alvarenga",
+            "Thales Vinicius Burakowski"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Padawans de Luque",
+          "integrantes": [
+            "Marlon Mantovani Baruch",
+            "Dermival Corrêa Viana",
+            "Erick Molizane Almeida Motta"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "MGL",
+          "integrantes": [
+            "Matheus Victor Melo Martins",
+            "Giovani Camargo dos Anjos",
+            "Leonardo de Almeida Santos"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Estagiários AVA",
+          "integrantes": [
+            "Alexandre Yuwao Katsuura",
+            "Verônica Ohashi",
+            "Anderval Silva Areias Santos"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Equipe Malloc",
+          "integrantes": [
+            "Amanda Polotow Geraldo",
+            "Paulo Takeshi Murayama",
+            "William Figueira Barros",
+            "Thiago França Pereira"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Um terço e dois quintos",
+          "integrantes": [
+            "André Luis de Andrade Pereira",
+            "Bruno Souza Cruz",
+            "Lucas Massaharu Hirao"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "AFAWK",
+          "integrantes": [
+            "Morganna Giovanelli de Souza",
+            "Leonardo Benedito de Jesus",
+            "Tatiana Cristina Franco"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Relativamente Relativo",
+          "integrantes": [
+            "Damares dos Santos Lopes ",
+            "Everton da Silva",
+            "Talles dos Santos Pereira da Costa"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Deadlock",
+          "integrantes": [
+            "Fabio Yudi Maeda Spada",
+            "Luiz henrique monteiro silva de lima",
+            "Marco Antonio dos Santos Teixeira"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Teria sido melhor ir ver o filme do Pelé",
+          "integrantes": [
+            "Felipe Alves da Silva",
+            "Rafael Almeida da Silva",
+            "Victoria Gomes Hirata"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "IR^2",
+          "integrantes": [
+            "Isaac da Silva Nascimento",
+            "Rafael Kenji Takahashi",
+            "Régis Aurélio Alvarenga de Carlo"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "IDK",
+          "integrantes": [
+            "Danilo Kenji Ikeda Bertazi",
+            "Igor Henrique Lino",
+            "Kevin Barranco da Silva"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "DNA AAG",
+          "integrantes": [
+            "Arthur Gomez Verona",
+            "André de Andrade Pereira",
+            "Gustavo dos Santos Siqueira"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "O ultimo lugar é nosso!",
+          "integrantes": [
+            "Davi rodrigues de souza machado",
+            "Lucas molina da silva",
+            "Kelvin fagundes inacio"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "Bytecoder",
+          "integrantes": [
+            "Fábio Henrique da Silva Marques Pedro",
+            "Thiago José Jacob Carnevalli",
+            "Jessica Cabral"
+          ]
+        },
+        {
+          "coach": "Leandro Luque",
+          "nome_equipe": "VLR",
+          "integrantes": [
+            "Ralph de Sousa Baesso",
+            "Vinicius Cesar de Amorim",
+            "Luiz Henrique Gomes"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "mogimirim.fatecmogimirim",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "osasco.fatecosasco",
+      "equipes": [
+        {
+          "coach": "Francisco Felinto ",
+          "nome_equipe": "Primatas Digitais",
+          "integrantes": [
+            "Mateus Ferreira Dantas",
+            "Pablo Pederiva da Cruz",
+            "Wedson Machado dos Santos",
+            "Wesley Costa Gama"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "ourinhos.fatecourinhos",
+      "equipes": [
+        {
+          "coach": "Rogério Marinke",
+          "nome_equipe": "Carreta Furacão",
+          "integrantes": [
+            "JOHN LUIZ OSAKI KIRSCHNER",
+            "LEONARDO MARIANO SANTANDER",
+            "CAIO SANTANA RAPHAEL",
+            "RENATO GIORGE COSTA"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "pindamonhangaba.fatecpindamonhangaba",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "piracicaba.fatecpiracicaba",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "pompeia.fatecpompeia",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "praiagrande.fatecpraiagrande",
+      "equipes": [
+        {
+          "coach": "Leonardo Villani",
+          "nome_equipe": "TechMinds",
+          "integrantes": [
+            "Eder Santos Cirino",
+            "Weverson Breno Florentino Dos Santos",
+            "Jonatas Do Carmo Feijo Lopes",
+            "William Fonseca Cecchi"
+          ]
+        },
+        {
+          "coach": "Leonardo Villani",
+          "nome_equipe": "Equipe 2",
+          "integrantes": [
+            "Gabrielle De Azevedo Povaz",
+            "Leonardo Santos Severino",
+            "Marcos Gatti",
+            "Luiz Alberto França Moreira"
+          ]
+        },
+        {
+          "coach": "Leonardo Villani",
+          "nome_equipe": "Kappa",
+          "integrantes": [
+            "Diogo Camilo Pereiro dos Santos",
+            "Geovana dos Santos Silva",
+            "Marcelo Henrique Gracioso",
+            "Matheus Scarparo Galdino"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "TeamCode",
+          "integrantes": [
+            "Matheus Santos",
+            "Adilson Barbosa Soares",
+            "David Souza dos Santos",
+            "Alex Santana Barazal "
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "Hello World",
+          "integrantes": [
+            "Felipe Melo Machado",
+            "Jefferson Cruz Nascimento",
+            "Weslley Bruno de Oliveira Felizardo",
+            "Higor Moroni Gonçalves Ferreira"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "PREDATOR Team",
+          "integrantes": [
+            "Nilo Francisco Alves da Silva",
+            "Derek Souza Szabó",
+            "Denis Olmedo da Silva",
+            "Willian Jacques Sobral"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "Mclovers",
+          "integrantes": [
+            "Daniel Gonzalez Barbosa",
+            "Gustavo Nóbrega Ribeiro",
+            "Karina Lima Datore",
+            "Alyne Alice Vieira"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "Omega3",
+          "integrantes": [
+            "Douglas Rodrigo dos Santos",
+            "Jessica Oliveira Teixeira",
+            "Flavio de Andrade Nascimento Jr.",
+            "Pedro Augusto Pereira Gonçalez"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "Sem Sharp Baby",
+          "integrantes": [
+            "Caio dos Santos de Araujo",
+            "Isabela Neri dos Santos",
+            "Evertt Arima Machado",
+            "Victor Dias Gonçalves"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "CÊ XARPE ",
+          "integrantes": [
+            "Andrey Henriques Naldoni",
+            "Yunes Noronha Pereira da Silva",
+            "Paulo Silva Barros",
+            "Luiz Ricardo Vieira Evaristo"
+          ]
+        },
+        {
+          "coach": "Paulo R. T. Cândido",
+          "nome_equipe": "Equipe 5",
+          "integrantes": [
+            "Diego Mendoza Ferreira",
+            "Thalis Meurer",
+            "Carlos Henrique Scalassara",
+            "Adonay da Silva Pena Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "presidenteprudente.fatecpresidenteprudente",
+      "equipes": [
+        {
+          "coach": "Marcelo Buscioli Tenorio",
+          "nome_equipe": "CodeMasters",
+          "integrantes": [
+            "Ana Lucia de Souza Maximiano",
+            "Pedro Mateus Ponce de Almeida",
+            "Rogério Francisco da Silva"
+          ]
+        },
+        {
+          "coach": "Marcelo Buscioli Tenorio",
+          "nome_equipe": "Carreta Furacão",
+          "integrantes": [
+            "Kaio Henrique Vick Fernandes",
+            "Leandro Caprara Costa",
+            "Rodrigo Daniel Donha"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "ribeiraopreto.fatecribeiraopreto",
+      "equipes": [
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "EXU CODEIRO",
+          "integrantes": [
+            "Flávio Matioli",
+            "Paulo Mello Mattos de Castro",
+            "Vitor Xavier de Souza",
+            "Fernando Marchetti"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "AMAIN",
+          "integrantes": [
+            "Leonardo Leoni Maglia",
+            "Lucas de Andrade",
+            "Rogério Heleno Xavier Verrone",
+            "Gabriel Nardini de Larici"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "BRASIL CODE",
+          "integrantes": [
+            "Diógenes dos Reis",
+            "Cristiano Carneiro Bernuzzi",
+            "Felipe da Silva Iqueda",
+            "Gelson Luiz Moraes"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "ROCKET",
+          "integrantes": [
+            "Paulo Victor Lopes",
+            "Jonas Rodrigues de Souza",
+            "João Pedro Calegari Menegueti",
+            "Abilam Jonatas Diglio Paula"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "SHARKILLERS",
+          "integrantes": [
+            "Douglas Garcez Martins",
+            "Raphael Tercini Costa",
+            "Lucas Cardoso de Assis",
+            "Maurício dos Santos Rocha"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "BREAKING CODE",
+          "integrantes": [
+            "Tiago Melegatti Solly",
+            "Eurico Ferreira de Souza Júnior",
+            "Pedro César de Freitas Pernabel",
+            "Welson Rodrigo Gomes de Oliveira"
+          ]
+        },
+        {
+          "coach": "Aparecido Doniseti da Costa",
+          "nome_equipe": "HURRICANE CODE",
+          "integrantes": [
+            "André Luiz de Souza Gil",
+            "Venilton José Vieira",
+            "Felipe José Gameiro",
+            "Josaphat Campos Pereira"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "santanadeparnaiba.fatecsantanadeparnaiba",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "santoandre.fatecsantoandre",
+      "equipes": [
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "C Freio",
+          "integrantes": [
+            "Victor Pateiro Salgado",
+            "Caio Roberto dos Santos",
+            "Felipe Calmon Silva",
+            "Vinicius Hilario da Silva"
+          ]
+        },
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "C + -",
+          "integrantes": [
+            "Mateus Ferreira Dias",
+            "Henrique Satoshi Kisaki  ",
+            "Renan Nunes de Siqueira Manganelli",
+            "Lucas Marques Costa"
+          ]
+        },
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "Equipe Capitão Oliva",
+          "integrantes": [
+            "Lucca Baratera Rosa",
+            "Roner Riva Bergonci",
+            "Murilo Rodrigues de Oliveira",
+            "Fábio Salatiel Mussi"
+          ]
+        },
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "C Sabe",
+          "integrantes": [
+            "Gustavo Simioni Braz de Lima",
+            "Elton Inacio Alves Junior",
+            "Gustavo Bezerra Hiroki"
+          ]
+        },
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "AUTOBOTS",
+          "integrantes": [
+            "Rodrigo dos Santos Nobrega",
+            "João Lucas Genoveze Varotti",
+            "Wesley Valdir Brianez"
+          ]
+        },
+        {
+          "coach": "Murilo Zanini de Carvalho",
+          "nome_equipe": "Programadores de Ferro",
+          "integrantes": [
+            "Tamires dos Santos",
+            "Bruno Possas Ghais",
+            "Ricardo Celso Micheletto Junior",
+            "Francisco Ivan Nunes Mesquita"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "santos.fatecbaixadasantista",
+      "equipes": [
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Codebreaker5",
+          "integrantes": [
+            "Stéphano Giuseppe Rajão de Paiva",
+            "Leonel Moura Pelusi",
+            "Gustavo Rosário de Queroz",
+            "Brenda Cenzi do Espírito Santo Morado"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Gigarain",
+          "integrantes": [
+            "Gabriel Santos Cruz",
+            "Giovanna Alves da Silva",
+            "Ingrid Bianca de Amorim Ramos",
+            "Rafael Martins dos Santos"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Facade",
+          "integrantes": [
+            "Thiniel Penna Foti",
+            "Eric de Oliveira de Andrade",
+            "Patrick Augusto da Silva"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "MGM",
+          "integrantes": [
+            "Miguel Correa do Nascimento",
+            "Maurício Mendes Rossi ",
+            "Guilherme Munhoz Silva",
+            "Matheus Stipanich Silva"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Baidu",
+          "integrantes": [
+            "Fernando Yukio Watanabe",
+            "Daniel Henrique Passos",
+            "Gustavo Oshiro",
+            "Fernanda Picanço Candiota"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Chronos",
+          "integrantes": [
+            "Mateus Vilione Braz Lima",
+            "Rennan Moreira Pinto",
+            "Matheus de Andrade Santos",
+            "Raquel Vilione Braz Lima"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Gambiarra Santista",
+          "integrantes": [
+            "Felipe Lima Simões",
+            "Nilson Nogueira Neto",
+            "Diego Galdino da Silva Neves",
+            "Mayara Pontes D'Andréa"
+          ]
+        },
+        {
+          "coach": "Alexandre Garcia de Oliveira",
+          "nome_equipe": "Jovens Titans",
+          "integrantes": [
+            "Carla de Pinho Mendanha",
+            "Matheus Campos Fernandes",
+            "Gustavo Oliveira Corvino",
+            "Rodolpho Costa Etinger"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saobernardodocampo.fatecsaobernardodocampo",
+      "equipes": [
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "PERIPLANETA AMERICANA",
+          "integrantes": [
+            "VITORIA CRISTINA GRANDINI",
+            "JULIANA YUMI KUGUIO",
+            "MACOS AUGUSTO DIAS",
+            "LAIS CORDEIRO"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Zero",
+          "integrantes": [
+            "Guilherme Henrique Ribeiro Souza",
+            "Jhonata da Silva",
+            "Vinicius Camicia de Oliveira",
+            "Daniel Santiago "
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "A Gang do Jeff",
+          "integrantes": [
+            "Lenadro Ramão Barros de Souza",
+            "Paloma Martins Francisco",
+            "Luiz Henrique Pina",
+            "Deivid Cardoso da Silva"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Os Barbados",
+          "integrantes": [
+            "Tiago Dias Ferreira",
+            "Leonardo Lima Ferreira",
+            "Phelipe Raschka Quirino Santos",
+            "Emerson Pinto Coelho"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Piratas do Silicio",
+          "integrantes": [
+            "Rogerio Spada",
+            "Elizeu Nascimento de Oliveira",
+            "Renan Rodrigues Mendes",
+            "Gerson de Carvalho Brito"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Looping",
+          "integrantes": [
+            "Humberto Luis da Silva",
+            "Yang Yaocen",
+            "Gilvan Simon",
+            "Raphael Vieira Rossi"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Declinio",
+          "integrantes": [
+            "Gustavo Henrique Rosa",
+            "Fabricio Dias de  Oliar",
+            "Victor Vinicius Gois Bonesi",
+            "Joao Gabriel Dornelas Lopes"
+          ]
+        },
+        {
+          "coach": "ELISEU  LEMES DA SILVA",
+          "nome_equipe": "Java Fede",
+          "integrantes": [
+            "Debora Corsi de Souza",
+            "Guilherme Melino Grana",
+            "Thiago Alves",
+            "Sabrina Oliveira Fernandes da Silva"
+          ]
+        },
+        {
+          "coach": "ELISEU LEMES DA SILVA",
+          "nome_equipe": "Os Feras",
+          "integrantes": [
+            "Gabriel Cavalcante Peres",
+            "Leonardo Ramos",
+            "Barbara Pascon de Azevedo Marques",
+            "Ronaldo Rodrigues Maia"
+          ]
+        },
+        {
+          "coach": "ELISEU LEMES DA SILVA",
+          "nome_equipe": "No-Code",
+          "integrantes": [
+            "Vanessa Correa dos Santos",
+            "Marcela de Oliveira Pilastro",
+            "Leandro Ricardo de Carvalho",
+            "Manuel Vargas Lopez"
+          ]
+        },
+        {
+          "coach": "ELISEU LEMES DA SILVA",
+          "nome_equipe": "Vish",
+          "integrantes": [
+            "Emerson William dos Santos Moura",
+            "Andrei Leon Ariel Diniz Campos",
+            "Andre Monteiro da Rocha",
+            "Jefferson Morais Farias "
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saocaetanodosul.fatecsaocaetanodosul",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "saocarlos.fatecsaocarlos",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "saojosedoriopreto.fatecsaojosedoriopreto",
+      "equipes": [
+        {
+          "coach": "José Aparecido de Aguiar Viana",
+          "nome_equipe": "Volátil",
+          "integrantes": [
+            "Felipe Dallacqua de Carvalho",
+            "Julio dos Santos Agrelli",
+            "Samuel Leonel de Freitas",
+            "Leonardo Mendes Pires"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "F4B",
+          "integrantes": [
+            "Davi Augusto Leme dos Santos",
+            "Thelio Marques de Almeida Freitas",
+            "Marcos Amaral Afonso de Moraes",
+            "Allan Megiani Ferreira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Dolly",
+          "integrantes": [
+            "Alberto Angelo da Silva",
+            "Solano Gordoni de Oliveira",
+            "Joao Victor Durao Ignan",
+            "William Alexandre Pereira Felipe"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Where's The Tampa?",
+          "integrantes": [
+            "Guilherme dos Santos Flores",
+            "Alef Clinton Sebastiao Moreira",
+            "Caio Justino Zaffani",
+            "Ronie Eduardo Meque"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Fresco",
+          "integrantes": [
+            "Lucas Oliva",
+            "Daniel Gonçalves Gasparo",
+            "Daniel Martinelle Prince",
+            "Beatriz Helena Petrino da Silva"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Anonymous",
+          "integrantes": [
+            " Leonardo Vinicius Silva",
+            "Gabriella Balduitto Zanardo Leoncini",
+            "Gustavo Garcia Rodwedder",
+            "Raphael Roberto Prestes Pimenta"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Sete",
+          "integrantes": [
+            "Vinicius Ferreira Pinto Rici",
+            "Lucas Lazaro da Paz",
+            "Bruno Henrique de Oliveira",
+            "Giovani Cassiano Nogueira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Bizne$",
+          "integrantes": [
+            "Gustavo Mantovani Candido",
+            "Daniel Valesi Leite",
+            "Diogo Silverio Borges Cesar",
+            "Fernando Aparecido de Almeida"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Capivarianos",
+          "integrantes": [
+            "Fabiana Dias dos Anjos",
+            "Luiz Renato Succi Ramos",
+            "Luana de Almeida Ortega"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "SemNome",
+          "integrantes": [
+            "Augusto Cesar de Freitas Felicio",
+            "Leonardo Maria Soares",
+            "Pedro Arthur Giorgetti",
+            "Matheus Bezerra Pereira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Brothers In Bytes",
+          "integrantes": [
+            "Jonatas Sgamato",
+            "Luiz Felipe Martin",
+            "Matheus Henrique Gomes Ferreira",
+            "Vinicius Furlan Espinha"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Body Builder",
+          "integrantes": [
+            "Lucas Cotrim",
+            "Joao Pedro Salles dos Santos",
+            "Raphael Castro Martin",
+            "Everton Luis Alves Neves"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Mo Neurose",
+          "integrantes": [
+            "Alisson Matos da Cruz",
+            "Felipe Carlos dos Santos",
+            "Francisco Jose de Oliveira Murad",
+            "Rafael Henrique Soares Pereira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Se nao der certo, bar ta perto",
+          "integrantes": [
+            "Marcos Martins Gottardi",
+            "Ana Lia de Souza Copaiol",
+            "Guilherme de Oliveira",
+            "Catharina Akemi Chagas Cruz Lisbao"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Codebender",
+          "integrantes": [
+            "Guilherme Xavier",
+            "Saimon Gomes Nunes",
+            "Johny William de Oliveira Alves",
+            "Marco Aurélio Mattos Dalbianco"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Megazord",
+          "integrantes": [
+            "Ariele de Fátima Paulino",
+            "Sandra Aline Garcia",
+            "Lucas Lopes Ferreira Candido",
+            "Gabriel Antonio Nunes da Silva"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "DikotoMikous",
+          "integrantes": [
+            "Diego de Souza Oiveira",
+            "Marcelo Mendes dos Santos",
+            "Daniel de Sandre"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Capoeira de Dinossauro",
+          "integrantes": [
+            "Nelson Imon",
+            "Giovane Henrique Ramos",
+            "José Vitor",
+            "Lucas da Silva Evangelista"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Hurricane Truck",
+          "integrantes": [
+            "Rafael Cintra Lopes",
+            "Mario Cesar Souza Junior",
+            "Joao Victor Bezerra da Silveira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "Senior",
+          "integrantes": [
+            "Matheus Vieira",
+            "Amanda Patrício Alves Assunção",
+            "Julio Cesar Assakawa Murai",
+            "Guilherme Gersony de Oliveira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "InfoSJRP #1",
+          "integrantes": [
+            "Saimon Gomes Nunes",
+            "Arthur Ferraioli Marques",
+            "Aline Brambati Pereira"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "InfoSJRP #2",
+          "integrantes": [
+            "Andre Carlos Xavier da Costa",
+            "Sergio Teixeira Sanches Junior",
+            "Lucas Faquin Bezerra",
+            "Carlos Henrique Arroyo Jaquetto"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "InfoSJRP #3",
+          "integrantes": [
+            "Giulio Sena Bracioli",
+            "Vanessa de Lima Freitas",
+            "Giovane Henrique Ramos"
+          ]
+        },
+        {
+          "coach": "Jose Aparecido de Aguiar Viana",
+          "nome_equipe": "InfoSJRP #4",
+          "integrantes": [
+            "Benjamin Bruder Netto",
+            "Pedro Henrique Pinheiro Ferraz",
+            "André Carlos Xavier da Costa"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saojosedoscampos.fatecsaojosedoscampos",
+      "equipes": [
+        {
+          "coach": "Eduardo Sakaue",
+          "nome_equipe": "SJC++",
+          "integrantes": [
+            "Hideki",
+            "Bruna dos Santos Almeida",
+            "Pedro Valentim Silva Leite"
+          ]
+        },
+        {
+          "coach": "Eduardo Sakaue",
+          "nome_equipe": "Sei ++",
+          "integrantes": [
+            "Felipe Casseb",
+            "Patricia",
+            "Erle"
+          ]
+        },
+        {
+          "coach": "Eduardo Sakaue",
+          "nome_equipe": "HEROIS DA RESISTENCIA",
+          "integrantes": [
+            "ANIRO CORREIA MONTENEGRO",
+            "SUELIO PONTES BARROZO",
+            "ROBERTO XAVIER PEREIRA JUNIOR"
+          ]
+        },
+        {
+          "coach": "Reinaldo Arakaki",
+          "nome_equipe": "PAITOM",
+          "integrantes": [
+            "Marcos Bustamante",
+            "Marcos Costa",
+            "Sérgio"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "fsociety",
+          "integrantes": [
+            " LEONARDO SILVA BATISTA",
+            "MAURICIO RIBEIRO",
+            "Bruno Ferraz "
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Equipe Chronos",
+          "integrantes": [
+            "ALAN SOUZA",
+            "GUSTAVO SANTOS THIAGO",
+            "HEITOR MIRANDA"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Tucanos Assassinos",
+          "integrantes": [
+            "FELIPE SOUZA",
+            "GUSTAVO SILVA",
+            "JHONISSON GABRIEL"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "#QLokura",
+          "integrantes": [
+            "Gustavo Vitorino Ramos",
+            "Juan Vinicius",
+            "Heron Pereira Luz"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "LucasTeam",
+          "integrantes": [
+            "Heitor Guerra",
+            "Lucas de Oliveira",
+            "Lucas Narciso"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "+ 0,5",
+          "integrantes": [
+            "Pedro Fogaça",
+            "Rafael Motta",
+            "Gabriel Ramos"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Javali",
+          "integrantes": [
+            "Juliano dos Santos",
+            "Lucas Gusmão",
+            "Thiago Gomes"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Cri@r",
+          "integrantes": [
+            "Hamilton Roberto da Silva Zanini",
+            "João Gabriel Dias Pires",
+            "Lucas Aleixo"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Mochileiros",
+          "integrantes": [
+            "Alec Monteiro Tanamatis",
+            "Arihane Elise Siqueira Mariano",
+            "Beatriz Marques Moreira da Silva"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "OAK",
+          "integrantes": [
+            "Cesar Augusto Siqueira Santos",
+            "Tiago Henrique da Cruz Pereira",
+            "Mayara Cristina da Silva Ferreira"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "QuaseNada",
+          "integrantes": [
+            "Helen de Cassia dos Reis",
+            "Miqueias Hidai Alves da Silva",
+            "Jerry Gilbert de Souza Santos"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "011",
+          "integrantes": [
+            "Matthew henrique Silva Chagas",
+            "Jonathan dos Santos Medeiros",
+            "Duilio Carvalho Gomes"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "sempacto",
+          "integrantes": [
+            "GABRIEL VELOSO DE SOUZA",
+            "RAQUEL NATALI MARIZ",
+            "PEDRO HENRIQUE SILVA ROSA"
+          ]
+        },
+        {
+          "coach": "Reinaldo Gen Ichiro Arakaki",
+          "nome_equipe": "Xama",
+          "integrantes": [
+            "Lucas Augusto de Souza",
+            "Raphael dos Reis Toledo",
+            "Matheus de Lima Macedo"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saopaulo.fatecipiranga",
+      "equipes": [
+        {
+          "coach": "Andreia Cristina Grisolio Machion",
+          "nome_equipe": "Fibonatos",
+          "integrantes": [
+            "Felipe dos Santos Conceição",
+            " Francisco Bonachera Melgar Costa",
+            " Izabella  Chianca Simonetti"
+          ]
+        },
+        {
+          "coach": "Andreia Cristina Grisolio Machion",
+          "nome_equipe": "#0000FF",
+          "integrantes": [
+            "Fábio da silva Santana",
+            "David Esteban Marçal Cabrera",
+            "Mário Thomaz Aprá"
+          ]
+        },
+        {
+          "coach": "Andreia Cristina Grisolio Machion",
+          "nome_equipe": "Ninja Developers",
+          "integrantes": [
+            "Elisa Silva Maciel",
+            "Erik Hi Peen Liu",
+            "Jonas Ming Hong Sun",
+            "Viviane Maria Curti Nerlich"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saopaulo.fatecitaquera",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "saopaulo.fatecsaopaulo",
+      "equipes": [
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Hurricane Truck",
+          "integrantes": [
+            "Bruno Luiz Miura de Souza",
+            "Davi Alves Pereira Junior",
+            "Felipe Mariano"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Carreta Programação",
+          "integrantes": [
+            "Rafael Henrique da Silva Santos",
+            "Rodrigo Martins de Siqueira",
+            "Vinícius Alves Fonseca  "
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "PODER DE GRACE SCHOOL",
+          "integrantes": [
+            "Nathan Romão Gonzales",
+            "Vinicius de Castro Rodrigues Nogueira",
+            "Willian Kiyoharu Miyasaka",
+            "Rafael Marino Ticianelli"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Carreta Furacão",
+          "integrantes": [
+            "Lucas Miranda Silva",
+            "Luan Victor",
+            "Stefano Belassai"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Bori Builders",
+          "integrantes": [
+            "Adrian Luis Minotelli Chagas",
+            "Ricardo Ireno dos Santos",
+            "Ricardo Maldonado Geglio"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Nossa, assim o C me mata!",
+          "integrantes": [
+            "José Guilherme Pereira Dias Martins",
+            "Leandro Gonçalves de Oliveira",
+            "Leonam Henrique Silva Moreira de Freitas",
+            "Débora Izumi Kakazu"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Partido dos Programadores",
+          "integrantes": [
+            "Jonas Oliveira Francisco",
+            "Leandro Toshiyuki Kinoshita",
+            "Washington Luis Guedes",
+            "Thiago Neves Porto"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Pastelaria",
+          "integrantes": [
+            "Pâmela Carvalho Cruz",
+            "Rodrigo Pereira da Silva Campos",
+            "Stephanie Heffer Cavaletti"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "The Bings",
+          "integrantes": [
+            "Mario Henrique do Nascimento",
+            "Priscilla de Paula Pires",
+            "Raphael Henrique Gonçalves Ribeiro",
+            "Izaac de Souza Silva"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "All-izz-well",
+          "integrantes": [
+            "Any Ambria da Silva Pinheiro",
+            "Masahiro Hiramatsu",
+            "Oscar Zanin"
+          ]
+        },
+        {
+          "coach": "Grace Anne Pontes Borges",
+          "nome_equipe": "Hello World",
+          "integrantes": [
+            "Arthur Citta Aguiar",
+            "Diogo Santos Oliveira",
+            "Enzo de Carvalho Ferrari",
+            "Felipe Amaral Pimenta"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "99% C, mas aquele 1% é JAVA",
+          "integrantes": [
+            "Maximilian Silva Erhard",
+            "Tafika Nathan Rasoarison",
+            "Erick Hiroyuki Seo",
+            "Felipe Fonseca Trindade"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Só C que nada C",
+          "integrantes": [
+            "Gustavo Sales de Melo Miranda",
+            "Samuel Brian Firmino de Souza",
+            "Wadson Garbes Gonçalves Pinto",
+            "Carlos Magno Rodrigues Guimarães"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Nome = NULL",
+          "integrantes": [
+            "Alexandre Amaral Resende",
+            "Lucas Nainor Santos de Amorim",
+            "Guilherme Salvioni Taira"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "HAL 9000",
+          "integrantes": [
+            "Vicente Ardito Junior",
+            "Matheus Morita",
+            "Fernando Tanese Mascara"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "ZueraSemLimitesException",
+          "integrantes": [
+            "Lucas da Silva Camargo",
+            "Vitor Olimpio Uchima Uehara",
+            "Allyson Dias de Lima"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Hackers Modestos",
+          "integrantes": [
+            " Luiz Felipe Zarco dos Santos",
+            "Marcus Vinicius de Souza Baptista da Silva",
+            "Gustavo Kenji Matsumoto"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Sem /*",
+          "integrantes": [
+            "Carlos Eduardo Neves Girardi",
+            "Douglas Herculano Lacerda",
+            "Allan Pereira da Cunha"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "HelloWorld!!",
+          "integrantes": [
+            "Everton Luis Santos Pereira",
+            "Giovanni Enrico Martins Silveira",
+            "Matheus Oliveira dos Santos",
+            "Michel Jorge Guimarães"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "TIME TOP",
+          "integrantes": [
+            "Gabriel Reis Ritter",
+            "Israel Arantes",
+            "Andre Luiz Marques Torres Micheletti",
+            "Leonardo Ken"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Percebe?",
+          "integrantes": [
+            "Ayrton Sergio Aoki de Souza",
+            "Francisco Guilherme Antunes Soares Bessa",
+            "Jonathan Bustillos Sinani",
+            "Wesley Freitas Mantovani"
+          ]
+        },
+        {
+          "coach": "Lucio Nunes de Lira",
+          "nome_equipe": "Abatedor de 9 linhas",
+          "integrantes": [
+            "Joao Pedro Pio ",
+            "Eduardo Gonçalves Terçariol",
+            "Victor Gabriel Mendes Teixeira",
+            "Guilherma Pavarina de Sá"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saopaulo.fatecsebrae",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "saopaulo.fatectatuape",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "saopaulo.fateczonaleste",
+      "equipes": [
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Power C",
+          "integrantes": [
+            "Francisco Carlos Vieira",
+            "Matheus Oliveira da Silva",
+            "Roberto Farias de Almeida"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Saviors",
+          "integrantes": [
+            "Hugo Maia da Silva Marques",
+            "Israel Pinheiro Ruas Junior",
+            "Luigi Felipe Juniti Inazawa"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Thread",
+          "integrantes": [
+            "Andressa Cordeiro",
+            "Karla Cristina da Silva Porto",
+            "William de Araujo Almeida"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "N.d.A.",
+          "integrantes": [
+            "Keven Leandro dos Santos",
+            "Wander Marques da Silva Junior",
+            "Victor Ruiz Leopoldino"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "KeiichiBeans",
+          "integrantes": [
+            "Caique Inacio dos Santos",
+            "Felipe Gomes Moreira Campos",
+            "Keiichi Tamashiro"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "BagGuy",
+          "integrantes": [
+            "Felipe Guimarães de Aquino",
+            "Gabriel Bezerra de Oliveira Rodrigues",
+            "Lucas Alves Bussolin"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Batata",
+          "integrantes": [
+            "Emerson Santos Gomes",
+            "Nikolas Santos Stacioni",
+            "Andrews Willian Paiva Luz"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Kickass",
+          "integrantes": [
+            "Guilherme Ishii dos Santos",
+            "Ricardo de Lucas do Nascimento",
+            "Willian Guedes da Silva Cunha"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "JVM Team",
+          "integrantes": [
+            "Fernando Moraes Oliveira",
+            "Wellington dos Santos Cruz",
+            "Felipe Santos de Lima"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Java629",
+          "integrantes": [
+            "Fábio Cyrillo",
+            "Kenedy Junqueira",
+            "Rafael Cavalcante"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "Studentsfzl",
+          "integrantes": [
+            "Cleiton dos Santos de Souza Faria",
+            "Marcelo De A. Forganes",
+            "Patrick Henrique Santos Rodrigues"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "i9",
+          "integrantes": [
+            "Bruno Silva Bispo dos Santos",
+            "Guilherme Soares Barrozo",
+            "Gleidison Marcio Ribeiro da Silva"
+          ]
+        },
+        {
+          "coach": "Andréa Zotovici",
+          "nome_equipe": "GuaiacityDevTeam",
+          "integrantes": [
+            "Agner Esteves Ballejo",
+            "Gian Weigert Rodrigues",
+            "William Mak da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saopaulo.fateczonasul",
+      "equipes": [
+        {
+          "coach": "Rebecca Bignardi Arambasic Rebelo da Silva",
+          "nome_equipe": "Void Team",
+          "integrantes": [
+            "Cayo Gilson Morais Silva",
+            "Wesley Ferreira de Oliviera",
+            "Felipy Bergson Guimarães de lima",
+            "Sandra Floriano Lira"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saoroque.fatecsaoroque",
+      "equipes": [
+        {
+          "coach": "Gregorio de Almeida",
+          "nome_equipe": "SR Devs",
+          "integrantes": [
+            "Gregorio de Almeida",
+            "Alberto Andre Aguiar Neto",
+            "Gustavo Vagner",
+            "Juliano Cipriano de Souza"
+          ]
+        },
+        {
+          "coach": "Paulo Eiji Fukuda",
+          "nome_equipe": "Armada de Gates",
+          "integrantes": [
+            "Caio Vinicius Nolasco Freitas",
+            "Michel Gracia dos Santos",
+            "Paulo Eiji Fukuda"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "saosebastiao.fatecsaosebastiao",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "sertaozinho.fatecsertaozinho",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "sorocaba.fatecsorocaba",
+      "equipes": [
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Ta tranquilo ta compilável",
+          "integrantes": [
+            "RICARDO HIROYUKI EIHARA JUNIOR",
+            "RODRIGO FERREIRA RODRIGUES",
+            "VITOR MANFRÉ DIAS"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "1/3 coffeecoder",
+          "integrantes": [
+            "BRUNA FERREIRA FERNANDES",
+            "FERNANDO DARCI ELIAS RODRIGUES",
+            "THIAGO HENRIQUE MENDES PRESTES"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Treino é treino, jogo é jogo",
+          "integrantes": [
+            "FELIPE RICHTER LAPOLLA INOCENCIO",
+            "JULLIA GABRIELLA DE OLIVEIRA SAAD",
+            "VINÍCIUS DA SILVA PUENTE"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "QuickSorte",
+          "integrantes": [
+            "ANA PAULA RIBEIRO",
+            "NATASHA HELENA MATIAS PUBLIO",
+            "ROSANE RAMOS DE ALMEIDA"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Daora a Vida",
+          "integrantes": [
+            "BRUNO MARQUES BARCELOS RUIZ",
+            "CAIQUE HITOSHI MITSUOKA",
+            "LUIZ GUILHERME SOARES"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Carreta Compilação",
+          "integrantes": [
+            "FELIPE IISE MENDES",
+            "LUCAS NOGUEIRA RAMOS",
+            "LUCAS RENAN MIRANDA CECATO"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "FullStackOverkill",
+          "integrantes": [
+            "EMERSON ABDIAS DE OLIVEIRA",
+            "HENRIQUE FERREIRA DE PAULA",
+            "MICHEL DAS NEVES PAIVA"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Trio 0x4FE5",
+          "integrantes": [
+            "DIEGO FERREIRA SILVA",
+            "ROBSON DE SOUZA MENDES",
+            "VALTER MASSASHI AKASHI"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "POG programação orientada a gambiarra",
+          "integrantes": [
+            "ELBERTH APARECIDO DA SILVA JUNIOR",
+            "GIOVANNA GABRIELA CAVALCANTE DE",
+            "WALTER PEREIRA MENDES JUNIOR"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "#include \"deuruim.h\"",
+          "integrantes": [
+            "GUSTAVO MONTANINI CENCI",
+            "JOAO PEDRO DORNELAS",
+            "RIDINEU DE MORAES NETO"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "C-gmentation Error",
+          "integrantes": [
+            "André Cristian de Oliveira",
+            "Marcelo Kenichi Tadocoro",
+            "Vinícius Barbosa de Andrade"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Hello Fatec",
+          "integrantes": [
+            "FELIPE DA SILVA LIBERAL",
+            "GIOVANE DE LUCAS HADDAD",
+            "LEONARDO AMARAL DA ROCHA"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Hammer",
+          "integrantes": [
+            "Hsu Fu Chien",
+            "Luciano Abreu Leal",
+            "Tiago Selpuveda da Silva Machado"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "DeadCode++",
+          "integrantes": [
+            "João Gabriel Martins Garcia",
+            "Mateus Hideki Simote Borges",
+            "Rodrigo Antonio de Almeida Oliveira Andrade"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Hao123",
+          "integrantes": [
+            "Caio Eduardo Félix Magri",
+            "Denis Antônio Santos Otávio",
+            "Fernando Henrique Chagas do Nascimento"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "2Br + J = GG",
+          "integrantes": [
+            "Diego Luiz Dassi Baptista",
+            "Rafael Lopes Leme da Silva",
+            "Willian Koichi Yonemura"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Turma da Mônica",
+          "integrantes": [
+            "DANIEL DAVI LIBANEO",
+            "LUANA BRITO DA MOTA",
+            "MONICA MARQUES DOS SANTOS"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Unidos da compilação",
+          "integrantes": [
+            "JEAN VITOR ANTUNES PEIXOTO",
+            "FELIPE LUIZ SOARES",
+            "DEBORA KAORI HIRAI"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Meninas Superpoderosas",
+          "integrantes": [
+            "ANA CAROLINE DE SOUZA",
+            "ANGELA DA ROSA YAMAUTI",
+            "CARLA CRISTINA SANTUCCI DEMARCHI"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": " Aquele 1% de Wrong Answer ",
+          "integrantes": [
+            "Gustavo Rodrigues da Silva",
+            "Samuel Magalhães Silva",
+            "Valdir Eduardo Teles Amorim"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Cai cai balão",
+          "integrantes": [
+            "CESAR AUGUSTO DONINI",
+            "JOAO VICTOR DO AMARAL",
+            "JULIANO CUSTODIO VIEIRA DA SILVA"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Set-Winners",
+          "integrantes": [
+            "Adriele dos Santos Rodrigues",
+            "Bruno Mira",
+            "Medson de Oliveira Júnior"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "the exceptionals",
+          "integrantes": [
+            "Felipe José Bernardes",
+            "Arthur Mendes de Oliveira",
+            "Ronald Huggler",
+            "Ana Paula Gabriel"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Stoner Crash Vultures",
+          "integrantes": [
+            "Matheus Reis Santos",
+            "Vitor Lima Siqueira Brandão",
+            "Lucas Henrique Antoneli Flaquer"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "Penúltima hora",
+          "integrantes": [
+            "ANDRESSA VELOSO GONELLI RIBEIRO",
+            "João Pedro Matera",
+            "Maycon Douglas Silva Santos"
+          ]
+        },
+        {
+          "coach": "Antonio Cesar de Barros Munari",
+          "nome_equipe": "C de Cabra Macho",
+          "integrantes": [
+            "FRANCISCO LUCAS RIBEIRO QUEIROZ IN",
+            "LUCAS LOMAR MARTINS SALES",
+            "THIAGO ALEXANDRE MARCELINO"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "taquaritinga.fatectaquaritinga",
+      "equipes": [
+        {
+          "coach": "Brazelino Bertolete Neto",
+          "nome_equipe": "A.L.E.M.",
+          "integrantes": [
+            "Arthur Arioli Bergamaschi",
+            "Eduarda Vicente",
+            "Leonardo Andrigo Seixas",
+            "Mateus Augusto Pegrucci"
+          ]
+        },
+        {
+          "coach": "Jederson Donizete Zuchi",
+          "nome_equipe": "NONAME",
+          "integrantes": [
+            "Nayara Martovic da Silva",
+            "Guilherme Cinzi Kuniyoshi",
+            "Alana Caroline de Souza"
+          ]
+        },
+        {
+          "coach": "Luciano de Jesus Guesso Rodrigues Barros",
+          "nome_equipe": "T2ADS",
+          "integrantes": [
+            "Welington Oliveira da Silva",
+            "Kelson da Costa Palharini",
+            "Vitor Pires Loddi",
+            "Graziele Borges"
+          ]
+        },
+        {
+          "coach": "Luciano de Jesus Guesso Rodrigues de Barros",
+          "nome_equipe": "Galo Cego",
+          "integrantes": [
+            "Gustavo Henrique Soriano",
+            "Eduardo Miranda Malipense",
+            "João Victor da Silva"
+          ]
+        },
+        {
+          "coach": "Oswaldo Lázaro Mendes",
+          "nome_equipe": "Gelo Limão e Pinga",
+          "integrantes": [
+            "murilo aparecido panosso",
+            "william gaspar",
+            "Amanda dos Reis de Moraes"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "tatui.fatectatui",
+      "equipes": [
+
+      ]
+    },
+    {
+      "nome": "taubate.fatectaubate",
+      "equipes": [
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "Winners",
+          "integrantes": [
+            "Douglas do Nascimento Pereira",
+            "João Pedro Santos Marcondes",
+            "Matheus de Andrade Cabral",
+            "Taynara Aparecida Santos Oliveira"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "conio.h",
+          "integrantes": [
+            "Amilton Ramos de Oliveira",
+            "Caio Douglas Rocha Quinto",
+            "Ianice da Silva Lanziloti",
+            "Luis Henrique Fresneda Fernandes"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "ProPlay",
+          "integrantes": [
+            "Lucas Curcio do Nascimento",
+            "Adriano de Souza e Silva",
+            "Pedro Antonio da Silva"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "OsLanternas",
+          "integrantes": [
+            "Weslei Luiz da Silva",
+            "Gabriel Reis da Silva",
+            "Gustavo Calça Lombarde"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "V-Click",
+          "integrantes": [
+            "Vitor Hugo de Paula Egydio Coelho",
+            "Vanessa Cristina Ferraz da Silva Nunes",
+            "Rafael Martins Fijos Aquino",
+            "Jéssica Gonçalves Nunes Pinto"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "iluminados.fatec",
+          "integrantes": [
+            "Everton de Lima Silva",
+            "Michel Henrique Raimundo de Gouvea",
+            "Pedro Gabriel Vieira Marques",
+            "Victor Porto Braga"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "VBA.H",
+          "integrantes": [
+            "João Oscalino Lemos",
+            "Kaynan Luiz dos Santos",
+            "Renata Weihrauch Mattje Belisqui Tralli Gimenes",
+            "Beatriz André de Jesus"
+          ]
+        },
+        {
+          "coach": "FERNANDO SALLES CLARO",
+          "nome_equipe": "Joestar",
+          "integrantes": [
+            "Lucas Renan Silva Galvão dos Santos",
+            "Vitor Hugo Pereira Rocha da Silva",
+            "Henrique Torres Ferreira",
+            "Gilberto Marcondes Neto"
+          ]
+        }
+      ]
+    }
+  ]
+}
