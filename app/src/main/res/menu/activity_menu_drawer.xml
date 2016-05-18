@@ -11,8 +11,14 @@
         <item android:id="@+id/nav_equipes"
             android:title="@string/menu_team"
             android:icon="@drawable/ic_search_teams"/>
-        <item android:id="@+id/nav_evento"
-            android:title="@string/menu_sobre"
+        <item android:id="@+id/nav_sobre"
+            android:title="@string/sobre_formato_regras"
+            android:icon="@drawable/ic_formato_regras"/>
+        <item android:id="@+id/nav_edicao"
+            android:title="@string/sobre_edicoes_anteriores"
+            android:icon="@drawable/ic_edicoes_anteriores"/>
+        <item android:id="@+id/nav_preparar"
+            android:title="@string/sobre_como_se_preparar"
             android:icon="@drawable/ic_about_event"/>
         <item android:id="@+id/nav_patrocinador"
             android:title="@string/menu_patroci"
