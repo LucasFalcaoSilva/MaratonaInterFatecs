@@ -11,6 +11,7 @@ import br.maratonainterfatecs.fragments.EquipesFragment;
 import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.IndisponivelFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
+import br.maratonainterfatecs.fragments.PrepararFragment;
 import br.maratonainterfatecs.fragments.SobreFragment;
 import br.maratonainterfatecs.fragments.SponsorsFragment;
 
@@ -67,7 +68,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_preparar:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_como_se_preparar));
-                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
+                mMenuView.transactionMenu(PrepararFragment.newInstance());
 
                 break;
             case R.id.nav_patrocinador:
