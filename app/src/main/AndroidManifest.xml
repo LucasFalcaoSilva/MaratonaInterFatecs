@@ -43,7 +43,13 @@
             android:name=".activity.SponsorActivity"
             android:label="@string/title_activity_sponsor"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".activity.EquipesItemActivity"
+            android:label="@string/title_activity_equipes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

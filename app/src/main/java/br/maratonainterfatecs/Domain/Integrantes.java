@@ -3,11 +3,14 @@ package br.maratonainterfatecs.Domain;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by Falcao on 18/05/2016.
  */
 public class Integrantes  implements Parcelable {
 
+    @SerializedName("name")
     private String name;
 
     public Integrantes(String name) {

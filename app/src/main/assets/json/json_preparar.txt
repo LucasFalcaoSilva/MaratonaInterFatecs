@@ -1,0 +1,24 @@
+[
+  {
+    titulo: "Existem diversos recursos que podem auxiliá-lo na preparação para a Maratona de Programação InterFatecs. Alguns estão listados a seguir:
+
+    Para Leitura:",
+    link1: "http://www.ime.usp.br/~cassio/boca/boca/doc/html/manualteam.pt_br.html",
+    texto1: "Como utilizar o sistema BOCA - utilizado na competição.",
+    link2: "http://interfatecs.fatecsp.br/downloads/Marat%20101.pdf",
+    texto2: "Introdução a competições de programação de computadores.",
+    link3: "http://www.ime.usp.br/~pf/livrinho-AA/AA-BOOKLET.pdf",
+    texto3: "Apostila sobre algoritmos e projeto de algoritmos do IME/USP"
+  },
+  {
+    titulo: "Existem diversos sites com problemas de competições brasileiras e internacionais, nos quais você pode cadastrar um usuário e submeter soluções:
+
+Sites Para Treinamento:",
+    link1: "https://www.urionlinejudge.com.br/judge/en/login",
+    texto1: "URI Online Judge",
+    link2: "http://br.spoj.com/",
+    texto2: "SPOJ Brasil" ,
+    link3: "http://maratona.ime.usp.br/",
+    texto3: "Site da Maratona Brasileira de Programação"
+  }
+]

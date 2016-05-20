@@ -1,5 +1,4 @@
-{
-  "usuarios": [
+[
     {
       "nome": "americana.fatecamericana",
       "equipes": [
@@ -3017,4 +3016,3 @@
       ]
     }
   ]
-}

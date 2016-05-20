@@ -1,5 +1,7 @@
 package br.maratonainterfatecs.Domain;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -7,7 +9,9 @@ import java.util.List;
  */
 public class Unidades {
 
+    @SerializedName("nome")
     private String nameFatec;
+    @SerializedName("equipes")
     private List<Equipes> equipesList;
 
     public Unidades(String nameFatec, List<Equipes> equipesList) {

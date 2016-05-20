@@ -32,6 +32,7 @@
     <string name="email">Email</string>
     <string name="phone">Telephone</string>
     <string name="title_activity_sponsor">SponsorActivity</string>
+    <string name="title_activity_equipes">EquipesItemActivity</string>
 
     <string name="sobre_formato_regras"><![CDATA[Format & Rules]]></string>
     <string name="sobre_edicoes_anteriores">Previous Editions</string>

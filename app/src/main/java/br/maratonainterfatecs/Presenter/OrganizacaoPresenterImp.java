@@ -1,6 +1,7 @@
 package br.maratonainterfatecs.Presenter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -55,6 +56,7 @@ public class OrganizacaoPresenterImp implements  OrganizacaoPresenter {
 
             TextView txtTiulo = new TextView(organizacaoView.getContext());
             txtTiulo.setText(myObject.getString("titulo"));
+            txtTiulo.setTextColor(Color.BLACK);
             txtTiulo.setTypeface(mRobotoTypeFace.getRobotoBlack());
 
             linearLayout.addView(txtTiulo);

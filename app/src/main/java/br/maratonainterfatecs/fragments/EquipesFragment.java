@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import br.maratonainterfatecs.Adapters.SponsorAdapter;
+import br.maratonainterfatecs.Adapters.UnidadesAdapter;
 import br.maratonainterfatecs.Domain.Unidades;
 import br.maratonainterfatecs.Presenter.SponsorsPresenter;
 import br.maratonainterfatecs.Presenter.SponsorsPresenterImp;
@@ -58,8 +58,8 @@ public class EquipesFragment extends Fragment implements EquipesView {
 
     @Override
     public void buildRecycler(List<Unidades> mList) {
-        /*SponsorAdapter adapter = new SponsorAdapter(this, mList);
-        mRecyclerView.setAdapter(adapter);*/
+        UnidadesAdapter adapter = new UnidadesAdapter(this, mList);
+        mRecyclerView.setAdapter(adapter);
     }
 
     @Override

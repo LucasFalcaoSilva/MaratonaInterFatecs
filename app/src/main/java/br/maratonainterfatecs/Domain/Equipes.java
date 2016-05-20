@@ -3,6 +3,8 @@ package br.maratonainterfatecs.Domain;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -10,8 +12,11 @@ import java.util.List;
  */
 public class Equipes {
 
+    @SerializedName("nome_equipe")
     private String name_equipe;
+    @SerializedName("coach")
     private String name_coach;
+    @SerializedName("integrantes")
     private List<Integrantes> integrantes;
 
     public Equipes(String name_equipe, String name_coach, List<Integrantes> integrantes) {
