@@ -39,7 +39,6 @@ public class UnidadeHolder  extends RecyclerView.ViewHolder implements View.OnCl
     @Override
     public void onClick(View v) {
 
-
         Intent intent = new Intent(equipesView.getContext(), EquipesItemActivity.Instance(unidades));
 
         equipesView.getContext().startActivity(intent);

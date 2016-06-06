@@ -1,17 +1,17 @@
 {
-  "descricao": "Esta é a quinta edição do evento. As edições anteriores foram realizadas nas unidades abaixo:",
-  "unidades": [
-    {
-      "nome": "Fatec Sorocaba"
-    },
-    {
-      "nome": "Fatec São Jose dos Campos"
-    },
-    {
-      "nome": "Fatec Mogi das Cruzes"
-    },
-    {
-      "nome": " Fatec Cruzeiro"
-    }
-  ]
-}
+   "descricao": "Esta é a quinta edição do evento. As edições anteriores foram realizadas nas unidades abaixo:",
+   "unidades": [
+     {
+       "nome": "Fatec Sorocaba"
+     },
+     {
+       "nome": "Fatec São Jose dos Campos"
+     },
+     {
+       "nome": "Fatec Mogi das Cruzes"
+     },
+     {
+       "nome": " Fatec Cruzeiro"
+     }
+   ]
+ }

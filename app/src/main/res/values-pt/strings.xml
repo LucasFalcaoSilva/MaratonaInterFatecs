@@ -17,6 +17,7 @@
 
     <string name="menu_map_event">Mapa do Evento</string>
     <string name="menu_team">Ver Equipes</string>
+    <string name="menu_classi">Classificação</string>
     <string name="menu_patroci">Patrocinadores</string>
     <string name="menu_sobre">Sobre o Evento</string>
     <string name="menu_organizacao">Organização</string>

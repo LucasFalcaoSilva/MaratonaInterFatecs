@@ -57,14 +57,12 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
                 mMenuView.transactionMenu(SobreFragment.newInstance());
 
                 break;
-
             case R.id.nav_edicao:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_edicoes_anteriores));
                 mMenuView.transactionMenu(EdicaoFragment.newInstance());
 
                 break;
-
             case R.id.nav_preparar:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.sobre_como_se_preparar));
@@ -86,6 +84,12 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_contato:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_contato));
+                mMenuView.transactionMenu(ContactFragment.newInstance());
+
+                break;
+            case R.id.nav_classificacao:
+
+                mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_classi));
                 mMenuView.transactionMenu(ContactFragment.newInstance());
 
                 break;

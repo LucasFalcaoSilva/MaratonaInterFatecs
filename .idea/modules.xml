@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MaratonaInterFatecs.iml" filepath="$PROJECT_DIR$/MaratonaInterFatecs.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaratonaInterFatecs_o.iml" filepath="$PROJECT_DIR$/MaratonaInterFatecs_o.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generatorclassdao/generatorclassdao.iml" filepath="$PROJECT_DIR$/generatorclassdao/generatorclassdao.iml" />
     </modules>
   </component>
 </project>
