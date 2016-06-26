@@ -12,6 +12,7 @@ import br.maratonainterfatecs.fragments.HomeFragment;
 import br.maratonainterfatecs.fragments.IndisponivelFragment;
 import br.maratonainterfatecs.fragments.OrganizacaoFragment;
 import br.maratonainterfatecs.fragments.PrepararFragment;
+import br.maratonainterfatecs.fragments.RankingProblemaFragment;
 import br.maratonainterfatecs.fragments.SobreFragment;
 import br.maratonainterfatecs.fragments.SponsorsFragment;
 
@@ -43,7 +44,8 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_mapa:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_map_event));
-                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
+                mMenuView.transactionMenu(RankingProblemaFragment.newInstance());
+                //mMenuView.transactionMenu(IndisponivelFragment.newInstance());
 
                 break;
             case R.id.nav_equipes:

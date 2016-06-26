@@ -34,4 +34,8 @@
     <string name="sobre_edicoes_anteriores">Edições Anteriores</string>
     <string name="sobre_formato_regras">Formato e Regras</string>
     <string name="text_btn_site">Visitar Site</string>
+    <string name="acertos">Acertos</string>
+    <string name="tentativas">Tentativas</string>
+    <string name="problema">Problema</string>
+    <string name="erros">Erros</string>
 </resources>

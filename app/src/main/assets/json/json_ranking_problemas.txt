@@ -1,0 +1,52 @@
+[
+{
+  problema: "A",
+  tentativas: "178",
+  acertos: "0"
+},
+{
+  problema: "B",
+  tentativas: "588",
+  acertos: "227"
+},
+{
+  problema: "C",
+  tentativas: "139",
+  acertos: "12"
+},
+{
+  problema: "D",
+  tentativas: "0",
+  acertos: "0"
+},
+{
+  problema: "E",
+  tentativas: "105",
+  acertos: "0"
+},
+{
+  problema: "F",
+  tentativas: "7",
+  acertos: "1"
+},
+{
+  problema: "G",
+  tentativas: "276",
+  acertos: "66"
+},
+{
+  problema: "H",
+  tentativas: "58",
+  acertos: "3"
+},
+{
+  problema: "I",
+  tentativas: "418",
+  acertos: "69"
+},
+{
+  problema: "J",
+  tentativas: "80",
+  acertos: "4"
+}
+]
