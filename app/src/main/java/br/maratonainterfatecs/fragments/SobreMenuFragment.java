@@ -47,15 +47,4 @@ public class SobreMenuFragment extends Fragment {
 
         return view;
     }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-    }
-
 }

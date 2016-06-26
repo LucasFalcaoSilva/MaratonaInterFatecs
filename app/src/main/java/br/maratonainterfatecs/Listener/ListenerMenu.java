@@ -44,8 +44,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_mapa:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_map_event));
-                mMenuView.transactionMenu(RankingProblemaFragment.newInstance());
-                //mMenuView.transactionMenu(IndisponivelFragment.newInstance());
+                mMenuView.transactionMenu(IndisponivelFragment.newInstance());
 
                 break;
             case R.id.nav_equipes:
@@ -92,7 +91,7 @@ public class ListenerMenu implements NavigationView.OnNavigationItemSelectedList
             case R.id.nav_classificacao:
 
                 mMenuView.setTituloAba(mMenuView.getContext().getResources().getString(R.string.menu_classi));
-                mMenuView.transactionMenu(ContactFragment.newInstance());
+                mMenuView.transactionMenu(RankingProblemaFragment.newInstance());
 
                 break;
             default:

@@ -1,5 +1,6 @@
 package br.maratonainterfatecs.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -61,4 +62,8 @@ public class SobreFragment extends Fragment implements SobreView{
         mLinearSobre.addView(result, sobrePresenter.createParametrosLinear(-1));
     }
 
+    @Override
+    public Context getContext() {
+        return getActivity();
+    }
 }

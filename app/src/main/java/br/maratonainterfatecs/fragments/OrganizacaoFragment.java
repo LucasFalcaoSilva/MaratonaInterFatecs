@@ -1,5 +1,6 @@
 package br.maratonainterfatecs.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -60,5 +61,8 @@ public class OrganizacaoFragment extends Fragment implements OrganizacaoView {
         mLinearOrganizacao.addView(result, organizacaoPresenter.createParametrosLinear(-1));
     }
 
-
+    @Override
+    public Context getContext() {
+        return getActivity();
+    }
 }

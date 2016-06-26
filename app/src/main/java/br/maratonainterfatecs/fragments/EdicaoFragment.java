@@ -1,5 +1,6 @@
 package br.maratonainterfatecs.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -64,5 +65,10 @@ public class EdicaoFragment extends Fragment implements EdicaoView {
     @Override
     public void loadView(View result) {
         mLinearEdicao.addView(result, mEdicaoPresenterImp.createParametrosLinear(-1));
+    }
+
+    @Override
+    public Context getContext() {
+        return getActivity();
     }
 }
