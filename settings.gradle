@@ -1,1 +1,1 @@
-include ':app', ':generatorclassdao'
+include ':app'
