@@ -9,10 +9,10 @@ public class Times {
     private String nomeEquipe;
     private String problemasAcertados;
     private String nomeFatec;
-    private String tempo;
+    private Integer tempo;
     private boolean classificado;
 
-    public Times(Integer posicaoEquipe, String nomeEquipe, String problemasAcertados, String nomeFatec, String tempo, boolean classificado) {
+    public Times(Integer posicaoEquipe, String nomeEquipe, String problemasAcertados, String nomeFatec, Integer tempo, boolean classificado) {
         this.posicaoEquipe = posicaoEquipe;
         this.nomeEquipe = nomeEquipe;
         this.problemasAcertados = problemasAcertados;
@@ -20,11 +20,11 @@ public class Times {
         this.tempo = tempo;
         this.classificado = classificado;
     }
-    public String getTempo() {
+    public Integer getTempo() {
         return tempo;
     }
 
-    public void setTempo(String tempo) {
+    public void setTempo(Integer tempo) {
         this.tempo = tempo;
     }
     public String getNomeFatec() {

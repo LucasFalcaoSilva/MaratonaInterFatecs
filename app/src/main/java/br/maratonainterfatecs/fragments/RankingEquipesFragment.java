@@ -3,6 +3,8 @@ package br.maratonainterfatecs.fragments;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,7 +26,7 @@ import butterknife.ButterKnife;
 public class RankingEquipesFragment extends Fragment implements ClassificacaoView {
 
     @Bind(R.id.list)
-    ListView listView;
+    RecyclerView recyclerView;
 
     public static RankingEquipesFragment newInstance() {
         RankingEquipesFragment fragment = new RankingEquipesFragment();
@@ -38,23 +40,29 @@ public class RankingEquipesFragment extends Fragment implements ClassificacaoVie
 
         loadComponents();
 
+        new RankingTimesTask(this).execute();
+
         return view;
     }
 
     @Override
     public void loadComponents() {
-        new RankingTimesTask(this).execute();
+        recyclerView.setHasFixedSize(true);
+        LinearLayoutManager llm = new LinearLayoutManager(getContext());
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(llm);
+
     }
 
     @Override
     public void buildRecycler(List<Times> mList) {
         TimesAdapter adapter = new TimesAdapter(getContext(),mList);
-        listView.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);
     }
 
     @Override
-    public ListView getRecycler() {
-        return listView;
+    public RecyclerView getRecycler() {
+        return recyclerView;
     }
 
     @Override
