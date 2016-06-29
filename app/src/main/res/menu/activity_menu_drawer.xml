@@ -11,6 +11,9 @@
         <item android:id="@+id/nav_equipes"
             android:title="@string/menu_team"
             android:icon="@drawable/ic_search_teams"/>
+        <item android:id="@+id/nav_ranking"
+            android:title="@string/ranking_equipes"
+            android:icon="@drawable/balloons"/>
         <item android:id="@+id/nav_classificacao"
             android:title="@string/menu_classi"
             android:icon="@drawable/balloons"/>

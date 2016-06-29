@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF"
+            android:text="Equipe"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content"
+            android:text="Acertos"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_height="wrap_content"
+            android:text="Tempo"/>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/primary"
+        android:dividerHeight="1.5sp" />
+</LinearLayout>

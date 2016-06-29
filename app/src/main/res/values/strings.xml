@@ -18,6 +18,7 @@
     <string name="menu_home" translatable="false">Home</string>
     <string name="menu_map_event">Event Map</string>
     <string name="menu_team">See Teams</string>
+    <string name="ranking_equipes">Classificação 1ºFase</string>
     <string name="menu_classi">Classification</string>
     <string name="menu_patroci">Sponsors</string>
     <string name="menu_sobre">About Event</string>

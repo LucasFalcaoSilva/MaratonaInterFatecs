@@ -1,5 +1,4 @@
-{
-  "equipes": [
+ [
     {
       "posicao":"00001",
       "nome":"PAITOM",
@@ -52,7 +51,7 @@
     },
     {
       "posicao":"00011",
-      "nome":"Tatranquilotacompilável",
+      "nome":"Tatranquilotacompil?vel",
       "baloes":"B,G,I"
     },
     {
@@ -62,7 +61,7 @@
     },
     {
       "posicao":"00013",
-      "nome":"99%C,masaquele1%éJAVA",
+      "nome":"99%C,masaquele1%?JAVA",
       "baloes":"B,C,I"
     },
     {
@@ -72,7 +71,7 @@
     },
     {
       "posicao":"00015",
-      "nome":"GeloLimãoePinga",
+      "nome":"GeloLim?oePinga",
       "baloes":"B,G,I"
     },
     {
@@ -82,7 +81,7 @@
     },
     {
       "posicao":"00017",
-      "nome":"Códigodescendente",
+      "nome":"C?digodescendente",
       "baloes":"B,G,I"
     },
     {
@@ -137,12 +136,12 @@
     },
     {
       "posicao":"00028",
-      "nome":"Treinoétreino,jogoéjogo",
+      "nome":"Treino?treino,jogo?jogo",
       "baloes":"B,G,I"
     },
     {
       "posicao":"00029",
-      "nome":"CarretaFuracão",
+      "nome":"CarretaFurac?o",
       "baloes":"B,G,I"
     },
     {
@@ -162,7 +161,7 @@
     },
     {
       "posicao":"00033",
-      "nome":"Unidosdacompilação",
+      "nome":"Unidosdacompila??o",
       "baloes":"B,G,I"
     },
     {
@@ -172,7 +171,7 @@
     },
     {
       "posicao":"00035",
-      "nome":"CarretaCompilação",
+      "nome":"CarretaCompila??o",
       "baloes":"B,G,I"
     },
     {
@@ -182,7 +181,7 @@
     },
     {
       "posicao":"00037",
-      "nome":" Aquele1%deWrongAnswer",
+      "nome":"?Aquele1%deWrongAnswer",
       "baloes":"B,G,I"
     },
     {
@@ -227,7 +226,7 @@
     },
     {
       "posicao":"00046",
-      "nome":"Penúltimahora",
+      "nome":"Pen?ltimahora",
       "baloes":"B,G"
     },
     {
@@ -247,7 +246,7 @@
     },
     {
       "posicao":"00050",
-      "nome":"TurmadaMônica",
+      "nome":"TurmadaM?nica",
       "baloes":"B,G"
     },
     {
@@ -302,7 +301,7 @@
     },
     {
       "posicao":"00061",
-      "nome":"AsIrmãs",
+      "nome":"AsIrm?s",
       "baloes":"B,I"
     },
     {
@@ -407,7 +406,7 @@
     },
     {
       "posicao":"00082",
-      "nome":"CarretaFuracão",
+      "nome":"CarretaFurac?o",
       "baloes":"B,I"
     },
     {
@@ -432,12 +431,12 @@
     },
     {
       "posicao":"00087",
-      "nome":"EngenhaçãodaComputaria",
+      "nome":"Engenha??odaComputaria",
       "baloes":"B,G"
     },
     {
       "posicao":"00088",
-      "nome":"OsEstagiários",
+      "nome":"OsEstagi?rios",
       "baloes":"B,G"
     },
     {
@@ -457,7 +456,7 @@
     },
     {
       "posicao":"00092",
-      "nome":"EquipeCapitãoOliva",
+      "nome":"EquipeCapit?oOliva",
       "baloes":"B,G"
     },
     {
@@ -497,7 +496,7 @@
     },
     {
       "posicao":"00100",
-      "nome":"EstagiáriosAVA",
+      "nome":"Estagi?riosAVA",
       "baloes":"B"
     },
     {
@@ -522,7 +521,7 @@
     },
     {
       "posicao":"00105",
-      "nome":"CarretaFuracão",
+      "nome":"CarretaFurac?o",
       "baloes":"B"
     },
     {
@@ -532,7 +531,7 @@
     },
     {
       "posicao":"00107",
-      "nome":"C3´L0kOJava",
+      "nome":"C3?L0kOJava",
       "baloes":"B"
     },
     {
@@ -562,7 +561,7 @@
     },
     {
       "posicao":"00113",
-      "nome":"SóCquenadaC",
+      "nome":"S?CquenadaC",
       "baloes":"B"
     },
     {
@@ -822,7 +821,7 @@
     },
     {
       "posicao":"00165",
-      "nome":"AmigosdaMárcia",
+      "nome":"AmigosdaM?rcia",
       "baloes":"B"
     },
     {
@@ -862,7 +861,7 @@
     },
     {
       "posicao":"00173",
-      "nome":"TeriasidomelhorirverofilmedoPelé",
+      "nome":"TeriasidomelhorirverofilmedoPel?",
       "baloes":"B"
     },
     {
@@ -887,7 +886,7 @@
     },
     {
       "posicao":"00178",
-      "nome":"Umterçoedoisquintos",
+      "nome":"Umter?oedoisquintos",
       "baloes":"B"
     },
     {
@@ -957,7 +956,7 @@
     },
     {
       "posicao":"00192",
-      "nome":"Volátil",
+      "nome":"Vol?til",
       "baloes":"B"
     },
     {
@@ -1022,7 +1021,7 @@
     },
     {
       "posicao":"00205",
-      "nome":"Oultimolugarénosso!",
+      "nome":"Oultimolugar?nosso!",
       "baloes":"B"
     },
     {
@@ -1232,7 +1231,7 @@
     },
     {
       "posicao":"00247",
-      "nome":"CarretaProgramação",
+      "nome":"CarretaProgramaÃ§Ã£o",
       "baloes":""
     },
     {
@@ -1256,4 +1255,3 @@
       "baloes":""
     }
   ]
-}

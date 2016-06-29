@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FFFFFFFF"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textPosicao"
+        android:layout_width="0dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1"/>
+
+
+    <TextView
+        android:id="@+id/textEquipe"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Teste" />
+
+    <TextView
+        android:id="@+id/textAcertos"
+        android:layout_width="0dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/textTempo"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1000" />
+
+
+    <TextView
+        android:id="@+id/textClassificado"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SIM" />
+
+</LinearLayout>
