@@ -1,57 +1,80 @@
 [
   {
+    nome: "Fundacao FAT",
+    imagem: "logo_fat",
+    url: "http://www.fundacaofat.org.br/home/",
+    description: "Incentivar a pesquisa aplicada, a inovação, o desenvolvimento tecnológico e profissional e a educação estendendo esses serviços a organizações e comunidade em geral são os focos principais que norteiam a Fundação FAT desde sua criação, em 1987.                    Para tanto a Fundação FAT:                   Desenvolve, ministra e apoia a gestão de programas, cursos, treinamentos e outras atividades voltadas à geração e à difusão de conhecimentos nas áreas de educação e tecnologia;                   Organiza e realiza vestibulares e processos seletivos;                   Cria e implanta projetos de novos produtos, processos e serviços visando a eficiência e a eficácia das organizações.                   Os profissionais que compõem a Fundação FAT são altamente qualificados com atuação em instituições como FATECs e ETECs, além de outras organizações de ensino, pesquisa e consultoria com as quais a entidade mantém parcerias.                    Com mais de 28 anos de existência, a Fundação FAT já atuou em mais de 250 projetos nas áreas de gestão, logística, tecnologia da informação, construção civil, meio ambiente, transporte e educação corporativa. Todos os projetos são desenvolvidos com base nas reais necessidades das organizações com as quais mantém relacionamento."
+  },
+  {
+    nome: "Eniac - Educação Basica e Superior",
+    imagem: "eniac",
+    url: "http://www.eniac.com.br/",
+    description: "O COLÉGIO ENIAC possui as melhores e mais modernas instalações e disponibiliza o que há de mais avançado em tecnologia educacional para garantir aos seus estudantes uma estrutura alinhada com nossa proposta pedagógica inovadora."
+  },
+  {
+    nome: "Cengage Learning",
+    imagem: "cengage",
+    url: "http://www.cengage.com.br/",
+    description: "A Cengage Learning, líder em soluções integradas de aprendizagem, oferece soluções completas de informação, conteúdos e ferramentas para clientes acadêmicos, profissionais e corporações. Seus selos editoriais e marcas, com mais de 100 anos de história, estão presentes em mais de 140 países, com centros de desenvolvimento de conteúdo nos cinco continentes. A CENGAGE Learning acredita na transformação do indivíduo e da sociedade, produzindo conhecimento com base nos princípios: cuidado com o planeta, qualidade acadêmica, globalização e experiência individual de aprendizado."
+  },
+  {
+    nome: "Editora Novatec",
+    imagem: "novatec",
+    url: "https://novatec.com.br/",
+    description: "A Novatec Editora é uma editora brasileira especializada em publicação de livros técnicos nas áreas de informática, marketing, negócios, finanças e investimentos destinados a profissionais, estudantes e professores do ramo, sendo referência nestas áreas."
+  },
+  {
     nome: "SBC",
     imagem: "logo_sbc",
-    url : "http://www.sbc.org.br/",
+    url: "http://www.sbc.org.br/",
     description: "Desde 1978, a Sociedade Brasileira de Computação fomenta e desenvolve pesquisas científicas na área de Computação. A SBC, com sede em Porto Alegre (RS), tem sido fundamental na criação de conhecimento e tecnologia genuinamente brasileiros. A SBC está estruturada em Secretarias Regionais e Delegacias Institucionais, localizadas em unidades de ensino e pesquisa de vários estados do Brasil. Estas instituições atuam como um elo na comunicação com os associados, além de promoverem diversas atividades e eventos. Os associados estão divididos nas categorias fundadores, estudantes, efetivos, institucionais e honorários. A SBC está organizada em Comissões Especiais, que estão relacionadas a sub-áreas de conhecimento específico. Entre outras atividades, as comissões são responsáveis pela organização de simpósios periódicos. A Comissão de Educação, presidida pelo Diretor de Educação, é responsável pela atualização permanente do Currículo de Referência e pela discussão de assuntos de interesse da área por meio de Grupos de Trabalhos. A Sociedade também organiza o Catálogo de Cursos de Graduação, Pós-Graduação e Especialização Lato Sensu distribuídos por todo o pais."
   },
   {
-    nome: "Fundacao FAT",
-    imagem: "logo_fat",
-    url : "http://www.fundacaofat.org.br/home/",
-    description: "Incentivar a pesquisa aplicada, a inovação, o desenvolvimento tecnológico e profissional e a educação estendendo esses serviços a organizações e comunidade em geral são os focos principais que norteiam a Fundação FAT desde sua criação, em 1987.
-
-                  Para tanto a Fundação FAT:
-                  Desenvolve, ministra e apoia a gestão de programas, cursos, treinamentos e outras atividades voltadas à geração e à difusão de conhecimentos nas áreas de educação e tecnologia;
-                  Organiza e realiza vestibulares e processos seletivos;
-                  Cria e implanta projetos de novos produtos, processos e serviços visando a eficiência e a eficácia das organizações.
-                  Os profissionais que compõem a Fundação FAT são altamente qualificados com atuação em instituições como FATECs e ETECs, além de outras organizações de ensino, pesquisa e consultoria com as quais a entidade mantém parcerias.
-
-                  Com mais de 28 anos de existência, a Fundação FAT já atuou em mais de 250 projetos nas áreas de gestão, logística, tecnologia da informação, construção civil, meio ambiente, transporte e educação corporativa. Todos os projetos são desenvolvidos com base nas reais necessidades das organizações com as quais mantém relacionamento."
-  },
-  {
-    nome: "CPS",
-    imagem: "logo_cps",
-    url : "http://www.cps.sp.gov.br/",
-    description: "O Centro Paula Souza é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI). A instituição administra 219 Escolas Técnicas Estaduais (Etecs) e 66 Faculdades de Tecnologia (Fatecs), reunindo mais de 283 mil alunos em cursos técnicos de nível médio e superiores tecnológicos, em mais de 300 municípios.
-
-                  As Etecs atendem 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 137 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações na modalidade semipresencial, Educação de Jovens e Adultos (EJA) e especialização técnica.
-
-                  Já nas Fatecs, mais de 75 mil alunos estão matriculados em 72 cursos de graduação tecnológica, em diversas áreas, como Construção Civil, Mecânica, Informática, Tecnologia da Informação, Turismo, entre outras. Além da graduação, são oferecidos cursos de pós-graduação, atualização tecnológica e extensão."
-  },
-  {
-    nome: "Fatec",
-    imagem:"logo_fatec",
-    url : "http://www.fatecsp.br/",
-    description: "Além dos cursos de graduação, a FATEC-SP oferece programas de pós-graduação lato sensu e de atualização tecnológica; realiza ainda diversos eventos para difusão de tecnologia. Para dar suporte a suas atividades, a FATEC-SP ocupa uma área construída de 34000 metros quadrados, com instalações modernas de salas de aula equipadas com recursos multimídia, 46 laboratórios e oficinas, um centro de pesquisa conectado à internet e uma biblioteca com 40000 exemplares de livros e revistas especializadas. Além disso, conta com um amplo anfiteatro, quatro auditórios, um ginásio de esportes e uma grande área para feiras e exposições."
-
-  },
-  {
-    nome: "Governo de São Paulo",
-    imagem: "logo_governo",
-    url : "http://www.saopaulo.sp.gov.br/",
+    nome: "Evidence - Camisas e Camisetas",
+    imagem: "evidence",
+    url: "http://www.e-evidence.com.br/",
     description: ""
   },
   {
-    nome: "Benefício SP",
-    imagem: "logo_beneficio",
-    url : "http://www.beneficiosp.com.br/",
-    description: "O São Paulo Convention & Visitors Bureau tem por objetivo aumentar o fluxo de visitantes e seu tempo de estadia na cidade e nos destinos parceiros. Para isso atua na captação, geração e incremento de eventos, além de realizar projetos e capacitações que visam melhorar a qualidade do atendimento prestado aos visitantes de negócios e lazer."
+    nome: "MF soluções em Tecnologia",
+    imagem: "mftecnologia",
+    url: "http://www.mfinformatica.com/",
+    description: "A M&F Soluções em Tecnologia, é uma empresa jovem e como todo jovem clama por um mundo melhor e mais prático! Com conhecimento profundo de tecnologia e principalmente com a experiência adquirida ao longo dos anos atuando em ambinetes de missão crítica ou não proporcionamos aos nossos clientes soluções práticas e inovadoras para seus problemas do dia-a-dia."
+  },
+  {
+    nome: "Caelum",
+    imagem: "caelum",
+    url: "https://www.caelum.com.br/",
+    description: "Cansados do modo de treinamento mais acadêmico e com pouca enfase no mercado e na prática, Paulo e Guilherme Silveira, iniciaram um modelo diferente. O objetivo era trazer para os alunos o dia a dia do desenvolvimento, começando sempre pelas perguntas para raciocinar juntos, nunca apresentando respostas rotuladas.O foco inicial era Java, tecnologia com a qual trabalham há mais de 10 anos. Foi aí que nasceu o curso de Java mais reconhecido do mercado. Com o crescimento da empresa e a entrada de muitos instrutores e desenvolvedores, novos cursos foram criados, sempre amparados por muita experiência, abordando Agile, Scrum, HTML, CSS, JavaScript, Android, iOS e .NET.Com essa equipe altamente qualificada, que desenvolve e participa do ambiente da Caelum, podemos trazer cursos de qualidade e com total harmonia com o mercado. Nada de ferramentas pouco úteis. Nada de manual sem entender o que há por trás."
   },
   {
     nome: "Visite São Paulo",
     imagem: "logo_saopaulo",
-    url : "http://www.visitesaopaulo.com/",
+    url: "http://www.visitesaopaulo.com/",
     description: "O São Paulo Convention & Visitors Bureau tem por objetivo aumentar o fluxo de visitantes e seu tempo de estadia na capital e cidades associadas. Para isso atua na captação, geração e incremento de eventos, além de realizar projetos e capacitações que visam melhorar a qualidade do atendimento prestado aos visitantes de negócios e lazer."
+  },
+  {
+    nome: "Benefício SP",
+    imagem: "logo_beneficio",
+    url: "http://www.beneficiosp.com.br/",
+    description: "O São Paulo Convention & Visitors Bureau tem por objetivo aumentar o fluxo de visitantes e seu tempo de estadia na cidade e nos destinos parceiros. Para isso atua na captação, geração e incremento de eventos, além de realizar projetos e capacitações que visam melhorar a qualidade do atendimento prestado aos visitantes de negócios e lazer."
+  },
+  {
+    nome: "CPS",
+    imagem: "logo_cps",
+    url: "http://www.cps.sp.gov.br/",
+    description: "O Centro Paula Souza é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI). A instituição administra 219 Escolas Técnicas Estaduais (Etecs) e 66 Faculdades de Tecnologia (Fatecs), reunindo mais de 283 mil alunos em cursos técnicos de nível médio e superiores tecnológicos, em mais de 300 municípios.                    As Etecs atendem 208 mil estudantes nos Ensinos Técnico, Médio e Técnico Integrado ao Médio, com 137 cursos técnicos para os setores industrial, agropecuário e de serviços, incluindo habilitações na modalidade semipresencial, Educação de Jovens e Adultos (EJA) e especialização técnica.                    Já nas Fatecs, mais de 75 mil alunos estão matriculados em 72 cursos de graduação tecnológica, em diversas áreas, como Construção Civil, Mecânica, Informática, Tecnologia da Informação, Turismo, entre outras. Além da graduação, são oferecidos cursos de pós-graduação, atualização tecnológica e extensão."
+  },
+  {
+    nome: "Fatec",
+    imagem: "logo_fatec",
+    url: "http://www.fatecsp.br/",
+    description: "Além dos cursos de graduação, a FATEC-SP oferece programas de pós-graduação lato sensu e de atualização tecnológica; realiza ainda diversos eventos para difusão de tecnologia. Para dar suporte a suas atividades, a FATEC-SP ocupa uma área construída de 34000 metros quadrados, com instalações modernas de salas de aula equipadas com recursos multimídia, 46 laboratórios e oficinas, um centro de pesquisa conectado à internet e uma biblioteca com 40000 exemplares de livros e revistas especializadas. Além disso, conta com um amplo anfiteatro, quatro auditórios, um ginásio de esportes e uma grande área para feiras e exposições."
+  },
+  {
+    nome: "Governo de São Paulo",
+    imagem: "logo_governo",
+    url: "http://www.saopaulo.sp.gov.br/",
+    description: ""
   }
 ]
