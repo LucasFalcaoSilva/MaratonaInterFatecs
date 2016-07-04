@@ -1,1257 +1,1759 @@
- [
-    {
-      "posicao":"00001",
-      "nome":"PAITOM",
-      "baloes":"B,C,F,G,H,I"
-    },
-    {
-      "posicao":"00002",
-      "nome":"DaoraaVida",
-      "baloes":"B,C,G,I,J"
-    },
-    {
-      "posicao":"00003",
-      "nome":"IR^2",
-      "baloes":"B,C,G,H,I"
-    },
-    {
-      "posicao":"00004",
-      "nome":"HackersModestos",
-      "baloes":"B,C,G,I,J"
-    },
-    {
-      "posicao":"00005",
-      "nome":"FullStackOverkill",
-      "baloes":"B,G,H,I"
-    },
-    {
-      "posicao":"00006",
-      "nome":"Nossa,assimoCmemata!",
-      "baloes":"B,C,G,I"
-    },
-    {
-      "posicao":"00007",
-      "nome":"#0000FF",
-      "baloes":"B,C,G,I"
-    },
-    {
-      "posicao":"00008",
-      "nome":"sempacto",
-      "baloes":"B,G,I,J"
-    },
-    {
-      "posicao":"00009",
-      "nome":"Houseofballons",
-      "baloes":"B,C,G,I"
-    },
-    {
-      "posicao":"00010",
-      "nome":"POGItu",
-      "baloes":"B,G,I,J"
-    },
-    {
-      "posicao":"00011",
-      "nome":"Tatranquilotacompil?vel",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00012",
-      "nome":"Sei++",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00013",
-      "nome":"99%C,masaquele1%?JAVA",
-      "baloes":"B,C,I"
-    },
-    {
-      "posicao":"00014",
-      "nome":"#QLokura",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00015",
-      "nome":"GeloLim?oePinga",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00016",
-      "nome":"AutoWorks",
-      "baloes":"B,C,G"
-    },
-    {
-      "posicao":"00017",
-      "nome":"C?digodescendente",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00018",
-      "nome":"2Br+J=GG",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00019",
-      "nome":"SJC++",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00020",
-      "nome":"Senaodercerto,bartaperto",
-      "baloes":"B,C,I"
-    },
-    {
-      "posicao":"00021",
-      "nome":"A.L.E.M.",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00021",
-      "nome":"VetoresdaSabedoria[][][]",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00023",
-      "nome":"PartidodosProgramadores",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00024",
-      "nome":"HelloWorld",
-      "baloes":"B,C,I"
-    },
-    {
-      "posicao":"00025",
-      "nome":"Nome=NULL",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00026",
-      "nome":"conio.h",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00027",
-      "nome":"EXUCODEIRO",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00028",
-      "nome":"Treino?treino,jogo?jogo",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00029",
-      "nome":"CarretaFurac?o",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00030",
-      "nome":"TeamFullPlace",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00031",
-      "nome":"OsFatecanos",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00032",
-      "nome":"QuickSorte",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00033",
-      "nome":"Unidosdacompila??o",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00034",
-      "nome":"Base64",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00035",
-      "nome":"CarretaCompila??o",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00036",
-      "nome":"Baidu",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00037",
-      "nome":"?Aquele1%deWrongAnswer",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00038",
-      "nome":"TucanosAssassinos",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00039",
-      "nome":"DNAAAG",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00040",
-      "nome":"Vish",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00041",
-      "nome":"RMV",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00042",
-      "nome":"All-izz-well",
-      "baloes":"B,G,I"
-    },
-    {
-      "posicao":"00043",
-      "nome":"\"#include\"\"deuruim.h\"\"\"",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00044",
-      "nome":"V3.1",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00045",
-      "nome":"EquipeChronos",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00046",
-      "nome":"Pen?ltimahora",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00047",
-      "nome":"C-gmentationError",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00048",
-      "nome":"HelloFatec",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00049",
-      "nome":"Banzai",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00050",
-      "nome":"TurmadaM?nica",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00051",
-      "nome":"Kickass",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00052",
-      "nome":"BoriBuilders",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00053",
-      "nome":"FEIC#ASDELUZ",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00054",
-      "nome":"GuaiacityDevTeam",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00055",
-      "nome":"4Linhas.dat",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00056",
-      "nome":"VitaminaC++",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00057",
-      "nome":"NATUSVINCERE",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00058",
-      "nome":"HURRICANECODE",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00059",
-      "nome":"Joestar",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00060",
-      "nome":"ZueraSemLimitesException",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00061",
-      "nome":"AsIrm?s",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00062",
-      "nome":"BREAKINGCODE",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00063",
-      "nome":"WELCOMETOTHEJUNGLE",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00064",
-      "nome":"LucasTeam",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00065",
-      "nome":"Hao123",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00066",
-      "nome":"AMAIN",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00067",
-      "nome":"PadawansdeLuque",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00068",
-      "nome":"BagGuy",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00069",
-      "nome":"CRIATIVE",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00070",
-      "nome":"DevCJava",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00071",
-      "nome":"Requiisiiiiiitos",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00072",
-      "nome":"CodeWarriors",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00073",
-      "nome":"Codebender",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00074",
-      "nome":"HAL9000",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00075",
-      "nome":"PODERDEGRACESCHOOL",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00076",
-      "nome":"ComicSans",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00077",
-      "nome":"Compiladores",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00078",
-      "nome":"Minions",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00079",
-      "nome":"HelloWorld",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00080",
-      "nome":"ALendadoCalipsodeFogo",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00081",
-      "nome":"Percebe?",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00082",
-      "nome":"CarretaFurac?o",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00083",
-      "nome":"ProPlay",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00084",
-      "nome":"Thread",
-      "baloes":"B,C"
-    },
-    {
-      "posicao":"00085",
-      "nome":"\"\"\"011\"\"\"",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00086",
-      "nome":"Schroedinger",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00087",
-      "nome":"Engenha??odaComputaria",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00088",
-      "nome":"OsEstagi?rios",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00089",
-      "nome":"GambiarraSantista",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00090",
-      "nome":"VLR",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00091",
-      "nome":"IsNotNull",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00092",
-      "nome":"EquipeCapit?oOliva",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00093",
-      "nome":"AFAWK",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00094",
-      "nome":"PodeC",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00095",
-      "nome":"Jundiai01",
-      "baloes":"B,G"
-    },
-    {
-      "posicao":"00096",
-      "nome":"iluminados.fatec",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00097",
-      "nome":"V-Click",
-      "baloes":"B,I"
-    },
-    {
-      "posicao":"00098",
-      "nome":"F4B",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00099",
-      "nome":"OAK",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00100",
-      "nome":"Estagi?riosAVA",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00101",
-      "nome":"Codebreaker5",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00102",
-      "nome":"StonerCrashVultures",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00103",
-      "nome":"Bytecoder",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00104",
-      "nome":"Deadlock",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00105",
-      "nome":"CarretaFurac?o",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00106",
-      "nome":"Trio0x4FE5",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00107",
-      "nome":"C3?L0kOJava",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00108",
-      "nome":"DeadCode++",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00109",
-      "nome":"TOP1",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00110",
-      "nome":"VBA.H",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00111",
-      "nome":"HakunaMatata",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00112",
-      "nome":"TeamBeta",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00113",
-      "nome":"S?CquenadaC",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00114",
-      "nome":"MAFIA12",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00115",
-      "nome":"\"\"\"HelloWorld!!\"\"\"",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00116",
-      "nome":"CodeWheel",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00117",
-      "nome":"CdeCabraMacho",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00118",
-      "nome":"TEAMHABAY",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00119",
-      "nome":"Set-Winners",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00120",
-      "nome":"RelativamenteRelativo",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00121",
-      "nome":"Hammer",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00122",
-      "nome":"GWJava",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00123",
-      "nome":"Mclovers",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00124",
-      "nome":"Studentsfzl",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00125",
-      "nome":"MeninasSuperpoderosas",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00126",
-      "nome":"Taurus",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00127",
-      "nome":"Equipe5",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00128",
-      "nome":"1/3coffeecoder",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00129",
-      "nome":"Sem/*",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00130",
-      "nome":"IDK",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00131",
-      "nome":"voidIngrato",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00132",
-      "nome":"THEAVENGERS",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00133",
-      "nome":"SHARKILLERS",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00134",
-      "nome":"HEROISDARESISTENCIA",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00135",
-      "nome":"Xama",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00136",
-      "nome":"S.H.I.E.L.D.",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00137",
-      "nome":"Saviors",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00138",
-      "nome":"I9T",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00139",
-      "nome":"BRASILCODE",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00140",
-      "nome":"WarMachine",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00141",
-      "nome":"VLN",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00142",
-      "nome":"No-Code",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00143",
-      "nome":"Rocket",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00144",
-      "nome":"HurricaneTruck",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00145",
-      "nome":"Synapse",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00146",
-      "nome":"Sete",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00147",
-      "nome":"PREDATORTeam",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00148",
-      "nome":"TeamMaia",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00149",
-      "nome":"SemSharpBaby",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00150",
-      "nome":"Megazord",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00151",
-      "nome":"Fibonatos",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00152",
-      "nome":"VITORANAGUERRA",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00153",
-      "nome":"Tenyks",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00154",
-      "nome":"PrazodeEntrega",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00155",
-      "nome":"Pastelaria",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00156",
-      "nome":"AGangdoJeff",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00157",
-      "nome":"fsociety",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00158",
-      "nome":"stratocode",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00159",
-      "nome":"OsMulekesZica",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00160",
-      "nome":"HurricaneTruck",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00161",
-      "nome":"NOVATOSADS",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00162",
-      "nome":"CSabe",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00163",
-      "nome":"Abatedorde9linhas",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00164",
-      "nome":"Banzo",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00165",
-      "nome":"AmigosdaM?rcia",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00166",
-      "nome":"TheBings",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00167",
-      "nome":"NONAME",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00168",
-      "nome":"TogetherToWin",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00169",
-      "nome":"Threeforall",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00170",
-      "nome":"Danger",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00171",
-      "nome":"BAZINGA",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00172",
-      "nome":"BambuPretu",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00173",
-      "nome":"TeriasidomelhorirverofilmedoPel?",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00174",
-      "nome":"EquipeMalloc",
-      "baloes":"I"
-    },
-    {
-      "posicao":"00175",
-      "nome":"InimigosdoPHP",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00176",
-      "nome":"Springfield",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00177",
-      "nome":"Kappa",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00178",
-      "nome":"Umter?oedoisquintos",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00179",
-      "nome":"KABRU",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00180",
-      "nome":"C+-",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00181",
-      "nome":"XuxuForever",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00182",
-      "nome":"HurricaneTruck",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00183",
-      "nome":"OsFeras",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00184",
-      "nome":"SDD",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00185",
-      "nome":"NinjaDevelopers",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00186",
-      "nome":"MornigShow",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00187",
-      "nome":"VoidTeam",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00188",
-      "nome":"GFD++",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00189",
-      "nome":"theexceptionals",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00190",
-      "nome":"Gigarain",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00191",
-      "nome":"JedidaFatec",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00192",
-      "nome":"Vol?til",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00193",
-      "nome":"MGL",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00194",
-      "nome":"OsBarbados",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00195",
-      "nome":"ProgramadoresdeFerro",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00196",
-      "nome":"QuaseNada",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00197",
-      "nome":"SemNome",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00198",
-      "nome":"Looping",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00199",
-      "nome":"TIMETOP",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00200",
-      "nome":"Dolly",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00201",
-      "nome":"THEBUGONTHETABLE",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00202",
-      "nome":"AUTOBOTS",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00203",
-      "nome":"OTime",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00204",
-      "nome":"\"\"\"Thisisabot\"\"\"",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00205",
-      "nome":"Oultimolugar?nosso!",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00206",
-      "nome":"NumberOne",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00207",
-      "nome":"Bankai",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00208",
-      "nome":"CapoeiradeDinossauro",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00209",
-      "nome":"CARRETAFURACONES",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00210",
-      "nome":"PowerC",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00211",
-      "nome":"Mochileiros",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00212",
-      "nome":"MoNeurose",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00213",
-      "nome":"Omega3",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00214",
-      "nome":"CFreio",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00215",
-      "nome":"Bizne$",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00216",
-      "nome":"CodeMasters",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00217",
-      "nome":"BrothersInBytes",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00218",
-      "nome":"Where'sTheTampa?",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00219",
-      "nome":"BodyBuilder",
-      "baloes":"B"
-    },
-    {
-      "posicao":"00220",
-      "nome":"CHAR'S",
-      "baloes":""
-    },
-    {
-      "posicao":"00221",
-      "nome":"CICADA3301",
-      "baloes":""
-    },
-    {
-      "posicao":"00222",
-      "nome":"SuperPig",
-      "baloes":""
-    },
-    {
-      "posicao":"00223",
-      "nome":"SBREBOL",
-      "baloes":""
-    },
-    {
-      "posicao":"00224",
-      "nome":"Estrova",
-      "baloes":""
-    },
-    {
-      "posicao":"00225",
-      "nome":"\"CodeTeam",
-      "baloes":""
-    },
-    {
-      "posicao":"00226",
-      "nome":"Guiluart",
-      "baloes":""
-    },
-    {
-      "posicao":"00227",
-      "nome":"MafagafinhosOtorrinolaringologistas",
-      "baloes":""
-    },
-    {
-      "posicao":"00228",
-      "nome":"ClubPenguin",
-      "baloes":""
-    },
-    {
-      "posicao":"00229",
-      "nome":"NoName",
-      "baloes":""
-    },
-    {
-      "posicao":"00230",
-      "nome":"JLP",
-      "baloes":""
-    },
-    {
-      "posicao":"00231",
-      "nome":"Quem?",
-      "baloes":""
-    },
-    {
-      "posicao":"00232",
-      "nome":"includecoffee.h",
-      "baloes":""
-    },
-    {
-      "posicao":"00233",
-      "nome":"PrimatasDigitais",
-      "baloes":""
-    },
-    {
-      "posicao":"00234",
-      "nome":"Facade",
-      "baloes":""
-    },
-    {
-      "posicao":"00235",
-      "nome":"JavaFede",
-      "baloes":""
-    },
-    {
-      "posicao":"00236",
-      "nome":"PERIPLANETAAMERICANA",
-      "baloes":""
-    },
-    {
-      "posicao":"00237",
-      "nome":"PiratasdoSilicio",
-      "baloes":""
-    },
-    {
-      "posicao":"00238",
-      "nome":"Zero",
-      "baloes":""
-    },
-    {
-      "posicao":"00239",
-      "nome":"Capivarianos",
-      "baloes":""
-    },
-    {
-      "posicao":"00240",
-      "nome":"Fresco",
-      "baloes":""
-    },
-    {
-      "posicao":"00241",
-      "nome":"InfoSJRP#1",
-      "baloes":""
-    },
-    {
-      "posicao":"00242",
-      "nome":"InfoSJRP#4",
-      "baloes":""
-    },
-    {
-      "posicao":"00243",
-      "nome":"Senior",
-      "baloes":""
-    },
-    {
-      "posicao":"00244",
-      "nome":"C4All",
-      "baloes":""
-    },
-    {
-      "posicao":"00245",
-      "nome":"0,5",
-      "baloes":""
-    },
-    {
-      "posicao":"00246",
-      "nome":"Cri@r",
-      "baloes":""
-    },
-    {
-      "posicao":"00247",
-      "nome":"CarretaProgramação",
-      "baloes":""
-    },
-    {
-      "posicao":"00248",
-      "nome":"Batata",
-      "baloes":""
-    },
-    {
-      "posicao":"00249",
-      "nome":"Java629",
-      "baloes":""
-    },
-    {
-      "posicao":"00250",
-      "nome":"JVMTeam",
-      "baloes":""
-    },
-    {
-      "posicao":"00251",
-      "nome":"KeiichiBeans",
-      "baloes":""
-    }
-  ]
+[
+  {
+    "posicao": "00001",
+    "nome": "PAITOM",
+    "baloes": "B,C,F,G,H,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "01023"
+  },
+  {
+    "posicao": "00002",
+    "nome": "Daora a Vida",
+    "baloes": "B,C,G,I,J",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00785"
+  },
+  {
+    "posicao": "00003",
+    "nome": "IR^2",
+    "baloes": "B,C,G,H,I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00919"
+  },
+  {
+    "posicao": "00004",
+    "nome": "Hackers Modestos",
+    "baloes": "B,C,G,I,J",
+    "fatec": "São Paulo - SP",
+    "tempo": "00937"
+  },
+  {
+    "posicao": "00005",
+    "nome": "FullStackOverkill",
+    "baloes": "B,G,H,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00219"
+  },
+  {
+    "posicao": "00006",
+    "nome": "Nossa, assim o C me mata!",
+    "baloes": "B,C,G,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00461"
+  },
+  {
+    "posicao": "00007",
+    "nome": "#0000FF",
+    "baloes": "B,C,G,I",
+    "fatec": "Ipiranga - IPIR",
+    "tempo": "00488"
+  },
+  {
+    "posicao": "00008",
+    "nome": "sempacto",
+    "baloes": "B,G,I,J",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00502"
+  },
+  {
+    "posicao": "00009",
+    "nome": "House of ballons",
+    "baloes": "B,C,G,I",
+    "fatec": "Lins - LINS",
+    "tempo": "00565"
+  },
+  {
+    "posicao": "00010",
+    "nome": "POG Itu",
+    "baloes": "B,G,I,J",
+    "fatec": "Itu - ITU",
+    "tempo": "00720"
+  },
+  {
+    "posicao": "00011",
+    "nome": "Ta tranquilo ta compilável",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00148"
+  },
+  {
+    "posicao": "00012",
+    "nome": "Sei ++",
+    "baloes": "B,G,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00268"
+  },
+  {
+    "posicao": "00013",
+    "nome": "99% C, mas aquele 1% é JAVA",
+    "baloes": "B,C,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00274"
+  },
+  {
+    "posicao": "00014",
+    "nome": "#QLokura",
+    "baloes": "B,G,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00275"
+  },
+  {
+    "posicao": "00015",
+    "nome": "Gelo Limão e Pinga",
+    "baloes": "B,G,I",
+    "fatec": "Taquaritinga - TAQUAR",
+    "tempo": "00277"
+  },
+  {
+    "posicao": "00016",
+    "nome": "AutoWorks",
+    "baloes": "B,C,G",
+    "fatec": "Lins - LINS",
+    "tempo": "00283"
+  },
+  {
+    "posicao": "00017",
+    "nome": "Código descendente",
+    "baloes": "B,G,I",
+    "fatec": "Itu - ITU",
+    "tempo": "00286"
+  },
+  {
+    "posicao": "00018",
+    "nome": "2Br + J = GG",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00287"
+  },
+  {
+    "posicao": "00019",
+    "nome": "SJC++",
+    "baloes": "B,G,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00314"
+  },
+  {
+    "posicao": "00020",
+    "nome": "Se nao der certo, bar ta perto",
+    "baloes": "B,C,I",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00315"
+  },
+  {
+    "posicao": "00021",
+    "nome": "A.L.E.M.",
+    "baloes": "B,G,I",
+    "fatec": "Taquaritinga - TAQUAR",
+    "tempo": "00328"
+  },
+  {
+    "posicao": "00022",
+    "nome": "Vetores da Sabedoria [] [] []",
+    "baloes": "B,G,I",
+    "fatec": "Itapetininga - ITAPET",
+    "tempo": "00325"
+  },
+  {
+    "posicao": "00023",
+    "nome": "Partido dos Programadores",
+    "baloes": "B,G,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00342"
+  },
+  {
+    "posicao": "00024",
+    "nome": "Hello World",
+    "baloes": "B,C,I",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00361"
+  },
+  {
+    "posicao": "00025",
+    "nome": "Nome = NULL",
+    "baloes": "B,G,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00366"
+  },
+  {
+    "posicao": "00026",
+    "nome": "conio.h",
+    "baloes": "B,G,I",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00377"
+  },
+  {
+    "posicao": "00027",
+    "nome": "EXU CODEIRO",
+    "baloes": "B,G,I",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00383"
+  },
+  {
+    "posicao": "00028",
+    "nome": "Treino é treino, jogo é jogo",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00384"
+  },
+  {
+    "posicao": "00029",
+    "nome": "Carreta Furacão",
+    "baloes": "B,G,I",
+    "fatec": "SÃO PAULO - SP",
+    "tempo": "00404"
+  },
+  {
+    "posicao": "00030",
+    "nome": "Team FullPlace",
+    "baloes": "B,G,I",
+    "fatec": "Lins - LINS",
+    "tempo": "00416"
+  },
+  {
+    "posicao": "00031",
+    "nome": "Os Fatecanos",
+    "baloes": "B,G,I",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00428"
+  },
+  {
+    "posicao": "00032",
+    "nome": "QuickSorte",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00434"
+  },
+  {
+    "posicao": "00033",
+    "nome": "Unidos da compilação",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00442"
+  },
+  {
+    "posicao": "00034",
+    "nome": "Base64",
+    "baloes": "B,G,I",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00472"
+  },
+  {
+    "posicao": "00035",
+    "nome": "Carreta Compilação",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00472"
+  },
+  {
+    "posicao": "00036",
+    "nome": "Baidu",
+    "baloes": "B,G,I",
+    "fatec": "Santos - SANT",
+    "tempo": "00480"
+  },
+  {
+    "posicao": "00037",
+    "nome": " Aquele 1% de Wrong Answer",
+    "baloes": "B,G,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00490"
+  },
+  {
+    "posicao": "00038",
+    "nome": "Tucanos Assassinos",
+    "baloes": "B,G,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00552"
+  },
+  {
+    "posicao": "00039",
+    "nome": "DNA AAG",
+    "baloes": "B,G,I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00611"
+  },
+  {
+    "posicao": "00040",
+    "nome": "Vish",
+    "baloes": "B,G,I",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00629"
+  },
+  {
+    "posicao": "00041",
+    "nome": "RMV",
+    "baloes": "B,G,I",
+    "fatec": "Jundiaí - JUND",
+    "tempo": "00661"
+  },
+  {
+    "posicao": "00042",
+    "nome": "All-izz-well",
+    "baloes": "B,G,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00670"
+  },
+  {
+    "posicao": "00043",
+    "nome": "\"#include \"\"deuruim.h\"\"\"",
+    "baloes": "B,G",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00093"
+  },
+  {
+    "posicao": "00044",
+    "nome": "V3.1",
+    "baloes": "B,G",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00124"
+  },
+  {
+    "posicao": "00045",
+    "nome": "Equipe Chronos",
+    "baloes": "B,G",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00127"
+  },
+  {
+    "posicao": "00046",
+    "nome": "Penúltima hora",
+    "baloes": "B,G",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00130"
+  },
+  {
+    "posicao": "00047",
+    "nome": "C-gmentation Error",
+    "baloes": "B,I",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00161"
+  },
+  {
+    "posicao": "00048",
+    "nome": "Hello Fatec",
+    "baloes": "B,G",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00172"
+  },
+  {
+    "posicao": "00049",
+    "nome": "Banzai",
+    "baloes": "B,I",
+    "fatec": "Lins - LINS",
+    "tempo": "00190"
+  },
+  {
+    "posicao": "00050",
+    "nome": "Turma da Mônica",
+    "baloes": "B,G",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00193"
+  },
+  {
+    "posicao": "00051",
+    "nome": "Kickass",
+    "baloes": "B,I",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00199"
+  },
+  {
+    "posicao": "00052",
+    "nome": "Bori Builders",
+    "baloes": "B,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00212"
+  },
+  {
+    "posicao": "00053",
+    "nome": "FEIC#AS DE LUZ",
+    "baloes": "B,I",
+    "fatec": "Cruzeiro - CRUZ",
+    "tempo": "00220"
+  },
+  {
+    "posicao": "00054",
+    "nome": "GuaiacityDevTeam",
+    "baloes": "B,G",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00224"
+  },
+  {
+    "posicao": "00055",
+    "nome": "4Linhas.dat",
+    "baloes": "B,G",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00237"
+  },
+  {
+    "posicao": "00056",
+    "nome": "Vitamina C++",
+    "baloes": "B,I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00242"
+  },
+  {
+    "posicao": "00057",
+    "nome": "NATUS VINCERE",
+    "baloes": "B,G",
+    "fatec": "Araçatuba - ARATB",
+    "tempo": "00251"
+  },
+  {
+    "posicao": "00058",
+    "nome": "HURRICANE CODE",
+    "baloes": "B,I",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00251"
+  },
+  {
+    "posicao": "00059",
+    "nome": "Joestar",
+    "baloes": "B,G",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00256"
+  },
+  {
+    "posicao": "00060",
+    "nome": "ZueraSemLimitesException",
+    "baloes": "B,G",
+    "fatec": "São Paulo - SP",
+    "tempo": "00256"
+  },
+  {
+    "posicao": "00061",
+    "nome": "As Irmãs",
+    "baloes": "B,I",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00258"
+  },
+  {
+    "posicao": "00062",
+    "nome": "BREAKING CODE",
+    "baloes": "B,I",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00266"
+  },
+  {
+    "posicao": "00063",
+    "nome": "WELCOME TO THE JUNGLE",
+    "baloes": "B,G",
+    "fatec": "Cruzeiro - CRUZ",
+    "tempo": "00269"
+  },
+  {
+    "posicao": "00064",
+    "nome": "LucasTeam",
+    "baloes": "B,I",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00270"
+  },
+  {
+    "posicao": "00065",
+    "nome": "Hao123",
+    "baloes": "B,G",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00272"
+  },
+  {
+    "posicao": "00066",
+    "nome": "AMAIN",
+    "baloes": "B,G",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00279"
+  },
+  {
+    "posicao": "00067",
+    "nome": "Padawans de Luque",
+    "baloes": "B,I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00285"
+  },
+  {
+    "posicao": "00068",
+    "nome": "BagGuy",
+    "baloes": "B,G",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00289"
+  },
+  {
+    "posicao": "00069",
+    "nome": "CRIATIVE",
+    "baloes": "B,G",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00291"
+  },
+  {
+    "posicao": "00070",
+    "nome": "DevCJava",
+    "baloes": "B,I",
+    "fatec": "Garça - GARCA",
+    "tempo": "00293"
+  },
+  {
+    "posicao": "00071",
+    "nome": "Requiisiiiiiitos",
+    "baloes": "B,I",
+    "fatec": "Itapetininga - ITAPET",
+    "tempo": "00294"
+  },
+  {
+    "posicao": "00072",
+    "nome": "Code Warriors",
+    "baloes": "B,I",
+    "fatec": "Indaiatuba - INDAIA",
+    "tempo": "00303"
+  },
+  {
+    "posicao": "00073",
+    "nome": "Codebender",
+    "baloes": "B,G",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00309"
+  },
+  {
+    "posicao": "00074",
+    "nome": "HAL 9000",
+    "baloes": "B,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00310"
+  },
+  {
+    "posicao": "00075",
+    "nome": "PODER DE GRACE SCHOOL",
+    "baloes": "B,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00314"
+  },
+  {
+    "posicao": "00076",
+    "nome": "Comic Sans",
+    "baloes": "B,I",
+    "fatec": "Itapetininga - ITAPET",
+    "tempo": "00316"
+  },
+  {
+    "posicao": "00077",
+    "nome": "Compiladores",
+    "baloes": "B,I",
+    "fatec": "Itapetininga - ITAPET",
+    "tempo": "00322"
+  },
+  {
+    "posicao": "00078",
+    "nome": "Minions",
+    "baloes": "B,G",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00332"
+  },
+  {
+    "posicao": "00079",
+    "nome": "Hello World",
+    "baloes": "B,I",
+    "fatec": "São Paulo - SP",
+    "tempo": "00335"
+  },
+  {
+    "posicao": "00080",
+    "nome": "A Lenda do Calipso de Fogo",
+    "baloes": "B,G",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00335"
+  },
+  {
+    "posicao": "00081",
+    "nome": "Percebe?",
+    "baloes": "B,G",
+    "fatec": "São Paulo - SP",
+    "tempo": "00337"
+  },
+  {
+    "posicao": "00082",
+    "nome": "Carreta Furacão",
+    "baloes": "B,I",
+    "fatec": "PRESIDENTE PRUDENTE - PPRUD",
+    "tempo": "00349"
+  },
+  {
+    "posicao": "00083",
+    "nome": "ProPlay",
+    "baloes": "B,I",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00356"
+  },
+  {
+    "posicao": "00084",
+    "nome": "Thread",
+    "baloes": "B,C",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00360"
+  },
+  {
+    "posicao": "00085",
+    "nome": "\"\"\"011\"\"\"",
+    "baloes": "B,G",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00378"
+  },
+  {
+    "posicao": "00086",
+    "nome": "Schroedinger",
+    "baloes": "B,G",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00384"
+  },
+  {
+    "posicao": "00087",
+    "nome": "Engenhação da Computaria",
+    "baloes": "B,G",
+    "fatec": "Jales - JALES",
+    "tempo": "00388"
+  },
+  {
+    "posicao": "00088",
+    "nome": "Os Estagiários",
+    "baloes": "B,G",
+    "fatec": "Jales - JALES",
+    "tempo": "00395"
+  },
+  {
+    "posicao": "00089",
+    "nome": "Gambiarra Santista",
+    "baloes": "B,I",
+    "fatec": "Santos - SANT",
+    "tempo": "00396"
+  },
+  {
+    "posicao": "00090",
+    "nome": "VLR",
+    "baloes": "B,G",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00448"
+  },
+  {
+    "posicao": "00091",
+    "nome": "Is Not Null",
+    "baloes": "B,I",
+    "fatec": "Indaiatuba - INDAIA",
+    "tempo": "00469"
+  },
+  {
+    "posicao": "00092",
+    "nome": "Equipe Capitão Oliva",
+    "baloes": "B,G",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00493"
+  },
+  {
+    "posicao": "00093",
+    "nome": "AFAWK",
+    "baloes": "B,I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00496"
+  },
+  {
+    "posicao": "00094",
+    "nome": "Pode C",
+    "baloes": "B,I",
+    "fatec": "Mococa - MOCOCC",
+    "tempo": "00522"
+  },
+  {
+    "posicao": "00095",
+    "nome": "Jundiai01",
+    "baloes": "B,G",
+    "fatec": "Jundiaí - JUND",
+    "tempo": "00531"
+  },
+  {
+    "posicao": "00096",
+    "nome": "iluminados.fatec",
+    "baloes": "B,I",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00585"
+  },
+  {
+    "posicao": "00097",
+    "nome": "V-Click",
+    "baloes": "B,I",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00608"
+  },
+  {
+    "posicao": "00098",
+    "nome": "F4B",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00016"
+  },
+  {
+    "posicao": "00099",
+    "nome": "OAK",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00016"
+  },
+  {
+    "posicao": "00100",
+    "nome": "Estagiários AVA",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00017"
+  },
+  {
+    "posicao": "00101",
+    "nome": "Codebreaker5",
+    "baloes": "B",
+    "fatec": "Santos - SANT",
+    "tempo": "00019"
+  },
+  {
+    "posicao": "00102",
+    "nome": "Stoner Crash Vultures",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00019"
+  },
+  {
+    "posicao": "00103",
+    "nome": "Bytecoder",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00021"
+  },
+  {
+    "posicao": "00104",
+    "nome": "Deadlock",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00023"
+  },
+  {
+    "posicao": "00105",
+    "nome": "Carreta Furacão",
+    "baloes": "B",
+    "fatec": "Ourinhos - OURINS",
+    "tempo": "00023"
+  },
+  {
+    "posicao": "00106",
+    "nome": "Trio 0x4FE5",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00024"
+  },
+  {
+    "posicao": "00107",
+    "nome": "C 3´ L0kO Java",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00026"
+  },
+  {
+    "posicao": "00108",
+    "nome": "DeadCode++",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00027"
+  },
+  {
+    "posicao": "00109",
+    "nome": "TOP 1",
+    "baloes": "B",
+    "fatec": "Araçatuba - ARATB",
+    "tempo": "00028"
+  },
+  {
+    "posicao": "00110",
+    "nome": "VBA.H",
+    "baloes": "B",
+    "fatec": "Taubaté - TAUBT",
+    "tempo": "00029"
+  },
+  {
+    "posicao": "00111",
+    "nome": "Hakuna Matata",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00031"
+  },
+  {
+    "posicao": "00112",
+    "nome": "Team Beta",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00032"
+  },
+  {
+    "posicao": "00113",
+    "nome": "Só C que nada C",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00034"
+  },
+  {
+    "posicao": "00114",
+    "nome": "MAFIA 12",
+    "baloes": "B",
+    "fatec": "Cruzeiro - CRUZ",
+    "tempo": "00036"
+  },
+  {
+    "posicao": "00115",
+    "nome": "\"\"\" Hello World!! \"\"\"",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00036"
+  },
+  {
+    "posicao": "00116",
+    "nome": "Code Wheel",
+    "baloes": "B",
+    "fatec": "Botucatu - BTCATU",
+    "tempo": "00038"
+  },
+  {
+    "posicao": "00117",
+    "nome": "C de Cabra Macho",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00038"
+  },
+  {
+    "posicao": "00118",
+    "nome": "TEAM HABAY",
+    "baloes": "B",
+    "fatec": "Araçatuba - ARATB",
+    "tempo": "00039"
+  },
+  {
+    "posicao": "00119",
+    "nome": "Set-Winners",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00040"
+  },
+  {
+    "posicao": "00120",
+    "nome": "Relativamente Relativo",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00041"
+  },
+  {
+    "posicao": "00121",
+    "nome": "Hammer",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00041"
+  },
+  {
+    "posicao": "00122",
+    "nome": "GWJava",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00045"
+  },
+  {
+    "posicao": "00123",
+    "nome": "Mclovers",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00047"
+  },
+  {
+    "posicao": "00124",
+    "nome": "Studentsfzl",
+    "baloes": "B",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00047"
+  },
+  {
+    "posicao": "00125",
+    "nome": "Meninas Superpoderosas",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00048"
+  },
+  {
+    "posicao": "00126",
+    "nome": "Taurus",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00050"
+  },
+  {
+    "posicao": "00127",
+    "nome": "Equipe 5",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00053"
+  },
+  {
+    "posicao": "00128",
+    "nome": "1/3 coffeecoder",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00054"
+  },
+  {
+    "posicao": "00129",
+    "nome": "Sem /*",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00055"
+  },
+  {
+    "posicao": "00130",
+    "nome": "IDK",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00058"
+  },
+  {
+    "posicao": "00131",
+    "nome": "void Ingrato",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00062"
+  },
+  {
+    "posicao": "00132",
+    "nome": "THE AVENGERS",
+    "baloes": "B",
+    "fatec": "Araçatuba - ARATB",
+    "tempo": "00063"
+  },
+  {
+    "posicao": "00133",
+    "nome": "SHARKILLERS",
+    "baloes": "B",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00063"
+  },
+  {
+    "posicao": "00134",
+    "nome": "HEROIS DA RESISTENCIA",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00064"
+  },
+  {
+    "posicao": "00135",
+    "nome": "Xama",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00064"
+  },
+  {
+    "posicao": "00136",
+    "nome": "S.H.I.E.L.D.",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00066"
+  },
+  {
+    "posicao": "00137",
+    "nome": "Saviors",
+    "baloes": "B",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00067"
+  },
+  {
+    "posicao": "00138",
+    "nome": "I9T",
+    "baloes": "B",
+    "fatec": "Itu - ITU",
+    "tempo": "00068"
+  },
+  {
+    "posicao": "00139",
+    "nome": "BRASIL CODE",
+    "baloes": "B",
+    "fatec": "Ribeirão Preto - RIBP",
+    "tempo": "00068"
+  },
+  {
+    "posicao": "00140",
+    "nome": "War Machine",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00075"
+  },
+  {
+    "posicao": "00141",
+    "nome": "VLN",
+    "baloes": "B",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00078"
+  },
+  {
+    "posicao": "00142",
+    "nome": "No-Code",
+    "baloes": "B",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00078"
+  },
+  {
+    "posicao": "00143",
+    "nome": "Rocket",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00079"
+  },
+  {
+    "posicao": "00144",
+    "nome": "PIR@TAS.NET",
+    "baloes": "B",
+    "fatec": "MOCOCA - MOCOCC",
+    "tempo": "00080"
+  },
+  {
+    "posicao": "00145",
+    "nome": "Synapse",
+    "baloes": "B",
+    "fatec": "Campinas - CAMP",
+    "tempo": "00080"
+  },
+  {
+    "posicao": "00146",
+    "nome": "Sete",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00082"
+  },
+  {
+    "posicao": "00147",
+    "nome": "PREDATOR Team",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00083"
+  },
+  {
+    "posicao": "00148",
+    "nome": "TeamMaia",
+    "baloes": "B",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00083"
+  },
+  {
+    "posicao": "00149",
+    "nome": "Sem Sharp Baby",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00086"
+  },
+  {
+    "posicao": "00150",
+    "nome": "Megazord",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00086"
+  },
+  {
+    "posicao": "00151",
+    "nome": "Fibonatos",
+    "baloes": "B",
+    "fatec": "Ipiranga - IPIR",
+    "tempo": "00087"
+  },
+  {
+    "posicao": "00152",
+    "nome": "VITORANAGUERRA",
+    "baloes": "B",
+    "fatec": "SANTOS - SANT",
+    "tempo": "00089"
+  },
+  {
+    "posicao": "00153",
+    "nome": "Tenyks",
+    "baloes": "B",
+    "fatec": "Lins - LINS",
+    "tempo": "00093"
+  },
+  {
+    "posicao": "00154",
+    "nome": "Prazo de Entrega",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00093"
+  },
+  {
+    "posicao": "00155",
+    "nome": "Pastelaria",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00099"
+  },
+  {
+    "posicao": "00156",
+    "nome": "A Gang do Jeff",
+    "baloes": "B",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00100"
+  },
+  {
+    "posicao": "00157",
+    "nome": "fsociety",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00100"
+  },
+  {
+    "posicao": "00158",
+    "nome": "stratocode",
+    "baloes": "B",
+    "fatec": "Bauru - BAURU",
+    "tempo": "00102"
+  },
+  {
+    "posicao": "00159",
+    "nome": "Os Mulekes Zica",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00103"
+  },
+  {
+    "posicao": "00160",
+    "nome": "Hurricane Truck",
+    "baloes": "B",
+    "fatec": "SÃO JOSÉ DO RIO PRETO - SJRP",
+    "tempo": "00105"
+  },
+  {
+    "posicao": "00161",
+    "nome": "NOVATOS ADS",
+    "baloes": "B",
+    "fatec": "Araçatuba - ARATB",
+    "tempo": "00109"
+  },
+  {
+    "posicao": "00162",
+    "nome": "C Sabe",
+    "baloes": "B",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00112"
+  },
+  {
+    "posicao": "00163",
+    "nome": "Abatedor de 9 linhas",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00118"
+  },
+  {
+    "posicao": "00164",
+    "nome": "Banzo",
+    "baloes": "B",
+    "fatec": "Campinas - CAMP",
+    "tempo": "00119"
+  },
+  {
+    "posicao": "00165",
+    "nome": "Amigos da Márcia",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00119"
+  },
+  {
+    "posicao": "00166",
+    "nome": "The Bings",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00119"
+  },
+  {
+    "posicao": "00167",
+    "nome": "NONAME",
+    "baloes": "B",
+    "fatec": "Taquaritinga - TAQUAR",
+    "tempo": "00120"
+  },
+  {
+    "posicao": "00168",
+    "nome": "Together To Win",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00121"
+  },
+  {
+    "posicao": "00169",
+    "nome": "Three for all",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00122"
+  },
+  {
+    "posicao": "00170",
+    "nome": "Danger",
+    "baloes": "B",
+    "fatec": "Itu - ITU",
+    "tempo": "00122"
+  },
+  {
+    "posicao": "00171",
+    "nome": "BAZINGA",
+    "baloes": "B",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00123"
+  },
+  {
+    "posicao": "00172",
+    "nome": "Bambu Pretu",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00142"
+  },
+  {
+    "posicao": "00173",
+    "nome": "Teria sido melhor ir ver o filme do Pelé",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00143"
+  },
+  {
+    "posicao": "00174",
+    "nome": "Equipe Malloc",
+    "baloes": "I",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00144"
+  },
+  {
+    "posicao": "00175",
+    "nome": "Inimigos do PHP",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00150"
+  },
+  {
+    "posicao": "00176",
+    "nome": "Springfield",
+    "baloes": "B",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00150"
+  },
+  {
+    "posicao": "00177",
+    "nome": "Kappa",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00153"
+  },
+  {
+    "posicao": "00178",
+    "nome": "Um terço e dois quintos",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00154"
+  },
+  {
+    "posicao": "00179",
+    "nome": "KABRU",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00159"
+  },
+  {
+    "posicao": "00180",
+    "nome": "C + -",
+    "baloes": "B",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00159"
+  },
+  {
+    "posicao": "00181",
+    "nome": "Xuxu Forever",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00160"
+  },
+  {
+    "posicao": "00182",
+    "nome": "Hurricane Truck",
+    "baloes": "B",
+    "fatec": "SÃO PAULO - SP",
+    "tempo": "00161"
+  },
+  {
+    "posicao": "00183",
+    "nome": "Os Feras",
+    "baloes": "B",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00163"
+  },
+  {
+    "posicao": "00184",
+    "nome": "SDD",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00181"
+  },
+  {
+    "posicao": "00185",
+    "nome": "Ninja Developers",
+    "baloes": "B",
+    "fatec": "Ipiranga - IPIR",
+    "tempo": "00185"
+  },
+  {
+    "posicao": "00186",
+    "nome": "Mornig Show",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00187"
+  },
+  {
+    "posicao": "00187",
+    "nome": "Void Team",
+    "baloes": "B",
+    "fatec": "Zona Sul - ZSUL",
+    "tempo": "00187"
+  },
+  {
+    "posicao": "00188",
+    "nome": "GFD++",
+    "baloes": "B",
+    "fatec": "Garça - GARCA",
+    "tempo": "00187"
+  },
+  {
+    "posicao": "00189",
+    "nome": "the exceptionals",
+    "baloes": "B",
+    "fatec": "Sorocaba - SOROCB",
+    "tempo": "00188"
+  },
+  {
+    "posicao": "00190",
+    "nome": "Gigarain",
+    "baloes": "B",
+    "fatec": "Santos - SANT",
+    "tempo": "00188"
+  },
+  {
+    "posicao": "00191",
+    "nome": "Jedi da Fatec",
+    "baloes": "B",
+    "fatec": "Campinas - CAMP",
+    "tempo": "00188"
+  },
+  {
+    "posicao": "00192",
+    "nome": "Volátil",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00190"
+  },
+  {
+    "posicao": "00193",
+    "nome": "MGL",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00196"
+  },
+  {
+    "posicao": "00194",
+    "nome": "Os Barbados",
+    "baloes": "B",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00197"
+  },
+  {
+    "posicao": "00195",
+    "nome": "Programadores de Ferro",
+    "baloes": "B",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00198"
+  },
+  {
+    "posicao": "00196",
+    "nome": "QuaseNada",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00202"
+  },
+  {
+    "posicao": "00197",
+    "nome": "SemNome",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00203"
+  },
+  {
+    "posicao": "00198",
+    "nome": "Looping",
+    "baloes": "B",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00205"
+  },
+  {
+    "posicao": "00199",
+    "nome": "TIME TOP",
+    "baloes": "B",
+    "fatec": "São Paulo - SP",
+    "tempo": "00207"
+  },
+  {
+    "posicao": "00200",
+    "nome": "Dolly",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00208"
+  },
+  {
+    "posicao": "00201",
+    "nome": "THE BUG ON THE TABLE",
+    "baloes": "B",
+    "fatec": "Cruzeiro - CRUZ",
+    "tempo": "00213"
+  },
+  {
+    "posicao": "00202",
+    "nome": "AUTOBOTS",
+    "baloes": "B",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00213"
+  },
+  {
+    "posicao": "00203",
+    "nome": "O Time",
+    "baloes": "B",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00214"
+  },
+  {
+    "posicao": "00204",
+    "nome": "\"\"\"This is a bot\"\"\"",
+    "baloes": "B",
+    "fatec": "Jales - JALES",
+    "tempo": "00217"
+  },
+  {
+    "posicao": "00205",
+    "nome": "O ultimo lugar é nosso!",
+    "baloes": "B",
+    "fatec": "Mogi das Cruzes - MOGI",
+    "tempo": "00226"
+  },
+  {
+    "posicao": "00206",
+    "nome": "Number One",
+    "baloes": "B",
+    "fatec": "Carapicuíba - CARAPB",
+    "tempo": "00231"
+  },
+  {
+    "posicao": "00207",
+    "nome": "Bankai",
+    "baloes": "B",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00234"
+  },
+  {
+    "posicao": "00208",
+    "nome": "Capoeira de Dinossauro",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00244"
+  },
+  {
+    "posicao": "00209",
+    "nome": "CARRETA FURACONES",
+    "baloes": "B",
+    "fatec": "Campinas - CAMP",
+    "tempo": "00251"
+  },
+  {
+    "posicao": "00210",
+    "nome": "Power C",
+    "baloes": "B",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00253"
+  },
+  {
+    "posicao": "00211",
+    "nome": "Mochileiros",
+    "baloes": "B",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00258"
+  },
+  {
+    "posicao": "00212",
+    "nome": "Mo Neurose",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00262"
+  },
+  {
+    "posicao": "00213",
+    "nome": "Omega3",
+    "baloes": "B",
+    "fatec": "Praia Grande - PRAIAG",
+    "tempo": "00264"
+  },
+  {
+    "posicao": "00214",
+    "nome": "C Freio",
+    "baloes": "B",
+    "fatec": "Santo André - SNTAND",
+    "tempo": "00270"
+  },
+  {
+    "posicao": "00215",
+    "nome": "Bizne$",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00272"
+  },
+  {
+    "posicao": "00216",
+    "nome": "CodeMasters",
+    "baloes": "B",
+    "fatec": "Presidente Prudente - PPRUD",
+    "tempo": "00276"
+  },
+  {
+    "posicao": "00217",
+    "nome": "Brothers In Bytes",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00297"
+  },
+  {
+    "posicao": "00218",
+    "nome": "Where's The Tampa?",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00388"
+  },
+  {
+    "posicao": "00219",
+    "nome": "Body Builder",
+    "baloes": "B",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00417"
+  },
+  {
+    "posicao": "00220",
+    "nome": "CHAR'S",
+    "baloes": "",
+    "fatec": "BOTUCATU - BTCATU",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00221",
+    "nome": "CICADA3301",
+    "baloes": "",
+    "fatec": "BOTUCATU - BTCATU",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00222",
+    "nome": "Super Pig",
+    "baloes": "",
+    "fatec": "Campinas - CAMP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00223",
+    "nome": "SBREBOL",
+    "baloes": "",
+    "fatec": "Franca - FRANCA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00224",
+    "nome": "Estrova",
+    "baloes": "",
+    "fatec": "Garça - GARCA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00225",
+    "nome": "\"CodeTeam",
+    "baloes": "",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00226",
+    "nome": "Guiluart",
+    "baloes": "",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00227",
+    "nome": "MafagafinhosOtorrinolaringologistas",
+    "baloes": "",
+    "fatec": "Guaratinguetá - GUARA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00228",
+    "nome": "Club Penguin",
+    "baloes": "",
+    "fatec": "Indaiatuba - INDAIA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00229",
+    "nome": "No Name",
+    "baloes": "",
+    "fatec": "Indaiatuba - INDAIA",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00230",
+    "nome": "JLP",
+    "baloes": "",
+    "fatec": "Itapetininga - ITAPET",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00231",
+    "nome": "Quem?",
+    "baloes": "",
+    "fatec": "Itu - ITU",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00232",
+    "nome": "include coffee.h",
+    "baloes": "",
+    "fatec": "Jales - JALES",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00233",
+    "nome": "Primatas Digitais",
+    "baloes": "",
+    "fatec": "Osasco - OSASC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00234",
+    "nome": "Facade",
+    "baloes": "",
+    "fatec": "Santos - SANT",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00235",
+    "nome": "Java Fede",
+    "baloes": "",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00236",
+    "nome": "PERIPLANETA AMERICANA",
+    "baloes": "",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00237",
+    "nome": "Piratas do Silicio",
+    "baloes": "",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00238",
+    "nome": "Zero",
+    "baloes": "",
+    "fatec": "São Bernardo do Campo - SBC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00239",
+    "nome": "Capivarianos",
+    "baloes": "",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00240",
+    "nome": "Fresco",
+    "baloes": "",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00241",
+    "nome": "InfoSJRP #1",
+    "baloes": "",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00242",
+    "nome": "InfoSJRP #4",
+    "baloes": "",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00243",
+    "nome": "Senior",
+    "baloes": "",
+    "fatec": "São José do Rio Preto - SJRP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00244",
+    "nome": "C4All",
+    "baloes": "",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00245",
+    "nome": "0,5",
+    "baloes": "",
+    "fatec": "SÃO JOSÉ DOS CAMPOS - SJC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00246",
+    "nome": "Cri@r",
+    "baloes": "",
+    "fatec": "São José dos Campos - SJC",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00247",
+    "nome": "Carreta Programação",
+    "baloes": "",
+    "fatec": "São Paulo - SP",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00248",
+    "nome": "Batata",
+    "baloes": "",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00249",
+    "nome": "Java629",
+    "baloes": "",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00250",
+    "nome": "JVM Team",
+    "baloes": "",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00000"
+  },
+  {
+    "posicao": "00251",
+    "nome": "KeiichiBeans",
+    "baloes": "",
+    "fatec": "Zona Leste - ZL",
+    "tempo": "00000"
+  }
+]

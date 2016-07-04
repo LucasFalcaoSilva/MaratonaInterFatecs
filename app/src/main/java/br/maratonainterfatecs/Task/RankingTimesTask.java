@@ -44,11 +44,14 @@ public class RankingTimesTask extends AsyncTask<Void, Void, List<Times>> {
                 String posicao       = linha.getString("posicao");
                 String nome          = linha.getString("nome");
                 String acertos       = linha.getString("baloes");
-                String tempo         = "1000";//linha.getString("tempo");
-                String fatec         = "São Paulo";//linha.getString("baloes");
-                boolean classificado = false;//linha.getBoolean("clasificado");
+                String tempo         = linha.getString("tempo");
+                String fatec         = linha.getString("fatec").split("-")[0].trim();
 
-                Times c = new Times(Integer.parseInt(posicao), nome,acertos,fatec,tempo,classificado);
+                //Logico do classificado
+
+                boolean classificado = false;
+
+                Times c = new Times(Integer.parseInt(posicao), nome,acertos,fatec,Integer.parseInt(tempo),classificado);
                 listAux.add(c);
             }
 

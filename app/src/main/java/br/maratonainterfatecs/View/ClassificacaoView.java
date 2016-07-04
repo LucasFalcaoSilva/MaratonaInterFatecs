@@ -1,6 +1,7 @@
 package br.maratonainterfatecs.View;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.widget.ListView;
 
 import java.util.List;
@@ -13,7 +14,7 @@ import br.maratonainterfatecs.Domain.Times;
 public interface ClassificacaoView {
         void loadComponents();
         void buildRecycler(List<Times> mList);
-        ListView getRecycler();
+        RecyclerView getRecycler();
         Context getContext();
 
 }
