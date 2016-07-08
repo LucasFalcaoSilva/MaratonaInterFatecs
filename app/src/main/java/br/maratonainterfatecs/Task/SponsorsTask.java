@@ -43,7 +43,7 @@ public class SponsorsTask extends AsyncTask<Void, Void, List<Sponsor>> {
             strJSON = new JsonIO().readArquivo(sponsorsView.getContext(),"json/json_patrocinador.txt");
             json    = new JSONArray(strJSON);
 
-            for (int i = 0; i < json.length(); i++) {
+            for (int i = 0;i < json.length(); i++) {
 
                 JSONObject linha = json.getJSONObject(i);
                 String nome      = linha.getString("nome");

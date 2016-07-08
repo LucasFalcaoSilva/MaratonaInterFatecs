@@ -3,6 +3,7 @@ package br.maratonainterfatecs.activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -23,7 +24,6 @@ public class SponsorActivity extends AppCompatActivity {
     @Bind(R.id.toolbar)        Toolbar   mToolbar;
     @Bind(R.id.iv_logo)        ImageView ivLogo;
     @Bind(R.id.tv_description) TextView  tvDescription;
-    @Bind(R.id.btn_site)       Button    btnSite;
 
     Sponsor sponsor;
 
@@ -42,7 +42,8 @@ public class SponsorActivity extends AppCompatActivity {
 
         setSupportActionBar(mToolbar);
 
-        btnSite.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);

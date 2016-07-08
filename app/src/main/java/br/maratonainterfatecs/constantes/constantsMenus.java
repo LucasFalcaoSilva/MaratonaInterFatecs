@@ -3,7 +3,7 @@ package br.maratonainterfatecs.constantes;
 /**
  * Created by 40312939841 on 16/03/2016.
  */
-public class ConstantsMenus {
+public class constantsMenus {
     //Ajusta o mapa para a posição da FATEC SP
     public static final double LATITUDE  = -23.5296773;
     public static final double LONGITUDE = 46.6345405;

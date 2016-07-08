@@ -7,19 +7,19 @@
   },
   {
     nome: "Eniac - Educação Basica e Superior",
-    imagem: "eniac",
+    imagem: "logo_eniac",
     url: "http://www.eniac.com.br/",
     description: "O COLÉGIO ENIAC possui as melhores e mais modernas instalações e disponibiliza o que há de mais avançado em tecnologia educacional para garantir aos seus estudantes uma estrutura alinhada com nossa proposta pedagógica inovadora."
   },
   {
     nome: "Cengage Learning",
-    imagem: "cengage",
+    imagem: "logo_cengage",
     url: "http://www.cengage.com.br/",
     description: "A Cengage Learning, líder em soluções integradas de aprendizagem, oferece soluções completas de informação, conteúdos e ferramentas para clientes acadêmicos, profissionais e corporações. Seus selos editoriais e marcas, com mais de 100 anos de história, estão presentes em mais de 140 países, com centros de desenvolvimento de conteúdo nos cinco continentes. A CENGAGE Learning acredita na transformação do indivíduo e da sociedade, produzindo conhecimento com base nos princípios: cuidado com o planeta, qualidade acadêmica, globalização e experiência individual de aprendizado."
   },
   {
     nome: "Editora Novatec",
-    imagem: "novatec",
+    imagem: "logo_novatec",
     url: "https://novatec.com.br/",
     description: "A Novatec Editora é uma editora brasileira especializada em publicação de livros técnicos nas áreas de informática, marketing, negócios, finanças e investimentos destinados a profissionais, estudantes e professores do ramo, sendo referência nestas áreas."
   },
@@ -31,19 +31,19 @@
   },
   {
     nome: "Evidence - Camisas e Camisetas",
-    imagem: "evidence",
+    imagem: "logo_evidence",
     url: "http://www.e-evidence.com.br/",
     description: ""
   },
   {
     nome: "MF soluções em Tecnologia",
-    imagem: "mftecnologia",
+    imagem: "logo_mf",
     url: "http://www.mfinformatica.com/",
     description: "A M&F Soluções em Tecnologia, é uma empresa jovem e como todo jovem clama por um mundo melhor e mais prático! Com conhecimento profundo de tecnologia e principalmente com a experiência adquirida ao longo dos anos atuando em ambinetes de missão crítica ou não proporcionamos aos nossos clientes soluções práticas e inovadoras para seus problemas do dia-a-dia."
   },
   {
     nome: "Caelum",
-    imagem: "caelum",
+    imagem: "logo_caelum",
     url: "https://www.caelum.com.br/",
     description: "Cansados do modo de treinamento mais acadêmico e com pouca enfase no mercado e na prática, Paulo e Guilherme Silveira, iniciaram um modelo diferente. O objetivo era trazer para os alunos o dia a dia do desenvolvimento, começando sempre pelas perguntas para raciocinar juntos, nunca apresentando respostas rotuladas.O foco inicial era Java, tecnologia com a qual trabalham há mais de 10 anos. Foi aí que nasceu o curso de Java mais reconhecido do mercado. Com o crescimento da empresa e a entrada de muitos instrutores e desenvolvedores, novos cursos foram criados, sempre amparados por muita experiência, abordando Agile, Scrum, HTML, CSS, JavaScript, Android, iOS e .NET.Com essa equipe altamente qualificada, que desenvolve e participa do ambiente da Caelum, podemos trazer cursos de qualidade e com total harmonia com o mercado. Nada de ferramentas pouco úteis. Nada de manual sem entender o que há por trás."
   },
