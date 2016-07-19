@@ -8,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 
 import java.util.List;
 
@@ -32,7 +31,6 @@ public class RankingEquipesFragment extends Fragment implements ClassificacaoVie
         RankingEquipesFragment fragment = new RankingEquipesFragment();
         return fragment;
     }
-
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_clasificao, container, false);
