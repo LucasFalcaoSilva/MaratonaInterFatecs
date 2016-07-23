@@ -1,10 +1,12 @@
 package br.maratonainterfatecs.Listener;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.view.MenuItem;
 
 import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.R;
+import br.maratonainterfatecs.activity.SponsorActivity;
 import br.maratonainterfatecs.fragments.ContactFragment;
 import br.maratonainterfatecs.fragments.EdicaoFragment;
 import br.maratonainterfatecs.fragments.EquipesFragment;

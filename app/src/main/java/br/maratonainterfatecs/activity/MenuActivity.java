@@ -11,11 +11,13 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.webkit.WebView;
 
 import br.maratonainterfatecs.Listener.ListenerMenu;
 import br.maratonainterfatecs.R;
 import br.maratonainterfatecs.View.MenuView;
 import br.maratonainterfatecs.fragments.HomeFragment;
+import br.maratonainterfatecs.fragments.MapaFragment;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -26,7 +28,7 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
     @Bind(R.id.nav_view)      NavigationView mNavigationView;
 
     private ListenerMenu mListenerMenu;
-
+    public static WebView wv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +44,10 @@ public class MenuActivity extends AppCompatActivity implements MenuView {
     public void onBackPressed() {
         if (mDrawerMenu.isDrawerOpen(GravityCompat.START)) {
             closeMenu();
-        } else {
+        }else if(wv.canGoBack()){
+         wv.goBack();
+        }
+        else {
             finish();
             overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
         }
